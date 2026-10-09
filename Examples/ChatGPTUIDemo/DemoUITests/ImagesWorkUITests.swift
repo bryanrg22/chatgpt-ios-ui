@@ -1,0 +1,46 @@
+import XCTest
+
+final class ImagesWorkUITests: XCTestCase {
+    @MainActor func testImagesTemplatesTrendingAndWorkQuestions() {
+        let app = XCUIApplication()
+        app.launchArguments = ["--ui-test", "--images"]
+        app.launch()
+        XCTAssertTrue(app.buttons["images.template.poster"].waitForExistence(timeout: 5))
+        XCTAssertFalse(app.buttons["Send image prompt"].isEnabled)
+        capture("images-templates")
+        app.buttons["images.category.Trending"].tap()
+        XCTAssertTrue(app.buttons["images.template.aerial"].waitForExistence(timeout: 2))
+        capture("images-trending")
+        app.buttons["images.category.Templates"].tap()
+        app.buttons["images.template.poster"].tap()
+        capture("images-poster-detail")
+        app.buttons["Close image template"].tap()
+        XCTAssertTrue(app.buttons["images.template.poster"].waitForExistence(timeout: 2))
+        app.buttons["images.template.poster"].tap()
+        app.buttons["images.try"].tap()
+        XCTAssertTrue(app.buttons["Stop Work task"].waitForExistence(timeout: 3))
+        capture("work-task-running")
+        app.buttons["Stop Work task"].tap()
+        XCTAssertTrue(app.staticTexts["work.question.progress"].waitForExistence(timeout: 3))
+        capture("work-question-first")
+        let answer = app.textFields["work.question.draft"]
+        answer.tap()
+        answer.typeText("A garden party")
+        app.buttons["work.question.next"].tap()
+        app.buttons["work.question.previous"].tap()
+        XCTAssertEqual(answer.value as? String, "A garden party")
+        app.buttons["work.question.close"].tap()
+        app.buttons["work.status"].tap()
+        capture("work-task-trace")
+        app.buttons["work.menu"].tap()
+        app.buttons["Uploaded files"].tap()
+        XCTAssertTrue(app.staticTexts["Library"].waitForExistence(timeout: 3))
+        capture("work-task-library")
+        app.buttons["Close Work library"].tap()
+        app.buttons["Back from Work task"].tap()
+        XCTAssertTrue(app.buttons["images.template.poster"].waitForExistence(timeout: 3))
+        XCTAssertFalse(app.buttons["Send image prompt"].isEnabled)
+        app.buttons["Dismiss Library notice"].tap()
+        XCTAssertFalse(app.buttons["Dismiss Library notice"].exists)
+    }
+}

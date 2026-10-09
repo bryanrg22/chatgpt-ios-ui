@@ -1,0 +1,66 @@
+import XCTest
+
+final class ExploreUITests: XCTestCase {
+    @MainActor func testExploreSitesAndDraft() {
+        let app = XCUIApplication()
+        app.launchArguments = ["--ui-test"]
+        app.launch()
+        app.buttons["sidebarButton"].tap()
+        app.buttons["explore.expand"].tap()
+        XCTAssertFalse(app.buttons["explore.expand"].exists)
+        XCTAssertTrue(app.buttons["explore.projects"].exists)
+        capture("explore-expanded")
+        app.buttons["explore.sites"].tap()
+        XCTAssertTrue(app.staticTexts["No sites yet"].waitForExistence(timeout: 3))
+        capture("sites-empty")
+        app.buttons["sites.create"].tap()
+        XCTAssertTrue(app.staticTexts["composer.context"].waitForExistence(timeout: 3))
+        XCTAssertEqual(app.textViews["messageComposer"].value as? String, "Create a website that ...")
+        capture("sites-work-draft")
+        app.buttons["sidebarButton"].tap()
+        XCTAssertTrue(app.buttons["explore.sites"].exists)
+        app.buttons["explore.images"].tap()
+        XCTAssertEqual(app.textFields["images.composer"].value as? String, "Create a website that ...")
+        capture("images-retained-sites-draft")
+    }
+    @MainActor func testProjectDraftSettingsAndIcon() {
+        let app = XCUIApplication()
+        app.launchArguments = ["--ui-test"]
+        app.launch()
+        app.buttons["sidebarButton"].tap()
+        app.buttons["explore.expand"].tap()
+        app.buttons["explore.projects"].tap()
+        XCTAssertTrue(app.staticTexts["Start your first project"].waitForExistence(timeout: 3))
+        capture("projects-empty")
+        app.buttons["projects.create"].tap()
+        XCTAssertTrue(app.textFields["projects.name"].waitForExistence(timeout: 3))
+        let projectName = app.textFields["projects.name"]
+        expectation(for: NSPredicate { _, _ in projectName.frame.minY < 300 }, evaluatedWith: nil)
+        waitForExpectations(timeout: 3)
+        XCTAssertFalse(app.buttons["projects.submit"].isEnabled)
+        capture("projects-new")
+        app.buttons["projects.settings"].tap()
+        app.buttons["projects.memory.projectOnly"].tap()
+        capture("projects-memory-selected")
+        app.buttons["Done"].tap()
+        app.buttons["Choose project icon"].tap()
+        capture("projects-icon-picker")
+        app.buttons["projects.color.Blue"].tap()
+        app.buttons["projects.icon.brain"].tap()
+        capture("projects-icon-selected")
+        app.buttons["Done"].tap()
+        let name = app.textFields["projects.name"]
+        name.tap()
+        name.typeText("Garden notebook")
+        XCTAssertTrue(app.buttons["projects.submit"].isEnabled)
+        app.buttons["projects.suggestion.Writing"].tap()
+        XCTAssertEqual(name.value as? String, "Writing")
+        app.buttons["projects.settings"].tap()
+        app.buttons["Cancel"].tap()
+        capture("projects-writing-draft")
+        app.buttons["Cancel new project"].tap()
+        XCTAssertTrue(app.staticTexts["Start your first project"].waitForExistence(timeout: 3))
+        app.buttons["projects.add"].tap()
+        XCTAssertFalse(app.buttons["projects.submit"].isEnabled)
+    }
+}

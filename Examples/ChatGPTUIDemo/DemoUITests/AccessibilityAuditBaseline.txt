@@ -1,0 +1,1091 @@
+attachmentMenu | dark | Contrast failed | 48::Ask ChatGPT
+attachmentMenu | dark | Contrast failed | 9:startVoiceButton:Start Voice
+attachmentMenu | dark | Dynamic Type font sizes are unsupported | 48::Ask ChatGPT
+attachmentMenu | dark | Dynamic Type font sizes are unsupported | 48::Camera
+attachmentMenu | dark | Dynamic Type font sizes are unsupported | 48::Files
+attachmentMenu | dark | Dynamic Type font sizes are unsupported | 48::Meet the new Voice
+attachmentMenu | dark | Dynamic Type font sizes are unsupported | 48::More natural conversations, powered by our next-generation voice model
+attachmentMenu | dark | Dynamic Type font sizes are unsupported | 48::Photos
+attachmentMenu | dark | Dynamic Type font sizes are unsupported | 48::Plugins
+attachmentMenu | dark | Dynamic Type font sizes are unsupported | 48::Think harder
+attachmentMenu | dark | Dynamic Type font sizes are unsupported | 9::Chat
+attachmentMenu | dark | Dynamic Type font sizes are unsupported | 9::Work
+attachmentMenu | dark | Dynamic Type font sizes are unsupported | 9:startVoiceButton:Start Voice
+attachmentMenu | dark | Hit area is too small | 9::Work
+attachmentMenu | dark | Hit area is too small | 9:mic:Dictate
+attachmentMenu | dark | Hit area is too small | 9:sidebarButton:Open sidebar
+attachmentMenu | light | Contrast failed | 48::Ask ChatGPT
+attachmentMenu | light | Contrast failed | 48::More natural conversations, powered by our next-generation voice model
+attachmentMenu | light | Contrast failed | 9::Chat
+attachmentMenu | light | Contrast failed | 9:startVoiceButton:Start Voice
+attachmentMenu | light | Dynamic Type font sizes are unsupported | 48::Ask ChatGPT
+attachmentMenu | light | Dynamic Type font sizes are unsupported | 48::Camera
+attachmentMenu | light | Dynamic Type font sizes are unsupported | 48::Files
+attachmentMenu | light | Dynamic Type font sizes are unsupported | 48::Meet the new Voice
+attachmentMenu | light | Dynamic Type font sizes are unsupported | 48::More natural conversations, powered by our next-generation voice model
+attachmentMenu | light | Dynamic Type font sizes are unsupported | 48::Photos
+attachmentMenu | light | Dynamic Type font sizes are unsupported | 48::Plugins
+attachmentMenu | light | Dynamic Type font sizes are unsupported | 48::Think harder
+attachmentMenu | light | Dynamic Type font sizes are unsupported | 9::Chat
+attachmentMenu | light | Dynamic Type font sizes are unsupported | 9::Work
+attachmentMenu | light | Dynamic Type font sizes are unsupported | 9:startVoiceButton:Start Voice
+attachmentMenu | light | Hit area is too small | 9::Work
+attachmentMenu | light | Hit area is too small | 9:mic:Dictate
+attachmentMenu | light | Hit area is too small | 9:sidebarButton:Open sidebar
+camera | dark | Contrast failed | 48::Ask ChatGPT
+camera | dark | Contrast failed | 48::SYNTHETIC PREVIEW
+camera | dark | Dynamic Type font sizes are unsupported | 48::Ask ChatGPT
+camera | dark | Dynamic Type font sizes are unsupported | 48::Design notes
+camera | dark | Dynamic Type font sizes are unsupported | 48::SYNTHETIC PREVIEW
+camera | dark | Dynamic Type font sizes are unsupported | 9::Chat
+camera | dark | Dynamic Type font sizes are unsupported | 9::Work
+camera | dark | Hit area is too small | 9::Work
+camera | dark | Hit area is too small | 9:chevron.left:Camera back
+camera | dark | Hit area is too small | 9:ellipsis:Camera options
+camera | dark | Hit area is too small | 9:mic:Dictate
+camera | dark | Hit area is too small | 9:sidebarButton:Open sidebar
+camera | light | Contrast failed | 48::Ask ChatGPT
+camera | light | Contrast failed | 48::SYNTHETIC PREVIEW
+camera | light | Contrast failed | 9::Chat
+camera | light | Dynamic Type font sizes are unsupported | 48::Ask ChatGPT
+camera | light | Dynamic Type font sizes are unsupported | 48::Design notes
+camera | light | Dynamic Type font sizes are unsupported | 48::SYNTHETIC PREVIEW
+camera | light | Dynamic Type font sizes are unsupported | 9::Chat
+camera | light | Dynamic Type font sizes are unsupported | 9::Work
+camera | light | Hit area is too small | 9::Work
+camera | light | Hit area is too small | 9:chevron.left:Camera back
+camera | light | Hit area is too small | 9:ellipsis:Camera options
+camera | light | Hit area is too small | 9:mic:Dictate
+camera | light | Hit area is too small | 9:sidebarButton:Open sidebar
+chatConversation | dark | Dynamic Type font sizes are unsupported | 48::Hey! 👋 How’s it going?
+chatConversation | dark | Dynamic Type font sizes are unsupported | 48::Reply with a short greeting.
+chatConversation | dark | Hit area is too small | 9::More response actions
+chatConversation | dark | Hit area is too small | 9:hand.thumbsdown:Bad response
+chatConversation | dark | Hit area is too small | 9:hand.thumbsup:Good response
+chatConversation | dark | Hit area is too small | 9:mic:Dictate
+chatConversation | dark | Hit area is too small | 9:sidebarButton:Open sidebar
+chatConversation | dark | Hit area is too small | 9:square.and.arrow.up:Share response
+chatConversation | light | Contrast nearly passed | 48::Reply with a short greeting.
+chatConversation | light | Dynamic Type font sizes are unsupported | 48::Hey! 👋 How’s it going?
+chatConversation | light | Dynamic Type font sizes are unsupported | 48::Reply with a short greeting.
+chatConversation | light | Hit area is too small | 9::More response actions
+chatConversation | light | Hit area is too small | 9:hand.thumbsdown:Bad response
+chatConversation | light | Hit area is too small | 9:hand.thumbsup:Good response
+chatConversation | light | Hit area is too small | 9:mic:Dictate
+chatConversation | light | Hit area is too small | 9:sidebarButton:Open sidebar
+chatConversation | light | Hit area is too small | 9:square.and.arrow.up:Share response
+chatDictation | dark | Contrast failed | 9:startVoiceButton:Start Voice
+chatDictation | dark | Dynamic Type font sizes are unsupported | 48::Meet the new Voice
+chatDictation | dark | Dynamic Type font sizes are unsupported | 48::More natural conversations, powered by our next-generation voice model
+chatDictation | dark | Dynamic Type font sizes are unsupported | 9::Chat
+chatDictation | dark | Dynamic Type font sizes are unsupported | 9::Work
+chatDictation | dark | Dynamic Type font sizes are unsupported | 9:startVoiceButton:Start Voice
+chatDictation | dark | Hit area is too small | 9::Work
+chatDictation | dark | Hit area is too small | 9:sidebarButton:Open sidebar
+chatDictation | light | Contrast failed | 48::More natural conversations, powered by our next-generation voice model
+chatDictation | light | Contrast failed | 9::Chat
+chatDictation | light | Contrast failed | 9:startVoiceButton:Start Voice
+chatDictation | light | Dynamic Type font sizes are unsupported | 48::Meet the new Voice
+chatDictation | light | Dynamic Type font sizes are unsupported | 48::More natural conversations, powered by our next-generation voice model
+chatDictation | light | Dynamic Type font sizes are unsupported | 9::Chat
+chatDictation | light | Dynamic Type font sizes are unsupported | 9::Work
+chatDictation | light | Dynamic Type font sizes are unsupported | 9:startVoiceButton:Start Voice
+chatDictation | light | Hit area is too small | 9::Work
+chatDictation | light | Hit area is too small | 9:sidebarButton:Open sidebar
+chatHome | dark | Contrast failed | 9:startVoiceButton:Start Voice
+chatHome | dark | Dynamic Type font sizes are unsupported | 48::Ask ChatGPT
+chatHome | dark | Dynamic Type font sizes are unsupported | 48::Meet the new Voice
+chatHome | dark | Dynamic Type font sizes are unsupported | 48::More natural conversations, powered by our next-generation voice model
+chatHome | dark | Dynamic Type font sizes are unsupported | 9::Chat
+chatHome | dark | Dynamic Type font sizes are unsupported | 9::Work
+chatHome | dark | Dynamic Type font sizes are unsupported | 9:startVoiceButton:Start Voice
+chatHome | dark | Hit area is too small | 9::Work
+chatHome | dark | Hit area is too small | 9:mic:Dictate
+chatHome | dark | Hit area is too small | 9:sidebarButton:Open sidebar
+chatHome | light | Contrast failed | 48::Ask ChatGPT
+chatHome | light | Contrast failed | 48::More natural conversations, powered by our next-generation voice model
+chatHome | light | Contrast failed | 9::Chat
+chatHome | light | Contrast failed | 9:startVoiceButton:Start Voice
+chatHome | light | Dynamic Type font sizes are unsupported | 48::Ask ChatGPT
+chatHome | light | Dynamic Type font sizes are unsupported | 48::Meet the new Voice
+chatHome | light | Dynamic Type font sizes are unsupported | 48::More natural conversations, powered by our next-generation voice model
+chatHome | light | Dynamic Type font sizes are unsupported | 9::Chat
+chatHome | light | Dynamic Type font sizes are unsupported | 9::Work
+chatHome | light | Dynamic Type font sizes are unsupported | 9:startVoiceButton:Start Voice
+chatHome | light | Hit area is too small | 9::Work
+chatHome | light | Hit area is too small | 9:mic:Dictate
+chatHome | light | Hit area is too small | 9:sidebarButton:Open sidebar
+chatLongDraft | dark | Dynamic Type font sizes are unsupported | 52:messageComposer:Message
+chatLongDraft | dark | Dynamic Type font sizes are unsupported | 9::Chat
+chatLongDraft | dark | Dynamic Type font sizes are unsupported | 9::Work
+chatLongDraft | dark | Hit area is too small | 9::Work
+chatLongDraft | dark | Hit area is too small | 9:arrow.up.left.and.arrow.down.right:Expand composer
+chatLongDraft | dark | Hit area is too small | 9:mic:Dictate
+chatLongDraft | dark | Hit area is too small | 9:sidebarButton:Open sidebar
+chatLongDraft | light | Contrast failed | 9::Chat
+chatLongDraft | light | Dynamic Type font sizes are unsupported | 52:messageComposer:Message
+chatLongDraft | light | Dynamic Type font sizes are unsupported | 9::Chat
+chatLongDraft | light | Dynamic Type font sizes are unsupported | 9::Work
+chatLongDraft | light | Hit area is too small | 9::Work
+chatLongDraft | light | Hit area is too small | 9:arrow.up.left.and.arrow.down.right:Expand composer
+chatLongDraft | light | Hit area is too small | 9:mic:Dictate
+chatLongDraft | light | Hit area is too small | 9:sidebarButton:Open sidebar
+chatTemporary | dark | Dynamic Type font sizes are unsupported | 48::Personalized
+chatTemporary | dark | Dynamic Type font sizes are unsupported | 48::Temporary chat
+chatTemporary | dark | Dynamic Type font sizes are unsupported | 48::This chat won’t appear in history. Learn more
+chatTemporary | dark | Hit area is too small | 9::Personalized
+chatTemporary | dark | Hit area is too small | 9:mic:Dictate
+chatTemporary | dark | Hit area is too small | 9:sidebarButton:Open sidebar
+chatTemporary | light | Contrast failed | 48::Temporary chat
+chatTemporary | light | Contrast nearly passed | 48::Personalized
+chatTemporary | light | Contrast nearly passed | 48::Temporary chat
+chatTemporary | light | Contrast nearly passed | 48::This chat won’t appear in history. Learn more
+chatTemporary | light | Dynamic Type font sizes are unsupported | 48::Personalized
+chatTemporary | light | Dynamic Type font sizes are unsupported | 48::Temporary chat
+chatTemporary | light | Dynamic Type font sizes are unsupported | 48::This chat won’t appear in history. Learn more
+chatTemporary | light | Hit area is too small | 9::Personalized
+chatTemporary | light | Hit area is too small | 9:mic:Dictate
+chatTemporary | light | Hit area is too small | 9:sidebarButton:Open sidebar
+chatTyped | dark | Dynamic Type font sizes are unsupported | 52:messageComposer:Message
+chatTyped | dark | Dynamic Type font sizes are unsupported | 9::Chat
+chatTyped | dark | Dynamic Type font sizes are unsupported | 9::Work
+chatTyped | dark | Hit area is too small | 9::Work
+chatTyped | dark | Hit area is too small | 9:mic:Dictate
+chatTyped | dark | Hit area is too small | 9:sidebarButton:Open sidebar
+chatTyped | light | Contrast failed | 9::Chat
+chatTyped | light | Dynamic Type font sizes are unsupported | 52:messageComposer:Message
+chatTyped | light | Dynamic Type font sizes are unsupported | 9::Chat
+chatTyped | light | Dynamic Type font sizes are unsupported | 9::Work
+chatTyped | light | Hit area is too small | 9::Work
+chatTyped | light | Hit area is too small | 9:mic:Dictate
+chatTyped | light | Hit area is too small | 9:sidebarButton:Open sidebar
+codex | dark | Dynamic Type font sizes are unsupported | 48::Codex
+codex | dark | Dynamic Type font sizes are unsupported | 48::GardenJournal
+codex | dark | Dynamic Type font sizes are unsupported | 48::Projects
+codex | dark | Dynamic Type font sizes are unsupported | 48::ReadingList
+codex | dark | Dynamic Type font sizes are unsupported | 48::Recents
+codex | dark | Dynamic Type font sizes are unsupported | 48::Refine the sample interface
+codex | dark | Dynamic Type font sizes are unsupported | 48::SampleApp
+codex | dark | Dynamic Type font sizes are unsupported | 48::dev/Projects
+codex | dark | Dynamic Type font sizes are unsupported | 9:codex.task.<uuid>:Create a copy-and-paste list
+codex | dark | Dynamic Type font sizes are unsupported | 9:codex.task.<uuid>:Create a system design image
+codex | dark | Dynamic Type font sizes are unsupported | 9:codex.task.<uuid>:Draw a free-body diagram
+codex | dark | Dynamic Type font sizes are unsupported | 9:codex.task.<uuid>:Explain browser controls
+codex | dark | Dynamic Type font sizes are unsupported | 9:codex.task.<uuid>:Fix text formatting
+codex | dark | Hit area is too small | 9::Open sidebar
+codex | dark | Hit area is too small | 9:mic:Codex dictation
+codex | dark | Hit area is too small | 9:plus:Codex attachments
+codex | dark | Hit area is too small | 9:square.and.pencil:New Codex task
+codex | dark | Hit area is too small | 9:square.and.pencil:New task in GardenJournal
+codex | dark | Hit area is too small | 9:square.and.pencil:New task in ReadingList
+codex | dark | Hit area is too small | 9:square.and.pencil:New task in SampleApp
+codex | light | Contrast nearly passed | 48::dev/Projects
+codex | light | Dynamic Type font sizes are unsupported | 48::Codex
+codex | light | Dynamic Type font sizes are unsupported | 48::GardenJournal
+codex | light | Dynamic Type font sizes are unsupported | 48::Projects
+codex | light | Dynamic Type font sizes are unsupported | 48::ReadingList
+codex | light | Dynamic Type font sizes are unsupported | 48::Recents
+codex | light | Dynamic Type font sizes are unsupported | 48::Refine the sample interface
+codex | light | Dynamic Type font sizes are unsupported | 48::SampleApp
+codex | light | Dynamic Type font sizes are unsupported | 48::dev/Projects
+codex | light | Dynamic Type font sizes are unsupported | 9:codex.task.<uuid>:Create a copy-and-paste list
+codex | light | Dynamic Type font sizes are unsupported | 9:codex.task.<uuid>:Create a system design image
+codex | light | Dynamic Type font sizes are unsupported | 9:codex.task.<uuid>:Draw a free-body diagram
+codex | light | Dynamic Type font sizes are unsupported | 9:codex.task.<uuid>:Explain browser controls
+codex | light | Dynamic Type font sizes are unsupported | 9:codex.task.<uuid>:Fix text formatting
+codex | light | Hit area is too small | 9::Open sidebar
+codex | light | Hit area is too small | 9:mic:Codex dictation
+codex | light | Hit area is too small | 9:plus:Codex attachments
+codex | light | Hit area is too small | 9:square.and.pencil:New Codex task
+codex | light | Hit area is too small | 9:square.and.pencil:New task in GardenJournal
+codex | light | Hit area is too small | 9:square.and.pencil:New task in ReadingList
+codex | light | Hit area is too small | 9:square.and.pencil:New task in SampleApp
+customize | dark | Dynamic Type font sizes are unsupported | 48::0 added
+customize | dark | Dynamic Type font sizes are unsupported | 48::0 items
+customize | dark | Dynamic Type font sizes are unsupported | 48::9h ago
+customize | dark | Dynamic Type font sizes are unsupported | 48::Calendar
+customize | dark | Dynamic Type font sizes are unsupported | 48::Coming soon
+customize | dark | Dynamic Type font sizes are unsupported | 48::Connected
+customize | dark | Dynamic Type font sizes are unsupported | 48::Custom rules
+customize | dark | Dynamic Type font sizes are unsupported | 48::Customize
+customize | dark | Dynamic Type font sizes are unsupported | 48::Email
+customize | dark | Dynamic Type font sizes are unsupported | 48::Finances
+customize | dark | Dynamic Type font sizes are unsupported | 48::Health
+customize | dark | Dynamic Type font sizes are unsupported | 48::Location
+customize | dark | Dynamic Type font sizes are unsupported | 48::Memory
+customize | dark | Dynamic Type font sizes are unsupported | 48::Passwords
+customize | dark | Dynamic Type font sizes are unsupported | 48::Personality
+customize | dark | Dynamic Type font sizes are unsupported | 48::Plugins
+customize | dark | Dynamic Type font sizes are unsupported | 48::Precise
+customize | dark | Dynamic Type font sizes are unsupported | 48::Wallet
+customize | dark | Hit area is too small | 9::Open sidebar
+customize | light | Contrast nearly passed | 48::0 added
+customize | light | Contrast nearly passed | 48::0 items
+customize | light | Contrast nearly passed | 48::9h ago
+customize | light | Contrast nearly passed | 48::Coming soon
+customize | light | Contrast nearly passed | 48::Connected
+customize | light | Contrast nearly passed | 48::Precise
+customize | light | Dynamic Type font sizes are unsupported | 48::0 added
+customize | light | Dynamic Type font sizes are unsupported | 48::0 items
+customize | light | Dynamic Type font sizes are unsupported | 48::9h ago
+customize | light | Dynamic Type font sizes are unsupported | 48::Calendar
+customize | light | Dynamic Type font sizes are unsupported | 48::Coming soon
+customize | light | Dynamic Type font sizes are unsupported | 48::Connected
+customize | light | Dynamic Type font sizes are unsupported | 48::Custom rules
+customize | light | Dynamic Type font sizes are unsupported | 48::Customize
+customize | light | Dynamic Type font sizes are unsupported | 48::Email
+customize | light | Dynamic Type font sizes are unsupported | 48::Finances
+customize | light | Dynamic Type font sizes are unsupported | 48::Health
+customize | light | Dynamic Type font sizes are unsupported | 48::Location
+customize | light | Dynamic Type font sizes are unsupported | 48::Memory
+customize | light | Dynamic Type font sizes are unsupported | 48::Passwords
+customize | light | Dynamic Type font sizes are unsupported | 48::Personality
+customize | light | Dynamic Type font sizes are unsupported | 48::Plugins
+customize | light | Dynamic Type font sizes are unsupported | 48::Precise
+customize | light | Dynamic Type font sizes are unsupported | 48::Wallet
+customize | light | Hit area is too small | 9::Open sidebar
+dot | dark | Dynamic Type font sizes are unsupported | 48::dot
+dot | dark | Dynamic Type font sizes are unsupported | 48:dot.message.<uuid>:For the balcony planter, the next session begins Saturday at 9 AM. Bring two small containers and choose a sunny spot before you start. The guide includes a checklist for soil and watering. Planter instructions.
+dot | dark | Dynamic Type font sizes are unsupported | 48:dot.message.<uuid>:I’ll check the garden workshop guide for the suggested materials and preparation steps.
+dot | dark | Dynamic Type font sizes are unsupported | 48:dot.message.<uuid>:One last reminder: the local library has a collection of gardening books available this week. You can review the catalog and decide which examples fit your space. Start with a guide to container gardens and a seasonal planting calendar. Library reading list.
+dot | dark | Dynamic Type font sizes are unsupported | 48:dot.message.<uuid>:The workshop includes five short activities, with a maximum of two projects per person. That is the full program; I haven’t checked which activities you’ve already tried. Community workshop guide.
+dot | dark | Hit area is too small | 9::Open sidebar
+dot | dark | Hit area is too small | 9:mic:Dot dictation
+dot | light | Dynamic Type font sizes are unsupported | 48::dot
+dot | light | Dynamic Type font sizes are unsupported | 48:dot.message.<uuid>:For the balcony planter, the next session begins Saturday at 9 AM. Bring two small containers and choose a sunny spot before you start. The guide includes a checklist for soil and watering. Planter instructions.
+dot | light | Dynamic Type font sizes are unsupported | 48:dot.message.<uuid>:I’ll check the garden workshop guide for the suggested materials and preparation steps.
+dot | light | Dynamic Type font sizes are unsupported | 48:dot.message.<uuid>:One last reminder: the local library has a collection of gardening books available this week. You can review the catalog and decide which examples fit your space. Start with a guide to container gardens and a seasonal planting calendar. Library reading list.
+dot | light | Dynamic Type font sizes are unsupported | 48:dot.message.<uuid>:The workshop includes five short activities, with a maximum of two projects per person. That is the full program; I haven’t checked which activities you’ve already tried. Community workshop guide.
+dot | light | Hit area is too small | 9::Open sidebar
+dot | light | Hit area is too small | 9:mic:Dot dictation
+dotCallSummary | dark | Contrast failed | 48:dot.message.<uuid>:I’ll check the garden workshop guide for the suggested materials and preparation steps.
+dotCallSummary | dark | Dynamic Type font sizes are unsupported | 48::dot
+dotCallSummary | dark | Dynamic Type font sizes are unsupported | 48:dot.message.<uuid>:7:23 · Call ended
+dotCallSummary | dark | Dynamic Type font sizes are unsupported | 48:dot.message.<uuid>:For the balcony planter, the next session begins Saturday at 9 AM. Bring two small containers and choose a sunny spot before you start. The guide includes a checklist for soil and watering. Planter instructions.
+dotCallSummary | dark | Dynamic Type font sizes are unsupported | 48:dot.message.<uuid>:One last reminder: the local library has a collection of gardening books available this week. You can review the catalog and decide which examples fit your space. Start with a guide to container gardens and a seasonal planting calendar. Library reading list.
+dotCallSummary | dark | Dynamic Type font sizes are unsupported | 48:dot.message.<uuid>:The workshop includes five short activities, with a maximum of two projects per person. That is the full program; I haven’t checked which activities you’ve already tried. Community workshop guide.
+dotCallSummary | dark | Dynamic Type font sizes are unsupported | 48:dot.receipt.<uuid>:Delivered
+dotCallSummary | dark | Hit area is too small | 48:dot.receipt.<uuid>:Delivered
+dotCallSummary | dark | Hit area is too small | 9::Open sidebar
+dotCallSummary | dark | Hit area is too small | 9:mic:Dot dictation
+dotCallSummary | light | Contrast failed | 48:dot.message.<uuid>:I’ll check the garden workshop guide for the suggested materials and preparation steps.
+dotCallSummary | light | Contrast nearly passed | 48:dot.receipt.<uuid>:Delivered
+dotCallSummary | light | Dynamic Type font sizes are unsupported | 48::dot
+dotCallSummary | light | Dynamic Type font sizes are unsupported | 48:dot.message.<uuid>:7:23 · Call ended
+dotCallSummary | light | Dynamic Type font sizes are unsupported | 48:dot.message.<uuid>:For the balcony planter, the next session begins Saturday at 9 AM. Bring two small containers and choose a sunny spot before you start. The guide includes a checklist for soil and watering. Planter instructions.
+dotCallSummary | light | Dynamic Type font sizes are unsupported | 48:dot.message.<uuid>:One last reminder: the local library has a collection of gardening books available this week. You can review the catalog and decide which examples fit your space. Start with a guide to container gardens and a seasonal planting calendar. Library reading list.
+dotCallSummary | light | Dynamic Type font sizes are unsupported | 48:dot.message.<uuid>:The workshop includes five short activities, with a maximum of two projects per person. That is the full program; I haven’t checked which activities you’ve already tried. Community workshop guide.
+dotCallSummary | light | Dynamic Type font sizes are unsupported | 48:dot.receipt.<uuid>:Delivered
+dotCallSummary | light | Hit area is too small | 48:dot.receipt.<uuid>:Delivered
+dotCallSummary | light | Hit area is too small | 9::Open sidebar
+dotCallSummary | light | Hit area is too small | 9:mic:Dot dictation
+dotConnected | dark | Contrast failed | 48:dot.message.<uuid>:For the balcony planter, the next session begins Saturday at 9 AM. Bring two small containers and choose a sunny spot before you start. The guide includes a checklist for soil and watering. Planter instructions.
+dotConnected | dark | Contrast failed | 48:dot.message.<uuid>:One last reminder: the local library has a collection of gardening books available this week. You can review the catalog and decide which examples fit your space. Start with a guide to container gardens and a seasonal planting calendar. Library reading list.
+dotConnected | dark | Contrast failed | 48:dot.message.<uuid>:The workshop includes five short activities, with a maximum of two projects per person. That is the full program; I haven’t checked which activities you’ve already tried. Community workshop guide.
+dotConnected | dark | Contrast nearly passed | 48:dot.message.<uuid>:I’ll check the garden workshop guide for the suggested materials and preparation steps.
+dotConnected | dark | Dynamic Type font sizes are unsupported | 48::End
+dotConnected | dark | Dynamic Type font sizes are unsupported | 48::Mute
+dotConnected | dark | Dynamic Type font sizes are unsupported | 48::Speaker
+dotConnected | dark | Dynamic Type font sizes are unsupported | 48::dot
+dotConnected | dark | Dynamic Type font sizes are unsupported | 48:dot.call.status:0:38
+dotConnected | dark | Dynamic Type font sizes are unsupported | 48:dot.message.<uuid>:For the balcony planter, the next session begins Saturday at 9 AM. Bring two small containers and choose a sunny spot before you start. The guide includes a checklist for soil and watering. Planter instructions.
+dotConnected | dark | Dynamic Type font sizes are unsupported | 48:dot.message.<uuid>:I’ll check the garden workshop guide for the suggested materials and preparation steps.
+dotConnected | dark | Dynamic Type font sizes are unsupported | 48:dot.message.<uuid>:One last reminder: the local library has a collection of gardening books available this week. You can review the catalog and decide which examples fit your space. Start with a guide to container gardens and a seasonal planting calendar. Library reading list.
+dotConnected | dark | Dynamic Type font sizes are unsupported | 48:dot.message.<uuid>:The workshop includes five short activities, with a maximum of two projects per person. That is the full program; I haven’t checked which activities you’ve already tried. Community workshop guide.
+dotConnected | dark | Hit area is too small | 9::Open sidebar
+dotConnected | dark | Hit area is too small | 9:mic:Dot dictation
+dotConnected | light | Contrast failed | 48:dot.message.<uuid>:For the balcony planter, the next session begins Saturday at 9 AM. Bring two small containers and choose a sunny spot before you start. The guide includes a checklist for soil and watering. Planter instructions.
+dotConnected | light | Contrast failed | 48:dot.message.<uuid>:One last reminder: the local library has a collection of gardening books available this week. You can review the catalog and decide which examples fit your space. Start with a guide to container gardens and a seasonal planting calendar. Library reading list.
+dotConnected | light | Contrast failed | 48:dot.message.<uuid>:The workshop includes five short activities, with a maximum of two projects per person. That is the full program; I haven’t checked which activities you’ve already tried. Community workshop guide.
+dotConnected | light | Contrast nearly passed | 48:dot.message.<uuid>:I’ll check the garden workshop guide for the suggested materials and preparation steps.
+dotConnected | light | Dynamic Type font sizes are unsupported | 48::End
+dotConnected | light | Dynamic Type font sizes are unsupported | 48::Mute
+dotConnected | light | Dynamic Type font sizes are unsupported | 48::Speaker
+dotConnected | light | Dynamic Type font sizes are unsupported | 48::dot
+dotConnected | light | Dynamic Type font sizes are unsupported | 48:dot.call.status:0:38
+dotConnected | light | Dynamic Type font sizes are unsupported | 48:dot.message.<uuid>:For the balcony planter, the next session begins Saturday at 9 AM. Bring two small containers and choose a sunny spot before you start. The guide includes a checklist for soil and watering. Planter instructions.
+dotConnected | light | Dynamic Type font sizes are unsupported | 48:dot.message.<uuid>:I’ll check the garden workshop guide for the suggested materials and preparation steps.
+dotConnected | light | Dynamic Type font sizes are unsupported | 48:dot.message.<uuid>:One last reminder: the local library has a collection of gardening books available this week. You can review the catalog and decide which examples fit your space. Start with a guide to container gardens and a seasonal planting calendar. Library reading list.
+dotConnected | light | Dynamic Type font sizes are unsupported | 48:dot.message.<uuid>:The workshop includes five short activities, with a maximum of two projects per person. That is the full program; I haven’t checked which activities you’ve already tried. Community workshop guide.
+dotConnected | light | Hit area is too small | 9::Open sidebar
+dotConnected | light | Hit area is too small | 9:mic:Dot dictation
+dotFailedCall | dark | Contrast failed | 48:dot.message.<uuid>:For the balcony planter, the next session begins Saturday at 9 AM. Bring two small containers and choose a sunny spot before you start. The guide includes a checklist for soil and watering. Planter instructions.
+dotFailedCall | dark | Contrast failed | 48:dot.message.<uuid>:The workshop includes five short activities, with a maximum of two projects per person. That is the full program; I haven’t checked which activities you’ve already tried. Community workshop guide.
+dotFailedCall | dark | Dynamic Type font sizes are unsupported | 48::Couldn't connect the call. Check your connection and microphone access, then try again.
+dotFailedCall | dark | Dynamic Type font sizes are unsupported | 48::dot
+dotFailedCall | dark | Dynamic Type font sizes are unsupported | 48:dot.call.status:Call failed
+dotFailedCall | dark | Dynamic Type font sizes are unsupported | 48:dot.message.<uuid>:For the balcony planter, the next session begins Saturday at 9 AM. Bring two small containers and choose a sunny spot before you start. The guide includes a checklist for soil and watering. Planter instructions.
+dotFailedCall | dark | Dynamic Type font sizes are unsupported | 48:dot.message.<uuid>:I’ll check the garden workshop guide for the suggested materials and preparation steps.
+dotFailedCall | dark | Dynamic Type font sizes are unsupported | 48:dot.message.<uuid>:One last reminder: the local library has a collection of gardening books available this week. You can review the catalog and decide which examples fit your space. Start with a guide to container gardens and a seasonal planting calendar. Library reading list.
+dotFailedCall | dark | Dynamic Type font sizes are unsupported | 48:dot.message.<uuid>:The workshop includes five short activities, with a maximum of two projects per person. That is the full program; I haven’t checked which activities you’ve already tried. Community workshop guide.
+dotFailedCall | dark | Dynamic Type font sizes are unsupported | 9::Try again
+dotFailedCall | dark | Hit area is too small | 9::Open sidebar
+dotFailedCall | dark | Hit area is too small | 9:mic:Dot dictation
+dotFailedCall | light | Contrast failed | 48:dot.message.<uuid>:The workshop includes five short activities, with a maximum of two projects per person. That is the full program; I haven’t checked which activities you’ve already tried. Community workshop guide.
+dotFailedCall | light | Dynamic Type font sizes are unsupported | 48::Couldn't connect the call. Check your connection and microphone access, then try again.
+dotFailedCall | light | Dynamic Type font sizes are unsupported | 48::dot
+dotFailedCall | light | Dynamic Type font sizes are unsupported | 48:dot.call.status:Call failed
+dotFailedCall | light | Dynamic Type font sizes are unsupported | 48:dot.message.<uuid>:For the balcony planter, the next session begins Saturday at 9 AM. Bring two small containers and choose a sunny spot before you start. The guide includes a checklist for soil and watering. Planter instructions.
+dotFailedCall | light | Dynamic Type font sizes are unsupported | 48:dot.message.<uuid>:I’ll check the garden workshop guide for the suggested materials and preparation steps.
+dotFailedCall | light | Dynamic Type font sizes are unsupported | 48:dot.message.<uuid>:One last reminder: the local library has a collection of gardening books available this week. You can review the catalog and decide which examples fit your space. Start with a guide to container gardens and a seasonal planting calendar. Library reading list.
+dotFailedCall | light | Dynamic Type font sizes are unsupported | 48:dot.message.<uuid>:The workshop includes five short activities, with a maximum of two projects per person. That is the full program; I haven’t checked which activities you’ve already tried. Community workshop guide.
+dotFailedCall | light | Dynamic Type font sizes are unsupported | 9::Try again
+dotFailedCall | light | Hit area is too small | 9::Open sidebar
+dotFailedCall | light | Hit area is too small | 9:mic:Dot dictation
+drawer | dark | Contrast nearly passed | 9::A trip to the coast
+drawer | dark | Dynamic Type font sizes are unsupported | 48::A new idea
+drawer | dark | Dynamic Type font sizes are unsupported | 48::Chat
+drawer | dark | Dynamic Type font sizes are unsupported | 48::ChatGPT
+drawer | dark | Dynamic Type font sizes are unsupported | 48::Codex
+drawer | dark | Dynamic Type font sizes are unsupported | 48::Customize
+drawer | dark | Dynamic Type font sizes are unsupported | 48::Explore
+drawer | dark | Dynamic Type font sizes are unsupported | 48::Finances
+drawer | dark | Dynamic Type font sizes are unsupported | 48::Health
+drawer | dark | Dynamic Type font sizes are unsupported | 48::Learning SwiftUI
+drawer | dark | Dynamic Type font sizes are unsupported | 48::Pinned
+drawer | dark | Dynamic Type font sizes are unsupported | 48::Recents
+drawer | dark | Dynamic Type font sizes are unsupported | 48::Scheduled
+drawer | dark | Dynamic Type font sizes are unsupported | 48::Space
+drawer | dark | Dynamic Type font sizes are unsupported | 48::Weekend reading list
+drawer | dark | Dynamic Type font sizes are unsupported | 48::Your dot
+drawer | dark | Dynamic Type font sizes are unsupported | 9::A thoughtful morning routine
+drawer | dark | Hit area is too small | 9:sidebarButton:Open sidebar
+drawer | light | Contrast failed | 48::Ask ChatGPT
+drawer | light | Contrast failed | 48::More natural conversations, powered by our next-generation voice model
+drawer | light | Dynamic Type font sizes are unsupported | 48::A new idea
+drawer | light | Dynamic Type font sizes are unsupported | 48::Chat
+drawer | light | Dynamic Type font sizes are unsupported | 48::ChatGPT
+drawer | light | Dynamic Type font sizes are unsupported | 48::Codex
+drawer | light | Dynamic Type font sizes are unsupported | 48::Customize
+drawer | light | Dynamic Type font sizes are unsupported | 48::Explore
+drawer | light | Dynamic Type font sizes are unsupported | 48::Finances
+drawer | light | Dynamic Type font sizes are unsupported | 48::Health
+drawer | light | Dynamic Type font sizes are unsupported | 48::Learning SwiftUI
+drawer | light | Dynamic Type font sizes are unsupported | 48::Pinned
+drawer | light | Dynamic Type font sizes are unsupported | 48::Recents
+drawer | light | Dynamic Type font sizes are unsupported | 48::Scheduled
+drawer | light | Dynamic Type font sizes are unsupported | 48::Space
+drawer | light | Dynamic Type font sizes are unsupported | 48::Weekend reading list
+drawer | light | Dynamic Type font sizes are unsupported | 48::Your dot
+drawer | light | Dynamic Type font sizes are unsupported | 9::A thoughtful morning routine
+drawer | light | Hit area is too small | 9:sidebarButton:Open sidebar
+drawerExplore | dark | Contrast failed | 48::Health
+drawerExplore | dark | Dynamic Type font sizes are unsupported | 48::A new idea
+drawerExplore | dark | Dynamic Type font sizes are unsupported | 48::Chat
+drawerExplore | dark | Dynamic Type font sizes are unsupported | 48::ChatGPT
+drawerExplore | dark | Dynamic Type font sizes are unsupported | 48::Codex
+drawerExplore | dark | Dynamic Type font sizes are unsupported | 48::Customize
+drawerExplore | dark | Dynamic Type font sizes are unsupported | 48::Finances
+drawerExplore | dark | Dynamic Type font sizes are unsupported | 48::Images
+drawerExplore | dark | Dynamic Type font sizes are unsupported | 48::Learning SwiftUI
+drawerExplore | dark | Dynamic Type font sizes are unsupported | 48::Pinned
+drawerExplore | dark | Dynamic Type font sizes are unsupported | 48::Plugins
+drawerExplore | dark | Dynamic Type font sizes are unsupported | 48::Projects
+drawerExplore | dark | Dynamic Type font sizes are unsupported | 48::Scheduled
+drawerExplore | dark | Dynamic Type font sizes are unsupported | 48::Sites
+drawerExplore | dark | Dynamic Type font sizes are unsupported | 48::Space
+drawerExplore | dark | Dynamic Type font sizes are unsupported | 48::Weekend reading list
+drawerExplore | dark | Dynamic Type font sizes are unsupported | 48::Your dot
+drawerExplore | dark | Hit area is too small | 9:sidebarButton:Open sidebar
+drawerExplore | light | Contrast failed | 48::Ask ChatGPT
+drawerExplore | light | Contrast failed | 48::More natural conversations, powered by our next-generation voice model
+drawerExplore | light | Contrast nearly passed | 48::Health
+drawerExplore | light | Dynamic Type font sizes are unsupported | 48::A new idea
+drawerExplore | light | Dynamic Type font sizes are unsupported | 48::Chat
+drawerExplore | light | Dynamic Type font sizes are unsupported | 48::ChatGPT
+drawerExplore | light | Dynamic Type font sizes are unsupported | 48::Codex
+drawerExplore | light | Dynamic Type font sizes are unsupported | 48::Customize
+drawerExplore | light | Dynamic Type font sizes are unsupported | 48::Finances
+drawerExplore | light | Dynamic Type font sizes are unsupported | 48::Images
+drawerExplore | light | Dynamic Type font sizes are unsupported | 48::Learning SwiftUI
+drawerExplore | light | Dynamic Type font sizes are unsupported | 48::Pinned
+drawerExplore | light | Dynamic Type font sizes are unsupported | 48::Plugins
+drawerExplore | light | Dynamic Type font sizes are unsupported | 48::Projects
+drawerExplore | light | Dynamic Type font sizes are unsupported | 48::Scheduled
+drawerExplore | light | Dynamic Type font sizes are unsupported | 48::Sites
+drawerExplore | light | Dynamic Type font sizes are unsupported | 48::Space
+drawerExplore | light | Dynamic Type font sizes are unsupported | 48::Weekend reading list
+drawerExplore | light | Dynamic Type font sizes are unsupported | 48::Your dot
+drawerExplore | light | Hit area is too small | 9:sidebarButton:Open sidebar
+finances | dark | Contrast failed | 48::Dining
+finances | dark | Dynamic Type font sizes are unsupported | 48::$1,100.00
+finances | dark | Dynamic Type font sizes are unsupported | 48::$1,420.00
+finances | dark | Dynamic Type font sizes are unsupported | 48::$80.00
+finances | dark | Dynamic Type font sizes are unsupported | 48::Dining
+finances | dark | Dynamic Type font sizes are unsupported | 48::Entertainment
+finances | dark | Dynamic Type font sizes are unsupported | 48::Finances
+finances | dark | Dynamic Type font sizes are unsupported | 48::Fraud review
+finances | dark | Dynamic Type font sizes are unsupported | 48::Get started
+finances | dark | Dynamic Type font sizes are unsupported | 48::Housing
+finances | dark | Dynamic Type font sizes are unsupported | 48::October
+finances | dark | Dynamic Type font sizes are unsupported | 48::Review my recent transactions for unfamiliar charges or unusual activity.
+finances | dark | Dynamic Type font sizes are unsupported | 48::Shopping
+finances | dark | Dynamic Type font sizes are unsupported | 48::Spending
+finances | dark | Dynamic Type font sizes are unsupported | 48::💡
+finances | dark | Dynamic Type font sizes are unsupported | 48::🔍
+finances | dark | Dynamic Type font sizes are unsupported | 9::Accounts
+finances | dark | Dynamic Type font sizes are unsupported | 9::Chats
+finances | dark | Dynamic Type font sizes are unsupported | 9::Dashboard
+finances | dark | Hit area is too small | 9::October
+finances | dark | Hit area is too small | 9::Open sidebar
+finances | dark | Hit area is too small | 9:mic:Feature dictation
+finances | dark | Hit area is too small | 9:plus:Feature attachments
+finances | dark | Hit area is too small | 9:xmark:Hide finance suggestions
+finances | dark | Label not human-readable | 48::$1,100.00
+finances | dark | Label not human-readable | 48::$1,420.00
+finances | dark | Label not human-readable | 48::$80.00
+finances | dark | Text clipped | 48::Review my recent transactions for unfamiliar charges or unusual activity.
+finances | dark | Text clipped | 48::💡
+finances | dark | Text clipped | 48::🔍
+finances | light | Contrast failed | 48::Dining
+finances | light | Contrast failed | 48::💡
+finances | light | Contrast failed | 48::🔍
+finances | light | Contrast nearly passed | 48::$80.00
+finances | light | Contrast nearly passed | 48::Review my recent transactions for unfamiliar charges or unusual activity.
+finances | light | Contrast nearly passed | 9::Accounts
+finances | light | Contrast nearly passed | 9::Chats
+finances | light | Contrast nearly passed | 9::Transactions
+finances | light | Dynamic Type font sizes are unsupported | 48::$1,100.00
+finances | light | Dynamic Type font sizes are unsupported | 48::$1,420.00
+finances | light | Dynamic Type font sizes are unsupported | 48::$80.00
+finances | light | Dynamic Type font sizes are unsupported | 48::Dining
+finances | light | Dynamic Type font sizes are unsupported | 48::Entertainment
+finances | light | Dynamic Type font sizes are unsupported | 48::Finances
+finances | light | Dynamic Type font sizes are unsupported | 48::Fraud review
+finances | light | Dynamic Type font sizes are unsupported | 48::Get started
+finances | light | Dynamic Type font sizes are unsupported | 48::Housing
+finances | light | Dynamic Type font sizes are unsupported | 48::October
+finances | light | Dynamic Type font sizes are unsupported | 48::Review my recent transactions for unfamiliar charges or unusual activity.
+finances | light | Dynamic Type font sizes are unsupported | 48::Shopping
+finances | light | Dynamic Type font sizes are unsupported | 48::Spending
+finances | light | Dynamic Type font sizes are unsupported | 48::💡
+finances | light | Dynamic Type font sizes are unsupported | 48::🔍
+finances | light | Dynamic Type font sizes are unsupported | 9::Accounts
+finances | light | Dynamic Type font sizes are unsupported | 9::Chats
+finances | light | Dynamic Type font sizes are unsupported | 9::Dashboard
+finances | light | Hit area is too small | 9::October
+finances | light | Hit area is too small | 9::Open sidebar
+finances | light | Hit area is too small | 9:mic:Feature dictation
+finances | light | Hit area is too small | 9:plus:Feature attachments
+finances | light | Hit area is too small | 9:xmark:Hide finance suggestions
+finances | light | Label not human-readable | 48::$1,100.00
+finances | light | Label not human-readable | 48::$1,420.00
+finances | light | Label not human-readable | 48::$80.00
+finances | light | Text clipped | 48::Review my recent transactions for unfamiliar charges or unusual activity.
+finances | light | Text clipped | 48::💡
+finances | light | Text clipped | 48::🔍
+financesEmpty | dark | Dynamic Type font sizes are unsupported | 48::Finances
+financesEmpty | dark | Dynamic Type font sizes are unsupported | 48::Fraud review
+financesEmpty | dark | Dynamic Type font sizes are unsupported | 48::Get started
+financesEmpty | dark | Dynamic Type font sizes are unsupported | 48::Review my recent transactions for unfamiliar charges or unusual activity.
+financesEmpty | dark | Dynamic Type font sizes are unsupported | 48::💡
+financesEmpty | dark | Dynamic Type font sizes are unsupported | 48::🔍
+financesEmpty | dark | Dynamic Type font sizes are unsupported | 9::Accounts
+financesEmpty | dark | Dynamic Type font sizes are unsupported | 9::Chats
+financesEmpty | dark | Dynamic Type font sizes are unsupported | 9::Dashboard
+financesEmpty | dark | Hit area is too small | 9::Open sidebar
+financesEmpty | dark | Hit area is too small | 9:mic:Feature dictation
+financesEmpty | dark | Hit area is too small | 9:plus:Feature attachments
+financesEmpty | dark | Hit area is too small | 9:xmark:Hide finance suggestions
+financesEmpty | dark | Text clipped | 48::Review my recent transactions for unfamiliar charges or unusual activity.
+financesEmpty | dark | Text clipped | 48::💡
+financesEmpty | dark | Text clipped | 48::🔍
+financesEmpty | light | Contrast failed | 48::💡
+financesEmpty | light | Contrast failed | 48::🔍
+financesEmpty | light | Contrast nearly passed | 48::Review my recent transactions for unfamiliar charges or unusual activity.
+financesEmpty | light | Contrast nearly passed | 9::Accounts
+financesEmpty | light | Contrast nearly passed | 9::Chats
+financesEmpty | light | Contrast nearly passed | 9::Transactions
+financesEmpty | light | Dynamic Type font sizes are unsupported | 48::Finances
+financesEmpty | light | Dynamic Type font sizes are unsupported | 48::Fraud review
+financesEmpty | light | Dynamic Type font sizes are unsupported | 48::Get started
+financesEmpty | light | Dynamic Type font sizes are unsupported | 48::Review my recent transactions for unfamiliar charges or unusual activity.
+financesEmpty | light | Dynamic Type font sizes are unsupported | 48::💡
+financesEmpty | light | Dynamic Type font sizes are unsupported | 48::🔍
+financesEmpty | light | Dynamic Type font sizes are unsupported | 9::Accounts
+financesEmpty | light | Dynamic Type font sizes are unsupported | 9::Chats
+financesEmpty | light | Dynamic Type font sizes are unsupported | 9::Dashboard
+financesEmpty | light | Hit area is too small | 9::Open sidebar
+financesEmpty | light | Hit area is too small | 9:mic:Feature dictation
+financesEmpty | light | Hit area is too small | 9:plus:Feature attachments
+financesEmpty | light | Hit area is too small | 9:xmark:Hide finance suggestions
+financesEmpty | light | Text clipped | 48::Review my recent transactions for unfamiliar charges or unusual activity.
+financesEmpty | light | Text clipped | 48::💡
+financesEmpty | light | Text clipped | 48::🔍
+health | dark | Contrast failed | 48::420 cal · Sample
+health | dark | Contrast failed | 48::64 bpm · Sample
+health | dark | Contrast failed | 48::Resting heart rate
+health | dark | Dynamic Type font sizes are unsupported | 48::420 cal · Sample
+health | dark | Dynamic Type font sizes are unsupported | 48::64 bpm · Sample
+health | dark | Dynamic Type font sizes are unsupported | 48::88 mg/dL · Sample
+health | dark | Dynamic Type font sizes are unsupported | 48::Active calories
+health | dark | Dynamic Type font sizes are unsupported | 48::Connect your health data
+health | dark | Dynamic Type font sizes are unsupported | 48::Health
+health | dark | Dynamic Type font sizes are unsupported | 48::LDL cholesterol
+health | dark | Dynamic Type font sizes are unsupported | 48::Resting heart rate
+health | dark | Dynamic Type font sizes are unsupported | 48::Securely connect your medical records and Apple Health to ChatGPT
+health | dark | Dynamic Type font sizes are unsupported | 9:health.startSetup:Continue
+health | dark | Hit area is too small | 9::Open sidebar
+health | light | Contrast failed | 48::420 cal · Sample
+health | light | Contrast failed | 48::64 bpm · Sample
+health | light | Contrast failed | 48::Resting heart rate
+health | light | Contrast nearly passed | 48::Active calories
+health | light | Contrast nearly passed | 48::LDL cholesterol
+health | light | Contrast nearly passed | 48::Securely connect your medical records and Apple Health to ChatGPT
+health | light | Dynamic Type font sizes are unsupported | 48::420 cal · Sample
+health | light | Dynamic Type font sizes are unsupported | 48::64 bpm · Sample
+health | light | Dynamic Type font sizes are unsupported | 48::88 mg/dL · Sample
+health | light | Dynamic Type font sizes are unsupported | 48::Active calories
+health | light | Dynamic Type font sizes are unsupported | 48::Connect your health data
+health | light | Dynamic Type font sizes are unsupported | 48::Health
+health | light | Dynamic Type font sizes are unsupported | 48::LDL cholesterol
+health | light | Dynamic Type font sizes are unsupported | 48::Resting heart rate
+health | light | Dynamic Type font sizes are unsupported | 48::Securely connect your medical records and Apple Health to ChatGPT
+health | light | Dynamic Type font sizes are unsupported | 9:health.startSetup:Continue
+health | light | Hit area is too small | 9::Open sidebar
+healthEmpty | dark | Dynamic Type font sizes are unsupported | 48::Activity
+healthEmpty | dark | Dynamic Type font sizes are unsupported | 48::Get started
+healthEmpty | dark | Dynamic Type font sizes are unsupported | 48::Health
+healthEmpty | dark | Dynamic Type font sizes are unsupported | 48::Health history
+healthEmpty | dark | Dynamic Type font sizes are unsupported | 48::Summarize my health history.
+healthEmpty | dark | Dynamic Type font sizes are unsupported | 48::❤️
+healthEmpty | dark | Dynamic Type font sizes are unsupported | 48::🔍
+healthEmpty | dark | Dynamic Type font sizes are unsupported | 9::Accounts
+healthEmpty | dark | Dynamic Type font sizes are unsupported | 9::Chats
+healthEmpty | dark | Dynamic Type font sizes are unsupported | 9::Home
+healthEmpty | dark | Dynamic Type font sizes are unsupported | 9::Records
+healthEmpty | dark | Hit area is too small | 9::Open sidebar
+healthEmpty | dark | Hit area is too small | 9:mic:Feature dictation
+healthEmpty | dark | Hit area is too small | 9:plus:Feature attachments
+healthEmpty | dark | Hit area is too small | 9:xmark:Hide health suggestions
+healthEmpty | dark | Text clipped | 48::❤️
+healthEmpty | dark | Text clipped | 48::🔍
+healthEmpty | light | Contrast failed | 48::❤️
+healthEmpty | light | Contrast failed | 48::🔍
+healthEmpty | light | Contrast nearly passed | 48::Summarize my health history.
+healthEmpty | light | Contrast nearly passed | 9::Accounts
+healthEmpty | light | Contrast nearly passed | 9::Chats
+healthEmpty | light | Contrast nearly passed | 9::Records
+healthEmpty | light | Dynamic Type font sizes are unsupported | 48::Activity
+healthEmpty | light | Dynamic Type font sizes are unsupported | 48::Get started
+healthEmpty | light | Dynamic Type font sizes are unsupported | 48::Health
+healthEmpty | light | Dynamic Type font sizes are unsupported | 48::Health history
+healthEmpty | light | Dynamic Type font sizes are unsupported | 48::Summarize my health history.
+healthEmpty | light | Dynamic Type font sizes are unsupported | 48::❤️
+healthEmpty | light | Dynamic Type font sizes are unsupported | 48::🔍
+healthEmpty | light | Dynamic Type font sizes are unsupported | 9::Accounts
+healthEmpty | light | Dynamic Type font sizes are unsupported | 9::Chats
+healthEmpty | light | Dynamic Type font sizes are unsupported | 9::Home
+healthEmpty | light | Dynamic Type font sizes are unsupported | 9::Records
+healthEmpty | light | Hit area is too small | 9::Open sidebar
+healthEmpty | light | Hit area is too small | 9:mic:Feature dictation
+healthEmpty | light | Hit area is too small | 9:plus:Feature attachments
+healthEmpty | light | Hit area is too small | 9:xmark:Hide health suggestions
+healthEmpty | light | Text clipped | 48::❤️
+healthEmpty | light | Text clipped | 48::🔍
+images | dark | Contrast failed | 48::Illustration
+images | dark | Contrast failed | 48::Interior design
+images | dark | Contrast failed | 48::Logo
+images | dark | Contrast nearly passed | 48::Poster
+images | dark | Dynamic Type font sizes are unsupported | 48::Illustration
+images | dark | Dynamic Type font sizes are unsupported | 48::Images
+images | dark | Dynamic Type font sizes are unsupported | 48::Interior design
+images | dark | Dynamic Type font sizes are unsupported | 48::Logo
+images | dark | Dynamic Type font sizes are unsupported | 48::Poster
+images | dark | Dynamic Type font sizes are unsupported | 48::You can now find your generated images in the Library tab from the sidebar
+images | dark | Dynamic Type font sizes are unsupported | 48::Your generated images moved to Library
+images | dark | Dynamic Type font sizes are unsupported | 9:images.category.Templates:Templates
+images | dark | Dynamic Type font sizes are unsupported | 9:images.category.Trending:Trending
+images | dark | Hit area is too small | 9::Open sidebar
+images | dark | Hit area is too small | 9:mic:Dictate image prompt
+images | dark | Hit area is too small | 9:xmark:Dismiss Library notice
+images | light | Contrast failed | 48::Illustration
+images | light | Contrast failed | 48::Interior design
+images | light | Contrast failed | 48::Logo
+images | light | Contrast nearly passed | 48::Poster
+images | light | Contrast nearly passed | 48::You can now find your generated images in the Library tab from the sidebar
+images | light | Contrast nearly passed | 9:images.category.Trending:Trending
+images | light | Dynamic Type font sizes are unsupported | 48::Illustration
+images | light | Dynamic Type font sizes are unsupported | 48::Images
+images | light | Dynamic Type font sizes are unsupported | 48::Interior design
+images | light | Dynamic Type font sizes are unsupported | 48::Logo
+images | light | Dynamic Type font sizes are unsupported | 48::Poster
+images | light | Dynamic Type font sizes are unsupported | 48::You can now find your generated images in the Library tab from the sidebar
+images | light | Dynamic Type font sizes are unsupported | 48::Your generated images moved to Library
+images | light | Dynamic Type font sizes are unsupported | 9:images.category.Templates:Templates
+images | light | Dynamic Type font sizes are unsupported | 9:images.category.Trending:Trending
+images | light | Hit area is too small | 9::Open sidebar
+images | light | Hit area is too small | 9:mic:Dictate image prompt
+images | light | Hit area is too small | 9:xmark:Dismiss Library notice
+markdown | dark | Contrast failed | 48::Description
+markdown | dark | Contrast failed | 48::Item
+markdown | dark | Dynamic Type font sizes are unsupported | 48::A small garden can be easy to maintain.
+markdown | dark | Dynamic Type font sizes are unsupported | 48::Code Block
+markdown | dark | Dynamic Type font sizes are unsupported | 48::Garden notes
+markdown | dark | Dynamic Type font sizes are unsupported | 48::Planting list
+markdown | dark | Dynamic Type font sizes are unsupported | 48::Python
+markdown | dark | Dynamic Type font sizes are unsupported | 48::Small Table
+markdown | dark | Dynamic Type font sizes are unsupported | 48:markdown.code.content:def greet(name):     return f"Hello, {name}!"  print(greet("World")) 
+markdown | dark | Dynamic Type font sizes are unsupported | 48:markdown.list:Add drainage
+markdown | dark | Dynamic Type font sizes are unsupported | 48:markdown.list:Choose a container
+markdown | dark | Dynamic Type font sizes are unsupported | 48:markdown.list:Prepare the soil
+markdown | dark | Dynamic Type font sizes are unsupported | 48:markdown.list:Water gently
+markdown | dark | Dynamic Type font sizes are unsupported | 48:markdown.list:•
+markdown | dark | Dynamic Type font sizes are unsupported | 48:markdown.quote:Start with one sunny corner.
+markdown | dark | Dynamic Type font sizes are unsupported | 52:markdown.inlineCode:
+markdown | dark | Hit area is too small | 9:mic:Dictate
+markdown | dark | Hit area is too small | 9:sidebarButton:Open sidebar
+markdown | light | Contrast failed | 48::Description
+markdown | light | Contrast failed | 48::Item
+markdown | light | Contrast nearly passed | 48:markdown.code.content:def greet(name):     return f"Hello, {name}!"  print(greet("World")) 
+markdown | light | Dynamic Type font sizes are unsupported | 48::A small garden can be easy to maintain.
+markdown | light | Dynamic Type font sizes are unsupported | 48::Code Block
+markdown | light | Dynamic Type font sizes are unsupported | 48::Garden notes
+markdown | light | Dynamic Type font sizes are unsupported | 48::Planting list
+markdown | light | Dynamic Type font sizes are unsupported | 48::Python
+markdown | light | Dynamic Type font sizes are unsupported | 48::Small Table
+markdown | light | Dynamic Type font sizes are unsupported | 48:markdown.code.content:def greet(name):     return f"Hello, {name}!"  print(greet("World")) 
+markdown | light | Dynamic Type font sizes are unsupported | 48:markdown.list:Add drainage
+markdown | light | Dynamic Type font sizes are unsupported | 48:markdown.list:Choose a container
+markdown | light | Dynamic Type font sizes are unsupported | 48:markdown.list:Prepare the soil
+markdown | light | Dynamic Type font sizes are unsupported | 48:markdown.list:Water gently
+markdown | light | Dynamic Type font sizes are unsupported | 48:markdown.list:•
+markdown | light | Dynamic Type font sizes are unsupported | 48:markdown.quote:Start with one sunny corner.
+markdown | light | Dynamic Type font sizes are unsupported | 52:markdown.inlineCode:
+markdown | light | Hit area is too small | 9:mic:Dictate
+markdown | light | Hit area is too small | 9:sidebarButton:Open sidebar
+markdownInlineCode | dark | Dynamic Type font sizes are unsupported | 48::Garden notes
+markdownInlineCode | dark | Dynamic Type font sizes are unsupported | 48::Ordinary text remains easy to select.
+markdownInlineCode | dark | Dynamic Type font sizes are unsupported | 52:markdown.inlineCode:
+markdownInlineCode | dark | Hit area is too small | 9::More response actions
+markdownInlineCode | dark | Hit area is too small | 9:hand.thumbsdown:Bad response
+markdownInlineCode | dark | Hit area is too small | 9:hand.thumbsup:Good response
+markdownInlineCode | dark | Hit area is too small | 9:mic:Dictate
+markdownInlineCode | dark | Hit area is too small | 9:sidebarButton:Open sidebar
+markdownInlineCode | dark | Hit area is too small | 9:square.and.arrow.up:Share response
+markdownInlineCode | light | Dynamic Type font sizes are unsupported | 48::Garden notes
+markdownInlineCode | light | Dynamic Type font sizes are unsupported | 48::Ordinary text remains easy to select.
+markdownInlineCode | light | Dynamic Type font sizes are unsupported | 52:markdown.inlineCode:
+markdownInlineCode | light | Hit area is too small | 9::More response actions
+markdownInlineCode | light | Hit area is too small | 9:hand.thumbsdown:Bad response
+markdownInlineCode | light | Hit area is too small | 9:hand.thumbsup:Good response
+markdownInlineCode | light | Hit area is too small | 9:mic:Dictate
+markdownInlineCode | light | Hit area is too small | 9:sidebarButton:Open sidebar
+markdownInlineCode | light | Hit area is too small | 9:square.and.arrow.up:Share response
+markdownTableCode | dark | Dynamic Type font sizes are unsupported | 48::Center
+markdownTableCode | dark | Dynamic Type font sizes are unsupported | 48::Five
+markdownTableCode | dark | Dynamic Type font sizes are unsupported | 48::Four
+markdownTableCode | dark | Dynamic Type font sizes are unsupported | 48::Garden reference
+markdownTableCode | dark | Dynamic Type font sizes are unsupported | 48::Left
+markdownTableCode | dark | Dynamic Type font sizes are unsupported | 48::One
+markdownTableCode | dark | Dynamic Type font sizes are unsupported | 48::Right
+markdownTableCode | dark | Dynamic Type font sizes are unsupported | 48::Three
+markdownTableCode | dark | Dynamic Type font sizes are unsupported | 48::Two
+markdownTableCode | dark | Dynamic Type font sizes are unsupported | 48::Wide table
+markdownTableCode | dark | Dynamic Type font sizes are unsupported | 52:markdown.inlineCode:
+markdownTableCode | dark | Hit area is too small | 9::More response actions
+markdownTableCode | dark | Hit area is too small | 9:hand.thumbsdown:Bad response
+markdownTableCode | dark | Hit area is too small | 9:hand.thumbsup:Good response
+markdownTableCode | dark | Hit area is too small | 9:mic:Dictate
+markdownTableCode | dark | Hit area is too small | 9:sidebarButton:Open sidebar
+markdownTableCode | dark | Hit area is too small | 9:square.and.arrow.up:Share response
+markdownTableCode | light | Dynamic Type font sizes are unsupported | 48::Center
+markdownTableCode | light | Dynamic Type font sizes are unsupported | 48::Five
+markdownTableCode | light | Dynamic Type font sizes are unsupported | 48::Four
+markdownTableCode | light | Dynamic Type font sizes are unsupported | 48::Garden reference
+markdownTableCode | light | Dynamic Type font sizes are unsupported | 48::Left
+markdownTableCode | light | Dynamic Type font sizes are unsupported | 48::One
+markdownTableCode | light | Dynamic Type font sizes are unsupported | 48::Right
+markdownTableCode | light | Dynamic Type font sizes are unsupported | 48::Three
+markdownTableCode | light | Dynamic Type font sizes are unsupported | 48::Two
+markdownTableCode | light | Dynamic Type font sizes are unsupported | 48::Wide table
+markdownTableCode | light | Dynamic Type font sizes are unsupported | 52:markdown.inlineCode:
+markdownTableCode | light | Hit area is too small | 9::More response actions
+markdownTableCode | light | Hit area is too small | 9:hand.thumbsdown:Bad response
+markdownTableCode | light | Hit area is too small | 9:hand.thumbsup:Good response
+markdownTableCode | light | Hit area is too small | 9:mic:Dictate
+markdownTableCode | light | Hit area is too small | 9:sidebarButton:Open sidebar
+markdownTableCode | light | Hit area is too small | 9:square.and.arrow.up:Share response
+mediaViewer | dark | Dynamic Type font sizes are unsupported | 48::Edit
+mediaViewer | dark | Dynamic Type font sizes are unsupported | 48::Remove
+mediaViewer | dark | Dynamic Type font sizes are unsupported | 48::Resize
+mediaViewer | dark | Hit area is too small | 9:media.close:Close image
+mediaViewer | dark | Hit area is too small | 9:media.download:Download image
+mediaViewer | light | Dynamic Type font sizes are unsupported | 48::Edit
+mediaViewer | light | Dynamic Type font sizes are unsupported | 48::Remove
+mediaViewer | light | Dynamic Type font sizes are unsupported | 48::Resize
+mediaViewer | light | Hit area is too small | 9:media.close:Close image
+mediaViewer | light | Hit area is too small | 9:media.download:Download image
+memory | dark | Dynamic Type font sizes are unsupported | 48::Education And Learning
+memory | dark | Dynamic Type font sizes are unsupported | 48::Memory summary
+memory | dark | Dynamic Type font sizes are unsupported | 48::Overview
+memory | dark | Dynamic Type font sizes are unsupported | 48::Updated 10 hours ago
+memory | dark | Dynamic Type font sizes are unsupported | 48::You prefer clear, visual explanations with each intermediate step shown. You often ask for examples before moving on to more advanced concepts. Your current learning plan combines design fundamentals, introductory programming, and practical writing exercises. You find it helpful to revisit a topic over several short sessions and summarize what you learned in your own words. Beyond formal classes, you enjoy independent projects that turn an abstract idea into something you can try and improve.
+memory | dark | Dynamic Type font sizes are unsupported | 48::You’re Alex Morgan, a designer who enjoys building thoughtful digital products and exploring new creative tools. You’re working on a small personal project while developing your skills through reading, practical experiments, and conversations with other makers. You like to break ambitious ideas into manageable steps and keep a clear record of what you have learned. Your long-term goal is to create useful, approachable experiences that help people in everyday life. Outside your work, you enjoy visiting museums, walking in new neighborhoods, planning weekend trips, and finding time for a good book.
+memory | dark | Hit area is too small | 9:chevron.left:Back
+memory | light | Contrast nearly passed | 48::Updated 10 hours ago
+memory | light | Dynamic Type font sizes are unsupported | 48::Education And Learning
+memory | light | Dynamic Type font sizes are unsupported | 48::Memory summary
+memory | light | Dynamic Type font sizes are unsupported | 48::Overview
+memory | light | Dynamic Type font sizes are unsupported | 48::Updated 10 hours ago
+memory | light | Dynamic Type font sizes are unsupported | 48::You prefer clear, visual explanations with each intermediate step shown. You often ask for examples before moving on to more advanced concepts. Your current learning plan combines design fundamentals, introductory programming, and practical writing exercises. You find it helpful to revisit a topic over several short sessions and summarize what you learned in your own words. Beyond formal classes, you enjoy independent projects that turn an abstract idea into something you can try and improve.
+memory | light | Dynamic Type font sizes are unsupported | 48::You’re Alex Morgan, a designer who enjoys building thoughtful digital products and exploring new creative tools. You’re working on a small personal project while developing your skills through reading, practical experiments, and conversations with other makers. You like to break ambitious ideas into manageable steps and keep a clear record of what you have learned. Your long-term goal is to create useful, approachable experiences that help people in everyday life. Outside your work, you enjoy visiting museums, walking in new neighborhoods, planning weekend trips, and finding time for a good book.
+memory | light | Hit area is too small | 9:chevron.left:Back
+personality | dark | Dynamic Type font sizes are unsupported | 48::Custom instructions
+personality | dark | Dynamic Type font sizes are unsupported | 48::Emoji
+personality | dark | Dynamic Type font sizes are unsupported | 48::Enthusiasm
+personality | dark | Dynamic Type font sizes are unsupported | 48::Headers and Lists
+personality | dark | Dynamic Type font sizes are unsupported | 48::Personality
+personality | dark | Dynamic Type font sizes are unsupported | 48::Style and tone
+personality | dark | Dynamic Type font sizes are unsupported | 48::Warmth
+personality | dark | Dynamic Type font sizes are unsupported | none
+personality | dark | Hit area is too small | 9:checkmark:Save personality
+personality | dark | Hit area is too small | 9:chevron.left:Back
+personality | light | Contrast failed | 48::Custom instructions
+personality | light | Dynamic Type font sizes are unsupported | 48::Custom instructions
+personality | light | Dynamic Type font sizes are unsupported | 48::Emoji
+personality | light | Dynamic Type font sizes are unsupported | 48::Enthusiasm
+personality | light | Dynamic Type font sizes are unsupported | 48::Headers and Lists
+personality | light | Dynamic Type font sizes are unsupported | 48::Personality
+personality | light | Dynamic Type font sizes are unsupported | 48::Style and tone
+personality | light | Dynamic Type font sizes are unsupported | 48::Warmth
+personality | light | Dynamic Type font sizes are unsupported | none
+personality | light | Hit area is too small | 9:checkmark:Save personality
+personality | light | Hit area is too small | 9:chevron.left:Back
+photoPicker | dark | Contrast failed | 9:photos.add:All Photos
+photoPicker | dark | Contrast nearly passed | 48::Meet the new Voice
+photoPicker | dark | Contrast nearly passed | 48::More natural conversations, powered by our next-generation voice model
+photoPicker | dark | Dynamic Type font sizes are unsupported | 48::Ask ChatGPT
+photoPicker | dark | Dynamic Type font sizes are unsupported | 48::Meet the new Voice
+photoPicker | dark | Dynamic Type font sizes are unsupported | 48::More natural conversations, powered by our next-generation voice model
+photoPicker | dark | Dynamic Type font sizes are unsupported | 9::Chat
+photoPicker | dark | Dynamic Type font sizes are unsupported | 9::Work
+photoPicker | dark | Dynamic Type font sizes are unsupported | 9:photos.add:All Photos
+photoPicker | dark | Dynamic Type font sizes are unsupported | 9:startVoiceButton:Start Voice
+photoPicker | dark | Hit area is too small | 9::Work
+photoPicker | dark | Hit area is too small | 9:chevron.left:Close recent photos
+photoPicker | dark | Hit area is too small | 9:mic:Dictate
+photoPicker | dark | Hit area is too small | 9:sidebarButton:Open sidebar
+photoPicker | light | Contrast failed | 9::Chat
+photoPicker | light | Contrast failed | 9:photos.add:All Photos
+photoPicker | light | Contrast nearly passed | 48::Meet the new Voice
+photoPicker | light | Contrast nearly passed | 48::More natural conversations, powered by our next-generation voice model
+photoPicker | light | Dynamic Type font sizes are unsupported | 48::Ask ChatGPT
+photoPicker | light | Dynamic Type font sizes are unsupported | 48::Meet the new Voice
+photoPicker | light | Dynamic Type font sizes are unsupported | 48::More natural conversations, powered by our next-generation voice model
+photoPicker | light | Dynamic Type font sizes are unsupported | 9::Chat
+photoPicker | light | Dynamic Type font sizes are unsupported | 9::Work
+photoPicker | light | Dynamic Type font sizes are unsupported | 9:photos.add:All Photos
+photoPicker | light | Dynamic Type font sizes are unsupported | 9:startVoiceButton:Start Voice
+photoPicker | light | Hit area is too small | 9::Work
+photoPicker | light | Hit area is too small | 9:chevron.left:Close recent photos
+photoPicker | light | Hit area is too small | 9:mic:Dictate
+photoPicker | light | Hit area is too small | 9:sidebarButton:Open sidebar
+plugins | dark | Contrast failed | 48::Plan your next project
+plugins | dark | Dynamic Type font sizes are unsupported | 48::Adobe
+plugins | dark | Dynamic Type font sizes are unsupported | 48::Build and automate, anywhere
+plugins | dark | Dynamic Type font sizes are unsupported | 48::Design, combine, and edit
+plugins | dark | Dynamic Type font sizes are unsupported | 48::Drive, Docs, Sheets or Slides
+plugins | dark | Dynamic Type font sizes are unsupported | 48::Fantasy Sports Analysis
+plugins | dark | Dynamic Type font sizes are unsupported | 48::Flaim Fantasy
+plugins | dark | Dynamic Type font sizes are unsupported | 48::Gmail
+plugins | dark | Dynamic Type font sizes are unsupported | 48::Google Drive
+plugins | dark | Dynamic Type font sizes are unsupported | 48::Ideas
+plugins | dark | Dynamic Type font sizes are unsupported | 48::Installed
+plugins | dark | Dynamic Type font sizes are unsupported | 48::New & Noteworthy
+plugins | dark | Dynamic Type font sizes are unsupported | 48::Plugins
+plugins | dark | Dynamic Type font sizes are unsupported | 48::Popular
+plugins | dark | Dynamic Type font sizes are unsupported | 48::Read and manage Gmail
+plugins | dark | Dynamic Type font sizes are unsupported | 48::Remote Desktop Commander
+plugins | dark | Hit area is too small | 9:chevron.left:Back
+plugins | dark | Hit area is too small | 9:ellipsis:Settings for Gmail
+plugins | dark | Hit area is too small | 9:ellipsis:Settings for Google Drive
+plugins | dark | Hit area is too small | 9:plus:Add Adobe
+plugins | dark | Hit area is too small | 9:plus:Add Flaim Fantasy
+plugins | dark | Hit area is too small | 9:plus:Add Ideas
+plugins | dark | Hit area is too small | 9:plus:Add Remote Desktop Commander
+plugins | light | Contrast failed | 48::Plan your next project
+plugins | light | Contrast nearly passed | 48::Build and automate, anywhere
+plugins | light | Contrast nearly passed | 48::Design, combine, and edit
+plugins | light | Contrast nearly passed | 48::Drive, Docs, Sheets or Slides
+plugins | light | Contrast nearly passed | 48::Fantasy Sports Analysis
+plugins | light | Contrast nearly passed | 48::Installed
+plugins | light | Contrast nearly passed | 48::New & Noteworthy
+plugins | light | Contrast nearly passed | 48::Popular
+plugins | light | Contrast nearly passed | 48::Read and manage Gmail
+plugins | light | Dynamic Type font sizes are unsupported | 48::Adobe
+plugins | light | Dynamic Type font sizes are unsupported | 48::Build and automate, anywhere
+plugins | light | Dynamic Type font sizes are unsupported | 48::Design, combine, and edit
+plugins | light | Dynamic Type font sizes are unsupported | 48::Drive, Docs, Sheets or Slides
+plugins | light | Dynamic Type font sizes are unsupported | 48::Fantasy Sports Analysis
+plugins | light | Dynamic Type font sizes are unsupported | 48::Flaim Fantasy
+plugins | light | Dynamic Type font sizes are unsupported | 48::Gmail
+plugins | light | Dynamic Type font sizes are unsupported | 48::Google Drive
+plugins | light | Dynamic Type font sizes are unsupported | 48::Ideas
+plugins | light | Dynamic Type font sizes are unsupported | 48::Installed
+plugins | light | Dynamic Type font sizes are unsupported | 48::New & Noteworthy
+plugins | light | Dynamic Type font sizes are unsupported | 48::Plugins
+plugins | light | Dynamic Type font sizes are unsupported | 48::Popular
+plugins | light | Dynamic Type font sizes are unsupported | 48::Read and manage Gmail
+plugins | light | Dynamic Type font sizes are unsupported | 48::Remote Desktop Commander
+plugins | light | Hit area is too small | 9:chevron.left:Back
+plugins | light | Hit area is too small | 9:ellipsis:Settings for Gmail
+plugins | light | Hit area is too small | 9:ellipsis:Settings for Google Drive
+plugins | light | Hit area is too small | 9:plus:Add Adobe
+plugins | light | Hit area is too small | 9:plus:Add Flaim Fantasy
+plugins | light | Hit area is too small | 9:plus:Add Ideas
+plugins | light | Hit area is too small | 9:plus:Add Remote Desktop Commander
+projects | dark | Dynamic Type font sizes are unsupported | 48::Projects
+projects | dark | Dynamic Type font sizes are unsupported | 48::Projects help you organize chats, files, and tools in one place
+projects | dark | Dynamic Type font sizes are unsupported | 48::Start your first project
+projects | dark | Dynamic Type font sizes are unsupported | 9:projects.create:New project
+projects | dark | Hit area is too small | 9::Open sidebar
+projects | dark | Hit area is too small | 9:projects.add:New project
+projects | light | Contrast nearly passed | 48::Projects help you organize chats, files, and tools in one place
+projects | light | Dynamic Type font sizes are unsupported | 48::Projects
+projects | light | Dynamic Type font sizes are unsupported | 48::Projects help you organize chats, files, and tools in one place
+projects | light | Dynamic Type font sizes are unsupported | 48::Start your first project
+projects | light | Dynamic Type font sizes are unsupported | 9:projects.create:New project
+projects | light | Hit area is too small | 9::Open sidebar
+projects | light | Hit area is too small | 9:projects.add:New project
+scheduled | dark | Dynamic Type font sizes are unsupported | 48::Daily reading roundup
+scheduled | dark | Dynamic Type font sizes are unsupported | 48::Design industry developments
+scheduled | dark | Dynamic Type font sizes are unsupported | 48::Give me a weekly scan of design developments that matter for my next project
+scheduled | dark | Dynamic Type font sizes are unsupported | 48::Morning · Daily
+scheduled | dark | Dynamic Type font sizes are unsupported | 48::Morning · Weekly
+scheduled | dark | Dynamic Type font sizes are unsupported | 48::Recommended
+scheduled | dark | Dynamic Type font sizes are unsupported | 48::Scheduled
+scheduled | dark | Dynamic Type font sizes are unsupported | 48::Weekly project update
+scheduled | dark | Dynamic Type font sizes are unsupported | 48::💡
+scheduled | dark | Dynamic Type font sizes are unsupported | 48::💼
+scheduled | dark | Dynamic Type font sizes are unsupported | 48::📰
+scheduled | dark | Dynamic Type font sizes are unsupported | 9:schedule.new:New task
+scheduled | dark | Dynamic Type font sizes are unsupported | 9:schedule.tab.Active:Active
+scheduled | dark | Dynamic Type font sizes are unsupported | 9:schedule.tab.Completed:Completed
+scheduled | dark | Dynamic Type font sizes are unsupported | 9:schedule.tab.Paused:Paused
+scheduled | dark | Hit area is too small | 9::Open sidebar
+scheduled | dark | Text clipped | 48::💡
+scheduled | dark | Text clipped | 48::💼
+scheduled | dark | Text clipped | 48::📰
+scheduled | light | Contrast failed | 48::💡
+scheduled | light | Contrast failed | 48::💼
+scheduled | light | Contrast failed | 48::📰
+scheduled | light | Contrast nearly passed | 48::Give me a weekly scan of design developments that matter for my next project
+scheduled | light | Contrast nearly passed | 48::Morning · Daily
+scheduled | light | Contrast nearly passed | 48::Morning · Weekly
+scheduled | light | Contrast nearly passed | 48::Recommended
+scheduled | light | Contrast nearly passed | 9:schedule.tab.Completed:Completed
+scheduled | light | Contrast nearly passed | 9:schedule.tab.Paused:Paused
+scheduled | light | Dynamic Type font sizes are unsupported | 48::Daily reading roundup
+scheduled | light | Dynamic Type font sizes are unsupported | 48::Design industry developments
+scheduled | light | Dynamic Type font sizes are unsupported | 48::Give me a weekly scan of design developments that matter for my next project
+scheduled | light | Dynamic Type font sizes are unsupported | 48::Morning · Daily
+scheduled | light | Dynamic Type font sizes are unsupported | 48::Morning · Weekly
+scheduled | light | Dynamic Type font sizes are unsupported | 48::Recommended
+scheduled | light | Dynamic Type font sizes are unsupported | 48::Scheduled
+scheduled | light | Dynamic Type font sizes are unsupported | 48::Weekly project update
+scheduled | light | Dynamic Type font sizes are unsupported | 48::💡
+scheduled | light | Dynamic Type font sizes are unsupported | 48::💼
+scheduled | light | Dynamic Type font sizes are unsupported | 48::📰
+scheduled | light | Dynamic Type font sizes are unsupported | 9:schedule.new:New task
+scheduled | light | Dynamic Type font sizes are unsupported | 9:schedule.tab.Active:Active
+scheduled | light | Dynamic Type font sizes are unsupported | 9:schedule.tab.Completed:Completed
+scheduled | light | Dynamic Type font sizes are unsupported | 9:schedule.tab.Paused:Paused
+scheduled | light | Hit area is too small | 9::Open sidebar
+scheduled | light | Text clipped | 48::💡
+scheduled | light | Text clipped | 48::💼
+scheduled | light | Text clipped | 48::📰
+settings | dark | Contrast failed | 48::AM
+settings | dark | Dynamic Type font sizes are unsupported | 48::AM
+settings | dark | Dynamic Type font sizes are unsupported | 48::Account
+settings | dark | Dynamic Type font sizes are unsupported | 48::Customize ChatGPT
+settings | dark | Dynamic Type font sizes are unsupported | 48::Email
+settings | dark | Dynamic Type font sizes are unsupported | 48::Memory
+settings | dark | Dynamic Type font sizes are unsupported | 48::Not added
+settings | dark | Dynamic Type font sizes are unsupported | 48::Personalization
+settings | dark | Dynamic Type font sizes are unsupported | 48::Phone number
+settings | dark | Dynamic Type font sizes are unsupported | 48::Plugins
+settings | dark | Dynamic Type font sizes are unsupported | 48::Pro
+settings | dark | Dynamic Type font sizes are unsupported | 48::Restore purchases
+settings | dark | Dynamic Type font sizes are unsupported | 48::Subscription
+settings | dark | Dynamic Type font sizes are unsupported | 48::Theme
+settings | dark | Dynamic Type font sizes are unsupported | 48::Usage and limits
+settings | dark | Dynamic Type font sizes are unsupported | 48::alex@example.com
+settings | dark | Dynamic Type font sizes are unsupported | 48::alexmorgan
+settings | dark | Hit area is too small | 9:xmark:Close settings
+settings | dark | Label not human-readable | 48::alex@example.com
+settings | light | Contrast failed | 48::Account
+settings | light | Contrast failed | 48::Customize ChatGPT
+settings | light | Contrast failed | 48::Theme
+settings | light | Contrast nearly passed | 48::Light
+settings | light | Contrast nearly passed | 48::Not added
+settings | light | Contrast nearly passed | 48::Pro
+settings | light | Contrast nearly passed | 48::alex@example.com
+settings | light | Dynamic Type font sizes are unsupported | 48::AM
+settings | light | Dynamic Type font sizes are unsupported | 48::Account
+settings | light | Dynamic Type font sizes are unsupported | 48::Customize ChatGPT
+settings | light | Dynamic Type font sizes are unsupported | 48::Email
+settings | light | Dynamic Type font sizes are unsupported | 48::Memory
+settings | light | Dynamic Type font sizes are unsupported | 48::Not added
+settings | light | Dynamic Type font sizes are unsupported | 48::Personalization
+settings | light | Dynamic Type font sizes are unsupported | 48::Phone number
+settings | light | Dynamic Type font sizes are unsupported | 48::Plugins
+settings | light | Dynamic Type font sizes are unsupported | 48::Pro
+settings | light | Dynamic Type font sizes are unsupported | 48::Restore purchases
+settings | light | Dynamic Type font sizes are unsupported | 48::Subscription
+settings | light | Dynamic Type font sizes are unsupported | 48::Theme
+settings | light | Dynamic Type font sizes are unsupported | 48::Usage and limits
+settings | light | Dynamic Type font sizes are unsupported | 48::alex@example.com
+settings | light | Dynamic Type font sizes are unsupported | 48::alexmorgan
+settings | light | Hit area is too small | 9:xmark:Close settings
+settings | light | Label not human-readable | 48::alex@example.com
+settingsAbout | dark | Dynamic Type font sizes are unsupported | 48::About
+settingsAbout | dark | Dynamic Type font sizes are unsupported | 48::Privacy policy
+settingsAbout | dark | Dynamic Type font sizes are unsupported | 48::Terms of use
+settingsAbout | dark | Dynamic Type font sizes are unsupported | 48:settings.about.appName:ChatGPT for iOS
+settingsAbout | dark | Dynamic Type font sizes are unsupported | 48:settings.about.version:1.2026.267 (36747771815)
+settingsAbout | dark | Hit area is too small | 9:chevron.left:Back from About
+settingsAbout | light | Contrast nearly passed | 48:settings.about.version:1.2026.267 (36747771815)
+settingsAbout | light | Dynamic Type font sizes are unsupported | 48::About
+settingsAbout | light | Dynamic Type font sizes are unsupported | 48::Privacy policy
+settingsAbout | light | Dynamic Type font sizes are unsupported | 48::Terms of use
+settingsAbout | light | Dynamic Type font sizes are unsupported | 48:settings.about.appName:ChatGPT for iOS
+settingsAbout | light | Dynamic Type font sizes are unsupported | 48:settings.about.version:1.2026.267 (36747771815)
+settingsAbout | light | Hit area is too small | 9:chevron.left:Back from About
+settingsGeneral | dark | Dynamic Type font sizes are unsupported | 48::App language
+settingsGeneral | dark | Dynamic Type font sizes are unsupported | 48::Auto-correct spelling
+settingsGeneral | dark | Dynamic Type font sizes are unsupported | 48::Autocomplete
+settingsGeneral | dark | Dynamic Type font sizes are unsupported | 48::Automatically use
+settingsGeneral | dark | Dynamic Type font sizes are unsupported | 48::Chat
+settingsGeneral | dark | Dynamic Type font sizes are unsupported | 48::Choose where you start when you open ChatGPT.
+settingsGeneral | dark | Dynamic Type font sizes are unsupported | 48::English
+settingsGeneral | dark | Dynamic Type font sizes are unsupported | 48::General
+settingsGeneral | dark | Dynamic Type font sizes are unsupported | 48::Haptic feedback
+settingsGeneral | dark | Dynamic Type font sizes are unsupported | 48::Intelligence
+settingsGeneral | dark | Dynamic Type font sizes are unsupported | 48::Search the web for real-time info.
+settingsGeneral | dark | Dynamic Type font sizes are unsupported | 48::Start screen
+settingsGeneral | dark | Dynamic Type font sizes are unsupported | 48::Suggestions
+settingsGeneral | dark | Dynamic Type font sizes are unsupported | 48::Trending searches
+settingsGeneral | dark | Hit area is too small | 9:chevron.left:Back
+settingsGeneral | light | Contrast failed | 48::Automatically use
+settingsGeneral | light | Contrast failed | 48::Choose where you start when you open ChatGPT.
+settingsGeneral | light | Contrast failed | 48::Intelligence
+settingsGeneral | light | Contrast failed | 48::Suggestions
+settingsGeneral | light | Contrast nearly passed | 48::Chat
+settingsGeneral | light | Contrast nearly passed | 48::English
+settingsGeneral | light | Contrast nearly passed | 48::Search the web for real-time info.
+settingsGeneral | light | Dynamic Type font sizes are unsupported | 48::App language
+settingsGeneral | light | Dynamic Type font sizes are unsupported | 48::Auto-correct spelling
+settingsGeneral | light | Dynamic Type font sizes are unsupported | 48::Autocomplete
+settingsGeneral | light | Dynamic Type font sizes are unsupported | 48::Automatically use
+settingsGeneral | light | Dynamic Type font sizes are unsupported | 48::Chat
+settingsGeneral | light | Dynamic Type font sizes are unsupported | 48::Choose where you start when you open ChatGPT.
+settingsGeneral | light | Dynamic Type font sizes are unsupported | 48::English
+settingsGeneral | light | Dynamic Type font sizes are unsupported | 48::General
+settingsGeneral | light | Dynamic Type font sizes are unsupported | 48::Haptic feedback
+settingsGeneral | light | Dynamic Type font sizes are unsupported | 48::Intelligence
+settingsGeneral | light | Dynamic Type font sizes are unsupported | 48::Search the web for real-time info.
+settingsGeneral | light | Dynamic Type font sizes are unsupported | 48::Start screen
+settingsGeneral | light | Dynamic Type font sizes are unsupported | 48::Suggestions
+settingsGeneral | light | Dynamic Type font sizes are unsupported | 48::Trending searches
+settingsGeneral | light | Hit area is too small | 9:chevron.left:Back
+sites | dark | Dynamic Type font sizes are unsupported | 48::Create a site with ChatGPT and it will appear here.
+sites | dark | Dynamic Type font sizes are unsupported | 48::No sites yet
+sites | dark | Dynamic Type font sizes are unsupported | 48::Sites
+sites | dark | Dynamic Type font sizes are unsupported | 9:sites.create:Create site
+sites | dark | Hit area is too small | 9::Open sidebar
+sites | dark | Hit area is too small | 9:sites.add:Create site
+sites | light | Dynamic Type font sizes are unsupported | 48::Create a site with ChatGPT and it will appear here.
+sites | light | Dynamic Type font sizes are unsupported | 48::No sites yet
+sites | light | Dynamic Type font sizes are unsupported | 48::Sites
+sites | light | Dynamic Type font sizes are unsupported | 9:sites.create:Create site
+sites | light | Hit area is too small | 9::Open sidebar
+sites | light | Hit area is too small | 9:sites.add:Create site
+space | dark | Dynamic Type font sizes are unsupported | 48::Planting guide
+space | dark | Dynamic Type font sizes are unsupported | 48::Project ideas
+space | dark | Dynamic Type font sizes are unsupported | 48::Seasonal notes
+space | dark | Dynamic Type font sizes are unsupported | 48::Space
+space | dark | Dynamic Type font sizes are unsupported | 48::Workshop
+space | dark | Dynamic Type font sizes are unsupported | 9:space.tab.Favorites:Favorites
+space | dark | Dynamic Type font sizes are unsupported | 9:space.tab.Folders:Folders
+space | dark | Dynamic Type font sizes are unsupported | 9:space.tab.Pages:Pages
+space | dark | Dynamic Type font sizes are unsupported | 9:space.tab.Suggested:Suggested
+space | dark | Hit area is too small | 9::Open sidebar
+space | dark | Hit area is too small | 9:space.tab.Favorites:Favorites
+space | dark | Hit area is too small | 9:space.tab.Folders:Folders
+space | dark | Hit area is too small | 9:space.tab.Pages:Pages
+space | light | Contrast failed | 9:space.tab.Suggested:Suggested
+space | light | Dynamic Type font sizes are unsupported | 48::Planting guide
+space | light | Dynamic Type font sizes are unsupported | 48::Project ideas
+space | light | Dynamic Type font sizes are unsupported | 48::Seasonal notes
+space | light | Dynamic Type font sizes are unsupported | 48::Space
+space | light | Dynamic Type font sizes are unsupported | 48::Workshop
+space | light | Dynamic Type font sizes are unsupported | 9:space.tab.Favorites:Favorites
+space | light | Dynamic Type font sizes are unsupported | 9:space.tab.Folders:Folders
+space | light | Dynamic Type font sizes are unsupported | 9:space.tab.Pages:Pages
+space | light | Dynamic Type font sizes are unsupported | 9:space.tab.Suggested:Suggested
+space | light | Hit area is too small | 9::Open sidebar
+space | light | Hit area is too small | 9:space.tab.Favorites:Favorites
+space | light | Hit area is too small | 9:space.tab.Folders:Folders
+space | light | Hit area is too small | 9:space.tab.Pages:Pages
+voiceChooser | dark | Contrast nearly passed | 48::Animated and earnest
+voiceChooser | dark | Dynamic Type font sizes are unsupported | 48::Animated and earnest
+voiceChooser | dark | Dynamic Type font sizes are unsupported | 48::Breeze
+voiceChooser | dark | Dynamic Type font sizes are unsupported | 48::Choose your voice
+voiceChooser | dark | Dynamic Type font sizes are unsupported | 9:voice.start:Start Voice
+voiceChooser | dark | Hit area is too small | 1::Voice 1 of 9
+voiceChooser | dark | Hit area is too small | 9:xmark:Close voice chooser
+voiceChooser | light | Contrast nearly passed | 48::Animated and earnest
+voiceChooser | light | Dynamic Type font sizes are unsupported | 48::Animated and earnest
+voiceChooser | light | Dynamic Type font sizes are unsupported | 48::Breeze
+voiceChooser | light | Dynamic Type font sizes are unsupported | 48::Choose your voice
+voiceChooser | light | Dynamic Type font sizes are unsupported | 9:voice.start:Start Voice
+voiceChooser | light | Hit area is too small | 1::Voice 1 of 9
+voiceChooser | light | Hit area is too small | 9:xmark:Close voice chooser
+voiceClassic | dark | Hit area is too small | 9::Voice sidebar
+voiceClassic | dark | Hit area is too small | 9:plus:Voice attachments
+voiceClassic | light | Hit area is too small | 9::Voice sidebar
+voiceClassic | light | Hit area is too small | 9:plus:Voice attachments
+workHome | dark | Dynamic Type font sizes are unsupported | 48::6.1 Sol
+workHome | dark | Dynamic Type font sizes are unsupported | 48::Calendar · Connect
+workHome | dark | Dynamic Type font sizes are unsupported | 48::Explore an idea
+workHome | dark | Dynamic Type font sizes are unsupported | 48::Files · Connect
+workHome | dark | Dynamic Type font sizes are unsupported | 48::Medium
+workHome | dark | Dynamic Type font sizes are unsupported | 48::Work with ChatGPT
+workHome | dark | Dynamic Type font sizes are unsupported | 9::Chat
+workHome | dark | Dynamic Type font sizes are unsupported | 9::Work
+workHome | dark | Hit area is too small | 9::6.1 Sol, Medium
+workHome | dark | Hit area is too small | 9::Chat
+workHome | dark | Hit area is too small | 9:mic:Dictate
+workHome | dark | Hit area is too small | 9:sidebarButton:Open sidebar
+workHome | light | Contrast failed | 48::Work with ChatGPT
+workHome | light | Contrast failed | 9::Work
+workHome | light | Contrast nearly passed | 48::Calendar · Connect
+workHome | light | Contrast nearly passed | 48::Explore an idea
+workHome | light | Contrast nearly passed | 48::Files · Connect
+workHome | light | Contrast nearly passed | 48::Medium
+workHome | light | Dynamic Type font sizes are unsupported | 48::6.1 Sol
+workHome | light | Dynamic Type font sizes are unsupported | 48::Calendar · Connect
+workHome | light | Dynamic Type font sizes are unsupported | 48::Explore an idea
+workHome | light | Dynamic Type font sizes are unsupported | 48::Files · Connect
+workHome | light | Dynamic Type font sizes are unsupported | 48::Medium
+workHome | light | Dynamic Type font sizes are unsupported | 48::Work with ChatGPT
+workHome | light | Dynamic Type font sizes are unsupported | 9::Chat
+workHome | light | Dynamic Type font sizes are unsupported | 9::Work
+workHome | light | Hit area is too small | 9::6.1 Sol, Medium
+workHome | light | Hit area is too small | 9::Chat
+workHome | light | Hit area is too small | 9:mic:Dictate
+workHome | light | Hit area is too small | 9:sidebarButton:Open sidebar
+workTask | dark | Dynamic Type font sizes are unsupported | 48::Design a poster for a neighborhood garden event.
+workTask | dark | Dynamic Type font sizes are unsupported | 48::Work
+workTask | dark | Dynamic Type font sizes are unsupported | 9:work.status:Working
+workTask | dark | Hit area is too small | 9:chevron.left:Back from Work task
+workTask | dark | Hit area is too small | 9:mic:Work dictation
+workTask | dark | Hit area is too small | 9:plus:Work attachments
+workTask | light | Contrast nearly passed | 9:work.status:Working
+workTask | light | Dynamic Type font sizes are unsupported | 48::Design a poster for a neighborhood garden event.
+workTask | light | Dynamic Type font sizes are unsupported | 48::Work
+workTask | light | Dynamic Type font sizes are unsupported | 9:work.status:Working
+workTask | light | Hit area is too small | 9:chevron.left:Back from Work task
+workTask | light | Hit area is too small | 9:mic:Work dictation
+workTask | light | Hit area is too small | 9:plus:Work attachments
