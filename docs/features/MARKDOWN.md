@@ -1,6 +1,6 @@
 # Rich-text presentation
 
-`ChatGPTMarkdownView` renders `MarkdownDocumentModel` with SF typography, native text selection, quoted paragraphs, nested lists, dividers, code cards and GFM tables. Parsing uses the official [Swift Markdown](https://github.com/swiftlang/swift-markdown) package pinned to 0.9.0. The shared value-model adapter does not execute HTML, load remote images or run code. The included Apache-2.0 notice is `Swift-Markdown-LICENSE.txt`; this dependency license does not assign a license to the surrounding project.
+`ChatGPTMarkdownView` renders `MarkdownDocumentModel` with SF typography, native text selection, quoted paragraphs, nested lists, dividers, code cards and GFM tables. Parsing uses the official [Swift Markdown](https://github.com/swiftlang/swift-markdown) package pinned to 0.9.0. The shared value-model adapter does not execute HTML, load remote images or run code. The included Apache-2.0 notice is `Sources/ChatGPTUI/Resources/Swift-Markdown-LICENSE.txt`; this dependency license does not assign a license to the surrounding project.
 
 The host handles `ChatAction.markdown` or the standalone view's `onAction`: code copy supplies the exact source string, links supply their destination, and unsupported/image content supplies typed metadata. Optional image/unsupported render closures can supply local views. The demo copies code locally and shows the tapped link in a local alert; this alert is a demo integration outcome, not a captured source-app destination.
 
