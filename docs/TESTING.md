@@ -1,6 +1,6 @@
 # Testing
 
-Four test suites guard this project. CI runs all of them (see [`.github/workflows/ci.yml`](.github/workflows/ci.yml)).
+Four test suites guard this project. CI runs all of them (see [`.github/workflows/ci.yml`](../.github/workflows/ci.yml)).
 
 | Suite | Location | What it checks | Runs on |
 |---|---|---|---|
@@ -11,7 +11,7 @@ Four test suites guard this project. CI runs all of them (see [`.github/workflow
 
 ## One list of screens
 
-[`Examples/ChatGPTUIDemo/Shared/DemoScreen.swift`](Examples/ChatGPTUIDemo/Shared/DemoScreen.swift) names every screen the
+[`Examples/ChatGPTUIDemo/Shared/DemoScreen.swift`](../Examples/ChatGPTUIDemo/Shared/DemoScreen.swift) names every screen the
 demo can open directly. The same list drives three things:
 
 - the demo app: `--screen <name>` opens that screen (for example `--screen settingsAbout --light`);
@@ -19,7 +19,7 @@ demo can open directly. The same list drives three things:
 - the accessibility audit: one audit per case, in both appearances.
 
 To add a screen, add a case to `DemoScreen` and describe how to open it in `configureDemoScreen` or
-`demoLaunchArguments` in [`Demo/DemoFixtures.swift`](Examples/ChatGPTUIDemo/Demo/DemoFixtures.swift). Then record its
+`demoLaunchArguments` in [`Demo/DemoFixtures.swift`](../Examples/ChatGPTUIDemo/Demo/DemoFixtures.swift). Then record its
 reference images and audit baseline as described below.
 
 ## Running the tests
@@ -74,7 +74,7 @@ Known, deliberate tolerances, both measured:
 
 ## Accessibility audit
 
-[`AccessibilityAuditBaseline.txt`](Examples/ChatGPTUIDemo/DemoUITests/AccessibilityAuditBaseline.txt) lists every issue
+[`AccessibilityAuditBaseline.txt`](../Examples/ChatGPTUIDemo/DemoUITests/AccessibilityAuditBaseline.txt) lists every issue
 the audit finds today, one per line: screen, appearance, issue and element. The test fails on any issue that is not in
 the file, so a change cannot make accessibility worse. The file is also a to-do list: fix an issue, delete its line.
 

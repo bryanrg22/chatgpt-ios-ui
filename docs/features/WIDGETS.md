@@ -17,7 +17,7 @@ Each control uses a native `Link`, plus one background `widgetURL`. Current Appl
 
 The task running indicator is a bounded static arc. The original spinner motion is not established, and the offline timeline does not pretend to execute tasks.
 
-Shortcut configuration sheets, loaded/error usage, light/tinted/clear rendering fidelity, Lock Screen widgets, controls, and Live Activities have not been captured and are not claimed. Native system appearance treatment is retained. The SVG knot is reused from the parent repository's existing ChatGPTLogo asset; see `ASSETS.md` for provenance limits.
+Shortcut configuration sheets, loaded/error usage, light/tinted/clear rendering fidelity, Lock Screen widgets, controls, and Live Activities have not been captured and are not claimed. Native system appearance treatment is retained. The SVG knot is reused from the parent repository's existing ChatGPTLogo asset; see `THIRD_PARTY_NOTICES.md` for provenance limits.
 
 Native verification on the dedicated iOS 27 simulator: all eight registered pages were opened in the actual Home Screen widget gallery and their screenshots inspected. An installed small ChatGPT widget exposed three independent controls; Camera, Voice, and Ask each opened its corresponding local surface. Tests do not add widgets to the physical phone. The combined `testNativeWidgetGalleryAndSmallLinks` passed on October 8, 2026 (165.647 seconds, including two native Springboard animation waits). This verifies local navigation and gallery registration, not original-app post-tap behavior.
 
