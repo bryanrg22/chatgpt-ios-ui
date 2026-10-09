@@ -1,0 +1,4744 @@
+{
+  "schemaVersion": 1,
+  "capturedDate": "2026-10-07",
+  "timeZone": "America/Los_Angeles",
+  "referenceSource": "Installed apps inspected through iPhone Mirroring, supplemented by user-supplied direct iPhone screenshots. Portable filenames only; private source images excluded from distribution.",
+  "referenceMediaRedistributable": false,
+  "configuration": {
+    "iosVersion": {
+      "value": null,
+      "status": "unknown"
+    },
+    "device": {
+      "value": "iPhone 15 Pro",
+      "status": "supplied-context-not-runtime-verified"
+    },
+    "locale": {
+      "value": null,
+      "status": "unknown"
+    },
+    "textSize": {
+      "value": null,
+      "status": "unknown"
+    },
+    "displayZoom": {
+      "value": null,
+      "status": "unknown"
+    },
+    "mirroringWindowPixels": {
+      "value": [
+        820,
+        1796
+      ],
+      "status": "observed"
+    },
+    "mirroredContentPixels": {
+      "value": [
+        786,
+        1704
+      ],
+      "status": "observed"
+    },
+    "softwareKeyboardVisible": {
+      "value": false,
+      "status": "observed-during-initial-capture"
+    }
+  },
+  "evidenceMeaning": "capture-available means a file was inventoried, not that the skeleton matches it or every interaction was observed.",
+  "distributionStatus": "Unpublished final known-scope snapshot 20261008-132836; all remaining gaps are deferred TODO, no exact/full-app parity claim",
+  "privateArchive": {
+    "relativeLocation": "private/reference-images/2026-10-07",
+    "gitIgnored": true,
+    "excludedFromExports": true,
+    "distribution": "local-only; source captures may contain personal information",
+    "inventoryCheckpoint": {
+      "date": "2026-10-08",
+      "mirroringAndMotionFilesSynced": 265,
+      "nativePhonePngsSynced": 9,
+      "copyVerification": "SHA-256 compared for every synced source/destination pair",
+      "motionTimingSidecarPreserved": true,
+      "gitIgnoreVerified": true,
+      "notes": "Session archive date retained 2026-10-07; continued after midnight. Counts describe .png filenames, including JPEG-encoded Mirroring captures. Includes separate video-analysis frames; local checkpoint, not public assets.",
+      "userJpegsSynced": 3,
+      "pngNamedFileCount": 337,
+      "mirroringPngNamedFilesSynced": 255
+    }
+  },
+  "captureSources": [
+    {
+      "id": "iphone-mirroring",
+      "kind": "desktop-window-capture",
+      "windowPixels": [
+        820,
+        1796
+      ],
+      "contentPixels": [
+        786,
+        1704
+      ],
+      "contentPoints": [
+        393,
+        852
+      ],
+      "notes": "Initial window/content dimensions only. Later captures use a resized Mirroring window; per-file capturePixelDimensions records actual PNG geometry. Initial software keyboard hidden; not equivalent to native screenshot pixels."
+    },
+    {
+      "id": "direct-iphone-user-camera",
+      "kind": "native-iphone-screenshot",
+      "pixels": [
+        1179,
+        2556
+      ],
+      "scale": 3,
+      "points": [
+        393,
+        852
+      ],
+      "dimensionsStatus": "verified-PNG-IHDR-for-all-nine-files",
+      "scaleStatus": "supplied-by-reference-collector",
+      "capturedDate": null,
+      "receivedDate": "2026-10-07",
+      "notes": "Preferred geometric reference for camera states. Exact capture times not inspected; private original PNGs are not redistributed."
+    }
+  ],
+  "waveformReference": {
+    "guide": "WAVEFORM_REFERENCE.md",
+    "dictationBarMaximum": "unmeasured-both-apps",
+    "chatgptTalkingRecording": {
+      "stableLargeDiameterPixels": [
+        494,
+        654
+      ],
+      "sampledStartupDiameterPixels": 674,
+      "compactDiameterPixels": [
+        208,
+        272
+      ],
+      "approximateSamplingSeconds": 0.085,
+      "hardCapEstablished": false,
+      "amplitudeMappingEstablished": false,
+      "source": "private/video-talking derived measurements; raw footage excluded"
+    },
+    "claudeSpeakingGeometry": "unmeasured",
+    "desktopStillPeak": "50px in one frame only; not iOS evidence"
+  },
+  "assetReference": "ASSET_REFERENCE.md: official general typography/brand/platform resources; native per-screen fonts and custom icon mappings remain unverified.",
+  "routeCoverage": "ROUTE_COVERAGE.md",
+  "lastUpdatedDate": "2026-10-08",
+  "systemSurfaceCoverage": {
+    "homeWidgets": "12 original gallery variants captured and inspected (ChatGPT9, Claude3); native WidgetKit extensions implemented, simulator gallery/route checks and final generic builds passed.",
+    "lockScreenLiveActivities": "Lock Screen surface still uncaptured; no custom ActivityKit implementation proven",
+    "dynamicIsland": "Dot compact and expanded native/system call surfaces captured and inspected; selected mute white/red reference included. Underlying framework not proven; CallKit is the research-backed candidate, not confirmed vendor implementation.",
+    "dotCallPanel": "Expanded/minimized in-app Calling, connected timers and failure captured; separate from system Dynamic Island and widget gallery.",
+    "widgetGalleryLimitations": [
+      "Original-account gallery session added/rearranged no widgets; native skeleton widgets were installed/tested only in simulators",
+      "Codex loaded usage appearance unknown; only placeholder bars captured",
+      "Tall Codex tasks family unsupported/unconfirmed in installed SDK",
+      "Original app configuration/tap outcomes and alternate appearances unverified"
+    ]
+  },
+  "metadataCorrection": {
+    "date": "2026-10-08",
+    "description": "Replaced invalid PNG-offset dimension readings for JPEG-encoded .png Mirroring captures with decoded image-header dimensions. Original capture bytes preserved.",
+    "correctedDimensionEntries": 193
+  },
+  "phase2": {
+    "status": "Final known-scope snapshot independently validated; investigation stopped",
+    "archiveRelativeDirectory": "private/reference-images/2026-10-08-phase2",
+    "inspectedFiles": 125,
+    "previousValidatedSnapshot": "exports/2026-10-08-040338",
+    "exportStatus": "final independent tests, generic app/widget builds and packaging checks passed",
+    "observations": "New captures do not supersede previous version metadata. Geometry is desktop Mirroring capture; exact animation timing and private content redistribution are not established.",
+    "validation": {
+      "chatgptStateTests": {
+        "passed": 153,
+        "suites": 23,
+        "evidence": "chatgpt-table-state.log"
+      },
+      "workStateReview": "Stop retry host seam added; current question/draft retention, removed question/option pruning and extreme index bounds tested. Native motion and VoiceOver/Dynamic Type not measured.",
+      "uiStatus": "Final affected scoped UI passed; no final all-route suite or exact parity claim",
+      "exportStatus": "passed final known-scope snapshot",
+      "chatgptUI": {
+        "status": "3 of 3 passed",
+        "durationSeconds": 54.227,
+        "evidence": "chatgpt-phase2-art-qa.xcresult",
+        "flows": {
+          "ExploreSites": 10.481,
+          "ImagesWork": 23.216,
+          "Projects": 20.53
+        }
+      },
+      "chatgptFinalUI": {
+        "sites": {
+          "passed": true,
+          "seconds": 14.788,
+          "evidence": "chatgpt-phase2-search-qa.xcresult",
+          "bundleStatus": "mixed; Sites passed, Projects failed in this bundle and passed later"
+        },
+        "projects": {
+          "passed": true,
+          "seconds": 35.433,
+          "evidence": "chatgpt-phase2-project-settled-qa.xcresult"
+        },
+        "imagesWork": {
+          "passed": true,
+          "seconds": 23.703,
+          "evidence": "chatgpt-phase2-hero-qa.xcresult"
+        }
+      },
+      "chatgptGenericBuild": {
+        "passed": true,
+        "evidence": "chatgpt-final-generic.log",
+        "scope": "app and WidgetKit extension"
+      },
+      "claudeStateTests": {
+        "passed": 127,
+        "suites": 2,
+        "evidence": "claude-table-unit.log"
+      },
+      "claudeUI": {
+        "settingsProfile": {
+          "passed": true,
+          "seconds": 75.823,
+          "evidence": "claude-settings-ui-r4.xcresult"
+        },
+        "announcementDismissals": {
+          "passed": true,
+          "seconds": 19.154,
+          "evidence": "claude-settings-ui-r3.xcresult",
+          "bundleStatus": "mixed; separate Settings flow failed then was corrected in r4"
+        },
+        "cumulativeDistinctFlows": 34,
+        "allRerunTogether": false,
+        "subpages": {
+          "passed": true,
+          "flows": 3,
+          "seconds": 79.086,
+          "evidence": "claude-settings-subpages-ui.xcresult"
+        },
+        "finalAffectedSubpages": {
+          "passed": true,
+          "flows": 2,
+          "seconds": 56.553,
+          "evidence": "claude-settings-subpages-r3.xcresult",
+          "scope": "Notifications and Privacy; prior Time and focus pass retained"
+        },
+        "billingUsage": {
+          "passedCases": {
+            "billingSeconds": 22.658,
+            "usageSeconds": 27.502
+          },
+          "evidence": "claude-billing-shared-ui.xcresult",
+          "bundleStatus": "mixed; Shared accessibility assertion failed and passed in subsequent corrected run"
+        },
+        "sharedLinks": {
+          "passed": true,
+          "seconds": 21.742,
+          "evidence": "claude-shared-ui-final.xcresult"
+        },
+        "codePreferences": {
+          "passed": true,
+          "seconds": 50.856,
+          "evidence": "claude-code-preferences-ui.xcresult",
+          "stateTestsAtCheckpoint": 102
+        },
+        "finalMemoryConnectors": {
+          "passed": true,
+          "flows": 2,
+          "seconds": 83.188,
+          "memorySeconds": 49.683,
+          "connectorsSeconds": 33.505,
+          "evidence": "claude-settings-final-ui.xcresult"
+        }
+      },
+      "claudeGenericBuild": {
+        "status": "build-for-testing passed; independent generic build pending",
+        "evidence": "claude-table-build.log"
+      },
+      "chatgptAboutUI": {
+        "passed": true,
+        "seconds": 25.919,
+        "evidence": "chatgpt-settings-about-qa.xcresult",
+        "scope": "About route/metadata/legal intents/dark-light; original About dark appearance inferred, not separately captured"
+      },
+      "chatgptPreferencesUI": {
+        "passed": true,
+        "seconds": 36.654,
+        "evidence": "chatgpt-preferences-framed-qa.xcresult"
+      },
+      "finalKnownScopeUI": {
+        "chatgpt": {
+          "tableSeconds": 27.285,
+          "tableEvidence": "chatgpt-table-copy-qa.xcresult",
+          "markdownSeconds": 14.19,
+          "imageSeconds": 27.002,
+          "copyEvidence": "chatgpt-copy-final-qa.xcresult",
+          "previousVoiceSeconds": 22.663,
+          "previousVoiceEvidence": "chatgpt-priority-qa.xcresult"
+        },
+        "claude": {
+          "markdownSeconds": 68.248,
+          "markdownEvidence": "claude-table-markdown-verified.xcresult",
+          "videoSeconds": 58.549,
+          "chatSeconds": 10.507,
+          "regressionEvidence": "claude-table-final-ui.xcresult",
+          "regressionBundleStatus": "mixed; two stale Markdown scroll assertions corrected in subsequent passing rerun",
+          "cumulativeDistinctFlows": 35,
+          "allRerunTogether": false
+        }
+      }
+    },
+    "stillCaptureCount": 92,
+    "partialRelaunchFrameCount": 33,
+    "relaunchCapture": {
+      "status": "partial failed attempt; no announcement replay",
+      "archivedFrames": "000-032",
+      "excludedFrames": "033-038: phone viewport progressively cropped offscreen",
+      "failure": "ScreenCaptureKit -3811 reported by collector",
+      "timingStatus": "No timestamp sidecar; launch duration, easing and announcement motion unmeasured",
+      "inspection": "All39 decoded; sequence contact sheet reviewed, representative full images inspected"
+    },
+    "priorityValidation": {
+      "status": "final source frozen; see finalKnownScopeUI",
+      "stateCounts": {
+        "chatgpt": 153,
+        "claude": 127
+      }
+    },
+    "excludedMislabelledCapture": {
+      "filename": "claude-markdown-heading-quote-light.png",
+      "reason": "Collector confirmed duplicate code/table viewport after ignored scroll; excluded, not heading/quote evidence"
+    }
+  },
+  "activeScope": {
+    "status": "Final known-scope source frozen; phone investigation stopped; all remaining gaps deferred TODO",
+    "included": [
+      "existing media presentation",
+      "text formatting",
+      "captured voice states",
+      "icons",
+      "light/dark appearance",
+      "reference-measured animations"
+    ],
+    "deferredTODO": [
+      "remaining feature pages",
+      "additional system surfaces",
+      "Claude speaking waveform capture/reconstruction"
+    ],
+    "historicalIndependentSnapshot": "exports/2026-10-08-120705"
+  },
+  "independentExport": {
+    "snapshot": "exports/2026-10-08-132836",
+    "stateTests": {
+      "chatgpt": 153,
+      "claude": 127
+    },
+    "appAndWidgetArchitectures": [
+      "arm64",
+      "x86_64"
+    ],
+    "scope": "Frozen known-scope source; complete pure tests and generic builds outside parent; no all-route simulator UI rerun",
+    "privateFileHashMatches": 0
+  },
+  "app": {
+    "name": "ChatGPT",
+    "version": {
+      "value": "1.2026.267 (36747771815)",
+      "status": "observed-in-app-about",
+      "evidence": "chatgpt-version.png",
+      "captureFilePresent": true,
+      "reportedBy": "live-reference collection agent"
+    },
+    "evidence": [
+      {
+        "filename": "IMG_6693.PNG",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "source": "direct-iphone-user-camera",
+        "pixelDimensions": [
+          1179,
+          2556
+        ],
+        "pixelDimensionsStatus": "verified-PNG-IHDR",
+        "scale": 3,
+        "logicalDimensions": [
+          393,
+          852
+        ],
+        "stateFamily": "camera",
+        "private": true,
+        "detectedMediaFormat": "PNG",
+        "dimensionsVerification": "decoded-image-header"
+      },
+      {
+        "filename": "IMG_6694.PNG",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "source": "direct-iphone-user-camera",
+        "pixelDimensions": [
+          1179,
+          2556
+        ],
+        "pixelDimensionsStatus": "verified-PNG-IHDR",
+        "scale": 3,
+        "logicalDimensions": [
+          393,
+          852
+        ],
+        "stateFamily": "camera",
+        "private": true,
+        "detectedMediaFormat": "PNG",
+        "dimensionsVerification": "decoded-image-header"
+      },
+      {
+        "filename": "IMG_6695.PNG",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "source": "direct-iphone-user-camera",
+        "pixelDimensions": [
+          1179,
+          2556
+        ],
+        "pixelDimensionsStatus": "verified-PNG-IHDR",
+        "scale": 3,
+        "logicalDimensions": [
+          393,
+          852
+        ],
+        "stateFamily": "camera",
+        "private": true,
+        "detectedMediaFormat": "PNG",
+        "dimensionsVerification": "decoded-image-header"
+      },
+      {
+        "filename": "IMG_6696.PNG",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "source": "direct-iphone-user-camera",
+        "pixelDimensions": [
+          1179,
+          2556
+        ],
+        "pixelDimensionsStatus": "verified-PNG-IHDR",
+        "scale": 3,
+        "logicalDimensions": [
+          393,
+          852
+        ],
+        "stateFamily": "camera",
+        "private": true,
+        "detectedMediaFormat": "PNG",
+        "dimensionsVerification": "decoded-image-header"
+      },
+      {
+        "filename": "IMG_6697.PNG",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "source": "direct-iphone-user-camera",
+        "pixelDimensions": [
+          1179,
+          2556
+        ],
+        "pixelDimensionsStatus": "verified-PNG-IHDR",
+        "scale": 3,
+        "logicalDimensions": [
+          393,
+          852
+        ],
+        "stateFamily": "camera",
+        "private": true,
+        "detectedMediaFormat": "PNG",
+        "dimensionsVerification": "decoded-image-header"
+      },
+      {
+        "filename": "IMG_6698.PNG",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "source": "direct-iphone-user-camera",
+        "pixelDimensions": [
+          1179,
+          2556
+        ],
+        "pixelDimensionsStatus": "verified-PNG-IHDR",
+        "scale": 3,
+        "logicalDimensions": [
+          393,
+          852
+        ],
+        "stateFamily": "camera",
+        "private": true,
+        "detectedMediaFormat": "PNG",
+        "dimensionsVerification": "decoded-image-header"
+      },
+      {
+        "filename": "IMG_6699.PNG",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "source": "direct-iphone-user-camera",
+        "pixelDimensions": [
+          1179,
+          2556
+        ],
+        "pixelDimensionsStatus": "verified-PNG-IHDR",
+        "scale": 3,
+        "logicalDimensions": [
+          393,
+          852
+        ],
+        "stateFamily": "camera",
+        "private": true,
+        "detectedMediaFormat": "PNG",
+        "dimensionsVerification": "decoded-image-header"
+      },
+      {
+        "filename": "IMG_6700.PNG",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "source": "direct-iphone-user-camera",
+        "pixelDimensions": [
+          1179,
+          2556
+        ],
+        "pixelDimensionsStatus": "verified-PNG-IHDR",
+        "scale": 3,
+        "logicalDimensions": [
+          393,
+          852
+        ],
+        "stateFamily": "camera",
+        "private": true,
+        "detectedMediaFormat": "PNG",
+        "dimensionsVerification": "decoded-image-header"
+      },
+      {
+        "filename": "chatgpt-accent-picker-light.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "bfed612a816f36c12a2e50e48bd7b064acb1175666baf5f70080e5778978ea2a"
+      },
+      {
+        "filename": "chatgpt-camera-controls-silent.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "source": "iphone-mirroring",
+        "capturePixelDimensions": [
+          636,
+          1402
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "5353d329a7b80c2b27a560fe8ed9b9672beb52c97b851c6c54e4faaadabe410d"
+      },
+      {
+        "filename": "chatgpt-choose-voice-breeze.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          636,
+          1402
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "af0b7c8bbe313a7f7c22e1ec24865682df79c506f92fe6aba18a985150df7d54"
+      },
+      {
+        "filename": "chatgpt-codex-add-connection.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          636,
+          1402
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "fe74e24aa4e7f699578cb378b48f054b87bdb2cc005fdab98fdc903547d21205"
+      },
+      {
+        "filename": "chatgpt-codex-archived-collapsed.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          636,
+          1402
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "0a53a13c69397a339546b03b7a4be1e9080152d5e64e952474279529862025c6"
+      },
+      {
+        "filename": "chatgpt-codex-archived.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          636,
+          1402
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "65e265d24de05a7083d878f64a77e6a3fdb81040fc1a4c79e68f5a7012a83e54"
+      },
+      {
+        "filename": "chatgpt-codex-home.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          636,
+          1402
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "bb0446d9bd266e81e665fe1d1a3995a8eb5f19c3586abef67f05cc2fd494a5ca"
+      },
+      {
+        "filename": "chatgpt-codex-menu.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          636,
+          1402
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "971916f9af3d455c38cf79ebcab8d063de1d3d6f254d824f7038c41476ba6596"
+      },
+      {
+        "filename": "chatgpt-codex-open-automatically.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          636,
+          1402
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "af41e366b856f13ae971dc8d70fa3c2af2c911e3098ca81f26e12cfc839c6ac2"
+      },
+      {
+        "filename": "chatgpt-codex-pair-manually.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          636,
+          1402
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "07642cb2d36298558d340784ab2344f806b278345262f20e8b91e9ca553aa0a6"
+      },
+      {
+        "filename": "chatgpt-codex-profile.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          636,
+          1402
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "62e377478d753a7e1d256d3a50693c7bca7f797b45e23f060e658d7ac6f60f8b"
+      },
+      {
+        "filename": "chatgpt-codex-search.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          636,
+          1402
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "e873e2c491d00c8e6300b4120d0fc570e70200348f7816a910afc515b82032b4"
+      },
+      {
+        "filename": "chatgpt-codex-settings.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          636,
+          1402
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "a3bac33976c8cf701bdeb13a3983a2af11b0d06f8eebb7484d8b3bc0771e939d"
+      },
+      {
+        "filename": "chatgpt-codex-task-detail.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          636,
+          1402
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "79f5fabef907d2dde605a81031a5bce476ee3ed452d65e20790bd388d0c38cde"
+      },
+      {
+        "filename": "chatgpt-complete-light.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "cd55da4925e685a1542efab52ecdc4d2db69c16fc8afb3c7054c4e1d644afc68"
+      },
+      {
+        "filename": "chatgpt-complete.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "c5946ff4b24438807a2053623025afcac235d081e6d5d50449d94b77107b4d89"
+      },
+      {
+        "filename": "chatgpt-composer-expanded.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "4537c00b97f8808a9fb961472927245775cd84e566dbc88ff126ff82974ed519"
+      },
+      {
+        "filename": "chatgpt-composer-max-confirmed.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "d06b007fdd25040b3f0cf3ef02b2b5a43870e5fd737b316c0938e1878e452d9f"
+      },
+      {
+        "filename": "chatgpt-composer-max.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "a3decd0b6ee17e53b2cb75f6923da1474b4282a28626b0402eef7e6fbd9a4ed4"
+      },
+      {
+        "filename": "chatgpt-copy.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "a8484c6b565402217b309c69bc17a3eb4e690cb7754bc1bcfb3eb6c56b5ebd75"
+      },
+      {
+        "filename": "chatgpt-customize.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "3aa30d68a35133e146112e63a75357d55b70fae3d38687bf905dd69df9165cb0"
+      },
+      {
+        "filename": "chatgpt-dictation-silent.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "f42b56ef7c69e21e1e83fe738d13182f224d16284ff1deee678c7e7f38c1d6d0"
+      },
+      {
+        "filename": "chatgpt-dot-attachments.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          636,
+          1402
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "e827da6dec9b6c355e12f12488a136636e523aadcd86be95419eff394a8b5c78"
+      },
+      {
+        "filename": "chatgpt-dot-call-connected-minimized.png",
+        "status": "capture-available",
+        "implementationComparison": "pending",
+        "source": "iphone-mirroring",
+        "private": true,
+        "stateFamily": "dot-call-and-system-call",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "ba270a8da6b55f3e36bb05591008726678c6fae6f50ad89bee3a19f532e95ada",
+        "inspectionNote": "Connected minimized in-app call panel with elapsed timer."
+      },
+      {
+        "filename": "chatgpt-dot-call-ended.png",
+        "private": true,
+        "status": "capture-available",
+        "implementationComparison": "pending",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "99edd841da12c43f868597a20666b6a1573d8ce23624fd675706605152ac68a3",
+        "inspectionNote": "Outgoing call-ended duration/phone glyph bubble, Delivered receipt, Copy/Reply context menu."
+      },
+      {
+        "filename": "chatgpt-dot-call-failed.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          636,
+          1402
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "97dc6ccfb2a8e684069d49387fe50c224641a9d06bfb6c5f5690a4e98504ab21"
+      },
+      {
+        "filename": "chatgpt-dot-call-mirroring-attempt.png",
+        "status": "capture-available",
+        "implementationComparison": "pending",
+        "source": "iphone-mirroring",
+        "private": true,
+        "stateFamily": "dot-call-and-system-call",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "46ae1c99379c28d6c7ac61e00e7c5898dc5ae72879c2327846da97281c2a123d",
+        "inspectionNote": "Expanded in-app Calling state; does not establish successful connected call or system UI."
+      },
+      {
+        "filename": "chatgpt-dot-calling.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          520,
+          384
+        ],
+        "observation": "This file contains the macOS iPhone Mirroring microphone-unavailable alert, not the Calling UI. Use video-dot/IMG_6708.PNG for calling.",
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "93a83496958f787a03034deda3669013c6a904f918fe6a8d670fa6fb862eb10a"
+      },
+      {
+        "filename": "chatgpt-dot-computer-menu.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          636,
+          1402
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "6915b39f2915977a536d0daf078cae71c5c41cd3e8fa4ce288264d14a5614a13"
+      },
+      {
+        "filename": "chatgpt-dot-computer-view.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          636,
+          1402
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "3daba43958d9aa3c731afaf3c22d5027a342a83d54db837c5b4376c397bb4323"
+      },
+      {
+        "filename": "chatgpt-dot-home.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          636,
+          1402
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "f7ae1d4952f5b3550d2b525d2f171e6faf8bf95dd9d4776194a6f3975c3da0b0"
+      },
+      {
+        "filename": "chatgpt-dot-live-activity-compact.png",
+        "status": "capture-available",
+        "implementationComparison": "pending",
+        "source": "iphone-mirroring",
+        "private": true,
+        "stateFamily": "dot-call-and-system-call",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "8ce2543847868bfab9a8848b43dafcbdb6fcefc9eb927dfb68e8f4cab70ef389",
+        "inspectionNote": "System compact Dynamic Island call surface; filename does not establish ActivityKit implementation."
+      },
+      {
+        "filename": "chatgpt-dot-live-activity-expanded-muted.png",
+        "status": "capture-available",
+        "implementationComparison": "pending",
+        "source": "iphone-mirroring",
+        "private": true,
+        "stateFamily": "dot-system-call",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "e60acf199072d068b8306c157fd94ff436d14a868844d55236c3c5f5efc20535",
+        "inspectionNote": "Expanded system call panel with selected mute white background/red slashed-microphone glyph; not proof of ActivityKit."
+      },
+      {
+        "filename": "chatgpt-dot-live-activity-expanded.png",
+        "status": "capture-available",
+        "implementationComparison": "pending",
+        "source": "iphone-mirroring",
+        "private": true,
+        "stateFamily": "dot-call-and-system-call",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "5a8ef0ac3a5dbea6fe1b695de4eb6254a8a28c57194097c2ae6cf1058f93a4e9",
+        "inspectionNote": "System expanded Dynamic Island call surface; filename does not establish ActivityKit implementation."
+      },
+      {
+        "filename": "chatgpt-dot-menu.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          636,
+          1402
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "ae9d2c3a77f5c0cb48e649872d4cc43f7337b94200006ff4db53166a9a6505e0"
+      },
+      {
+        "filename": "chatgpt-dot-message-menu.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          636,
+          1402
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "e6ae8bba0c9ee2763cbf80d2a1123c9963c09abf55c5741105ed240326f2e9f8"
+      },
+      {
+        "filename": "chatgpt-dot-reply.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          636,
+          1402
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "7ac96be391fbe9b613040b459464c04185ef31a8dd76262b0d680bf6c8d31095"
+      },
+      {
+        "filename": "chatgpt-dot-typing.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          636,
+          1402
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "74e81c5a90fdf4980aa5c92792bfd393027a980b02ae9c8bc86445c173e000fb"
+      },
+      {
+        "filename": "chatgpt-edit.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "5764a0fe3d862236cff88dc79f240a2b5f2ae39e71577dc1a0bdeffedc0ea7c0"
+      },
+      {
+        "filename": "chatgpt-feedback-categories.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "710d42edffc2a4767326549bb67d15a7716f0c99ca5afd83ce94eab4386ff554"
+      },
+      {
+        "filename": "chatgpt-finance-accounts.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          636,
+          1402
+        ],
+        "stateFamily": "finances",
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "6415029eeaeea70f84506bc86f84adf5df33100aa7d3800056235100b6765312"
+      },
+      {
+        "filename": "chatgpt-finance-chats-loading.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          636,
+          1402
+        ],
+        "stateFamily": "finances",
+        "inspectionNote": "Inspected pixels show populated chat rows, not a loading surface. Filename is not evidence of loading.",
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "58852f67a44cd654146782d5dcbc4c7fe51bc0721fa351b42016015f24955c18"
+      },
+      {
+        "filename": "chatgpt-finance-chats.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          636,
+          1402
+        ],
+        "stateFamily": "finances",
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "347c4b902c82cab17074bf5622ad1461b4eb02f500e7058971cdb3af0e1ced01"
+      },
+      {
+        "filename": "chatgpt-finance-connect-accounts.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          636,
+          1402
+        ],
+        "stateFamily": "finances",
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "237709221e32f97fabe587d8ab4b88dee34247e6b30faa213b1320fef53e67fc"
+      },
+      {
+        "filename": "chatgpt-finance-connected-dashboard.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          636,
+          1402
+        ],
+        "stateFamily": "finances",
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "062f95dbd4d57b9a464f60e2930d693b61f873c270a9268eac3df60951f60de9"
+      },
+      {
+        "filename": "chatgpt-finance-credit-connected.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          636,
+          1402
+        ],
+        "stateFamily": "finances",
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "a12e8a1db6ba653bf9f90343909e715b27e86768a29f10dc4d069bfd8cdd4c3e"
+      },
+      {
+        "filename": "chatgpt-finance-customize-loading.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          636,
+          1402
+        ],
+        "stateFamily": "finances",
+        "inspectionNote": "Inspected pixels show complete checklist, not a loading surface. Filename is not evidence of loading.",
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "535d5c366b16633db46b62764e0055d3af47ccd8b9ba771a2f71737a1269ca86"
+      },
+      {
+        "filename": "chatgpt-finance-customize.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          636,
+          1402
+        ],
+        "stateFamily": "finances",
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "5937a30eeca81091a9e556614150120507d87d223efc2f14d8f812171dfc0389"
+      },
+      {
+        "filename": "chatgpt-finance-filter-dates.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          636,
+          1402
+        ],
+        "stateFamily": "finances",
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "b02822b9c5ea47aa690a495a4c6fb5923e105981587b0b3eda66c81342338803"
+      },
+      {
+        "filename": "chatgpt-finance-filter.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          636,
+          1402
+        ],
+        "stateFamily": "finances",
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "d9b31558f6c4939ab7c6f4f16776dee6d870696e4d69ea979b45919b6c33571e"
+      },
+      {
+        "filename": "chatgpt-finance-manual-cash-chat.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          636,
+          1402
+        ],
+        "stateFamily": "finances",
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "84b1add556b04b739a87a92abbdea638f6885092b39118984bb1aee47580d4a1"
+      },
+      {
+        "filename": "chatgpt-finance-manual-types.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          636,
+          1402
+        ],
+        "stateFamily": "finances",
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "2998e056481add6a4cb1b1f0b0dafa475068232dbfdd6eab010a700fe3f24bea"
+      },
+      {
+        "filename": "chatgpt-finance-menu.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          636,
+          1402
+        ],
+        "stateFamily": "finances",
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "2dc7d3ff01ec0aacc8a31c37a801cac8f09f6ca64110be78a4953b8596605c8f"
+      },
+      {
+        "filename": "chatgpt-finance-transactions.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          636,
+          1402
+        ],
+        "stateFamily": "finances",
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "be13222f4c0c9f0abc6e47f004f6bd4f54faca5bd44897a493cfd3217930d88b"
+      },
+      {
+        "filename": "chatgpt-general.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "ca0f61a0107903837f483502c1188bb0d26a7487839d4d487d96c60534da15e4"
+      },
+      {
+        "filename": "chatgpt-health-accounts-connected.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          636,
+          1402
+        ],
+        "stateFamily": "health",
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "c75b75c515bd2ffa886c34e357e71b22b7e3a58fec137ac7ea9fb1ee697e752e"
+      },
+      {
+        "filename": "chatgpt-health-active-conditions.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          636,
+          1402
+        ],
+        "stateFamily": "health",
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "e32b2f40e5ca0a8d1efb3769c951c6df7e45fdfdb4c62f1895be1a161abd4dbf"
+      },
+      {
+        "filename": "chatgpt-health-chats-empty.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          636,
+          1402
+        ],
+        "stateFamily": "health",
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "f7e23f9912b2d6d96026547280d83b154cdb10bc04e4e2e0455dc12691f72b45"
+      },
+      {
+        "filename": "chatgpt-health-chats-loading.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          636,
+          1402
+        ],
+        "stateFamily": "health",
+        "inspectionNote": "Inspected pixels show empty Health chats, not a loading surface. Filename is not evidence of loading.",
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "6ce377d5808723945db4774886d46c20c21a9662c2553dd5eb9a2a75a6a721a5"
+      },
+      {
+        "filename": "chatgpt-health-condition-search.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          636,
+          1402
+        ],
+        "stateFamily": "health",
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "5ee37762f2deb88ab290de81477fae2bb70e993bef8d1ae952aa643e841059de"
+      },
+      {
+        "filename": "chatgpt-health-conditions-step.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          636,
+          1402
+        ],
+        "stateFamily": "health",
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "5fd3005cc41777fc64db8c9bd530bf33ac5b4d80f8eda1d2ccf9415ec75368d9"
+      },
+      {
+        "filename": "chatgpt-health-connect-more.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          636,
+          1402
+        ],
+        "stateFamily": "health",
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "ba592daf79c06ea6d0e85ad50d83e900f69c1df2f4289d2dd9a3b767bef7ddc1"
+      },
+      {
+        "filename": "chatgpt-health-connected-home.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          636,
+          1402
+        ],
+        "stateFamily": "health",
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "cc463b6c48e209b8b672af67b8a6d9aa9a77b8e006d4dfdb5061cf363a24c849"
+      },
+      {
+        "filename": "chatgpt-health-disconnected.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          636,
+          1402
+        ],
+        "stateFamily": "health",
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "d8562351c3aac7f2478aca2513837a4fe25a482980d989d81657f0670b2742ce"
+      },
+      {
+        "filename": "chatgpt-health-family-step.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          636,
+          1402
+        ],
+        "stateFamily": "health",
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "a8640be20c83961ebb7377c465ab823f81e7a6ded377df796126312163b4070f"
+      },
+      {
+        "filename": "chatgpt-health-medications-step.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          636,
+          1402
+        ],
+        "stateFamily": "health",
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "9d6637b9456165ae3354cd399f1606d1fe609b14dd858abac8262199deb83152"
+      },
+      {
+        "filename": "chatgpt-health-menu.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          636,
+          1402
+        ],
+        "stateFamily": "health",
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "75a07a3294dc1fc910251815d4566bb8bd2a721a660bf1a0d91e085a11199e1f"
+      },
+      {
+        "filename": "chatgpt-health-provider-chooser.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          636,
+          1402
+        ],
+        "stateFamily": "health",
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "9a0b6e9e63a1cba4787879adf9389483071e262ee95d89dd6b0eabbd2d91f7e2"
+      },
+      {
+        "filename": "chatgpt-health-records-empty.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          636,
+          1402
+        ],
+        "stateFamily": "health",
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "aa358931c8e9bb434cebfe7e67a8ba4628afb6fb3dda46bf487ef562ea1e1440"
+      },
+      {
+        "filename": "chatgpt-home-light.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "3419b8ce6557e299a45aa11fb59817dde5f0055e1c557d2527c909d3038f1603"
+      },
+      {
+        "filename": "chatgpt-home.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "aa9139c9af7fcca14e2326482d9f2908ece60dbb6c4176a2bd1c1c0203804474"
+      },
+      {
+        "filename": "chatgpt-image-composer.png",
+        "status": "capture-available",
+        "implementationComparison": "pending",
+        "private": true,
+        "source": "iphone-mirroring",
+        "stateFamily": "media",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "6f65b5c74b42e294ede180cf54e99345fb752d2153214fae6c4902c751df5dae",
+        "inspectionNote": "Collected by live-reference agent; private original retained locally. Inventory alone does not establish visual parity."
+      },
+      {
+        "filename": "chatgpt-image-sent-bubble.png",
+        "status": "capture-available",
+        "implementationComparison": "pending",
+        "private": true,
+        "source": "iphone-mirroring",
+        "stateFamily": "media",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "470d3c30b8a2ad5b253cb9107ed1e89da2a8ac12b0eebeb5a52bf79a9ab8ef18",
+        "inspectionNote": "Collected by live-reference agent; private original retained locally. Inventory alone does not establish visual parity."
+      },
+      {
+        "filename": "chatgpt-image-sent.png",
+        "status": "capture-available",
+        "implementationComparison": "pending",
+        "private": true,
+        "source": "iphone-mirroring",
+        "stateFamily": "media",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "42dab4df01ef238fcb6ca26e667df7a4de5775fd426bdfe57f7b6b2f0c2a1f8d",
+        "inspectionNote": "Collected by live-reference agent; private original retained locally. Inventory alone does not establish visual parity."
+      },
+      {
+        "filename": "chatgpt-markdown-code-table.png",
+        "status": "capture-available",
+        "implementationComparison": "pending",
+        "private": true,
+        "source": "iphone-mirroring",
+        "stateFamily": "markdown",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "f9cddc55c1e0b9c7906fdaea1ec328e07b6c65abfcb18d917f38b942963dbc42",
+        "inspectionNote": "Collected by live-reference agent; private original retained locally. Inventory alone does not establish visual parity."
+      },
+      {
+        "filename": "chatgpt-markdown-heading-quote-list.png",
+        "status": "capture-available",
+        "implementationComparison": "pending",
+        "private": true,
+        "source": "iphone-mirroring",
+        "stateFamily": "markdown",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "71a3ba8de33466cb436896efcf52ccf248674ce39aeebfc10cec874383f35a29",
+        "inspectionNote": "Collected by live-reference agent; private original retained locally. Inventory alone does not establish visual parity."
+      },
+      {
+        "filename": "chatgpt-memory-about.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "source": "iphone-mirroring",
+        "capturePixelDimensions": [
+          636,
+          1402
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "c980014420834fe4394aa80462675c1222428f8f7b4009034025be2b54c3715f"
+      },
+      {
+        "filename": "chatgpt-memory-menu.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "source": "iphone-mirroring",
+        "capturePixelDimensions": [
+          636,
+          1402
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "d1863c2b9f4d2675f101f2dd7b5a6e5c1caa05bbbd7d29c5ed96ae88baec87d6"
+      },
+      {
+        "filename": "chatgpt-memory.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "source": "iphone-mirroring",
+        "capturePixelDimensions": [
+          636,
+          1402
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "990aca421da59c24a73ef83173ef7b1c6a425d3a973b663ba2624ba9f32d751e"
+      },
+      {
+        "filename": "chatgpt-model.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "91d5966100a36fd1bd4b947c9cbd4a17d6020fd910a45ceb5e1ab73932f51e4f"
+      },
+      {
+        "filename": "chatgpt-negative-feedback.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "22ae0c6fdc7f3629836230026fc95cf26d0ccb2332b4b1f2b515c64b48d8d400"
+      },
+      {
+        "filename": "chatgpt-personality.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "7948a72274229200d88b921748fbc0a5cf4f4aadaf677fc499035ce841a59649"
+      },
+      {
+        "filename": "chatgpt-photos-picker.png",
+        "status": "capture-available",
+        "implementationComparison": "pending",
+        "private": true,
+        "source": "iphone-mirroring",
+        "stateFamily": "media",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "3711518a15c590f3289f648682d6a4cb7f2db75609356cb4dbc5b9a681789f12",
+        "inspectionNote": "Collected by live-reference agent; private original retained locally. Inventory alone does not establish visual parity."
+      },
+      {
+        "filename": "chatgpt-photos-selected.png",
+        "status": "capture-available",
+        "implementationComparison": "pending",
+        "private": true,
+        "source": "iphone-mirroring",
+        "stateFamily": "media",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "3bc0d92dde6a2bb783c7e88f8887b3d1cc2ba3d228804602adaa89c6ca64fa07",
+        "inspectionNote": "Collected by live-reference agent; private original retained locally. Inventory alone does not establish visual parity."
+      },
+      {
+        "filename": "chatgpt-photos-video-grid.png",
+        "status": "capture-available",
+        "implementationComparison": "pending",
+        "private": true,
+        "source": "iphone-mirroring",
+        "stateFamily": "video-media",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "22c89e45ea28aa31e742fac8d3a5b72d83611aa507a09f2c76aecd23e9f2076a",
+        "inspectionNote": "Visually inspected recent grid: some video cells have duration labels. Private thumbnail content excluded from fixtures."
+      },
+      {
+        "filename": "chatgpt-photos-video-selected.png",
+        "status": "capture-available",
+        "implementationComparison": "pending",
+        "private": true,
+        "source": "iphone-mirroring",
+        "stateFamily": "video-media",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "97af90a8bd5f116e7cbc70b89f58823b8384d2d5fbd73bb15d1a9afbb63ff265",
+        "inspectionNote": "Visually inspected selected video cell with numbered badge and Add1video button."
+      },
+      {
+        "filename": "chatgpt-plugin-detail.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "source": "iphone-mirroring",
+        "capturePixelDimensions": [
+          636,
+          1402
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "bf671c4cff1480c96df9804613a66ff5a8e87888a6f8db36047d4193c671ed05"
+      },
+      {
+        "filename": "chatgpt-plugin-permissions.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "source": "iphone-mirroring",
+        "capturePixelDimensions": [
+          636,
+          1402
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "68dc66560e65830fb31ceb9a01fa92165d46ae26ce417c12831c2fd4d3fe5a36"
+      },
+      {
+        "filename": "chatgpt-plugin-settings.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "source": "iphone-mirroring",
+        "capturePixelDimensions": [
+          636,
+          1402
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "c29feb1e7fa373f6be8b11a76254e82928de0bd7e0c871c179308566544b3c53"
+      },
+      {
+        "filename": "chatgpt-plugins-loading.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "source": "iphone-mirroring",
+        "capturePixelDimensions": [
+          636,
+          1402
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "b7e0e7ce4e35f8f8109ea173209398671c753f3c68fade01f93b3d8e694c5675"
+      },
+      {
+        "filename": "chatgpt-plugins.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "source": "iphone-mirroring",
+        "capturePixelDimensions": [
+          636,
+          1402
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "305bfe2c7ceae89eef7b708fd6a8757c3017c267a499883abb0bd6a1ffce71bf"
+      },
+      {
+        "filename": "chatgpt-plus-light.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "7075a8fa90ac9cd3c9119a4d9cb4b63c0b0bd5efb86f16f3d9a4eaaa53d7fddd"
+      },
+      {
+        "filename": "chatgpt-plus.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "3178fb59ef6c1f9ba257d21776447b9567192ad75a66cf6a9d019fe50d69a625"
+      },
+      {
+        "filename": "chatgpt-positive-feedback.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "8cfa932e9225bdc11b5efea451da56ff302978878081610221cb759e99e93af0"
+      },
+      {
+        "filename": "chatgpt-read-aloud.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "914a59297970d677e8fe68b0da80416978755348df71371cb54282b69753af93"
+      },
+      {
+        "filename": "chatgpt-response-menu.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "3f5b4000acff169bca3073f58dda6469e45cc39bb5f64263d55713586f413850"
+      },
+      {
+        "filename": "chatgpt-scheduled-menu.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "e4420060a95ec3d99c319403cbd32dab87ceb2381f45261f8273831f8cf6dd99"
+      },
+      {
+        "filename": "chatgpt-scheduled-new.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "d1bc08e62ff42c32468da5d40c5438679418ca3152dbfb73b5fc9fce46290d69"
+      },
+      {
+        "filename": "chatgpt-scheduled-paused.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "43b35a2fb174aa844800898ff0dbfa750bf0057b14399507a6701b987b6c6c66"
+      },
+      {
+        "filename": "chatgpt-scheduled-repeat.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "454f84c8d8982dbda53f82bf1ff3bacd3507f3170e6273464db1f3b40074bb8d"
+      },
+      {
+        "filename": "chatgpt-scheduled-time.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "2777dbee9558a0bd23a4c1ac6e186f4f0f252d772504dc5f0360b04c79da42e1"
+      },
+      {
+        "filename": "chatgpt-scheduled.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "1febdc976774ff491cf242bb0d9806fa61a7ac250e740e4628b2d9d44ffb9cf9"
+      },
+      {
+        "filename": "chatgpt-search-result.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "36191da28b4df8f64f4ef517dc04c9f9545f4940e6073bd91561b60b34cb85ba"
+      },
+      {
+        "filename": "chatgpt-search.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "cd72ee8b71be534a90cf8d257289fbbfe524f031d682495e39814126367d447c"
+      },
+      {
+        "filename": "chatgpt-sending.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "a9a2539c2826496cbbfb23f6ebfa83b0e99858d52b3d010d9353d152754eebc1"
+      },
+      {
+        "filename": "chatgpt-sent-image-long-press.png",
+        "status": "capture-available",
+        "implementationComparison": "pending",
+        "private": true,
+        "source": "iphone-mirroring",
+        "stateFamily": "media",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "88aad46841cb71dd011f90c458e51d895f0998ef0547c64c6f2d215cbdc069a3",
+        "inspectionNote": "Collected by live-reference agent; private original retained locally. Inventory alone does not establish visual parity."
+      },
+      {
+        "filename": "chatgpt-sent-image-viewer-controls-hidden.png",
+        "status": "capture-available",
+        "implementationComparison": "pending",
+        "private": true,
+        "source": "iphone-mirroring",
+        "stateFamily": "media",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "804a606be1879ae2a9e56922a4fe22d8f8f750588563ea5b8a4071ad51a5d7bb",
+        "inspectionNote": "Collected by live-reference agent; private original retained locally. Inventory alone does not establish visual parity."
+      },
+      {
+        "filename": "chatgpt-sent-image-viewer-menu.png",
+        "status": "capture-available",
+        "implementationComparison": "pending",
+        "private": true,
+        "source": "iphone-mirroring",
+        "stateFamily": "media",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "3f9e7876247bff6c3133a11f4d2359f9220b1b22cc1b3563b69c16b8df4a17fc",
+        "inspectionNote": "Collected by live-reference agent; private original retained locally. Inventory alone does not establish visual parity."
+      },
+      {
+        "filename": "chatgpt-sent-image-viewer.png",
+        "status": "capture-available",
+        "implementationComparison": "pending",
+        "private": true,
+        "source": "iphone-mirroring",
+        "stateFamily": "media",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "e880106b1a4790b84cbcd0e6fce8a1b2f32caa889aa11950390c27eff9926104",
+        "inspectionNote": "Collected by live-reference agent; private original retained locally. Inventory alone does not establish visual parity."
+      },
+      {
+        "filename": "chatgpt-settings-bottom.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "e4ebdee9df40d6772fd857ce6e3b7e4d1fa2fa655978fa6068a013cc649ea9f5"
+      },
+      {
+        "filename": "chatgpt-settings-light.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "0b02bedff6aa56fe78fae482487aefdf1c5cdb6d6d0c95f0535a3e8b0e100379"
+      },
+      {
+        "filename": "chatgpt-settings-lower.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "312429a1bfb479ef8717d6e7e218eec567ff44013b7aed592b215ae89f4ce539"
+      },
+      {
+        "filename": "chatgpt-settings.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "7da91b84bdfd5ccfb7d33605f3d6fc5af528be7bb36d47bf4197b33ee17964e1"
+      },
+      {
+        "filename": "chatgpt-sidebar-light.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "89b917c5c622fa82fcde8793efc169e75b8c3a42eb5627f1e4acc63633dc3097"
+      },
+      {
+        "filename": "chatgpt-sidebar.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "83ee92ebaeef74d8cb29230e9bae671b12745ede2fa03b4e900269daea6ceb64"
+      },
+      {
+        "filename": "chatgpt-space-add-menu.png",
+        "status": "capture-available",
+        "implementationComparison": "pending",
+        "private": true,
+        "source": "iphone-mirroring",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "081ed13ade1924eeca3bfc45b1f956271a91654016a687721457ea9c3c427716",
+        "stateFamily": "space",
+        "inspectionNote": "Visually inspected; original content private. Implementation uses injected fictional data."
+      },
+      {
+        "filename": "chatgpt-space-favorites.png",
+        "status": "capture-available",
+        "implementationComparison": "pending",
+        "private": true,
+        "source": "iphone-mirroring",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "991c7342dd498db861195622a3b6b96d8a975c5410ffd77b20ab4d0afdfdf320",
+        "stateFamily": "space",
+        "inspectionNote": "Visually inspected; original content private. Implementation uses injected fictional data."
+      },
+      {
+        "filename": "chatgpt-space-filter-options.png",
+        "status": "capture-available",
+        "implementationComparison": "pending",
+        "private": true,
+        "source": "iphone-mirroring",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "37c67f73c2e76777ee79454c8ccff97f745c141993f0a6e686a02c23231fdd94",
+        "stateFamily": "space",
+        "inspectionNote": "Visually inspected; original content private. Implementation uses injected fictional data."
+      },
+      {
+        "filename": "chatgpt-space-folders.png",
+        "status": "capture-available",
+        "implementationComparison": "pending",
+        "private": true,
+        "source": "iphone-mirroring",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "c990448ee7247363805f9602a0756809fb1e30e0a3c839e1400d5b6c470e1d9e",
+        "stateFamily": "space",
+        "inspectionNote": "Visually inspected; original content private. Implementation uses injected fictional data."
+      },
+      {
+        "filename": "chatgpt-space-image-options.png",
+        "status": "capture-available",
+        "implementationComparison": "pending",
+        "private": true,
+        "source": "iphone-mirroring",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "2e07affedea4b06efa3ad4e9a748a7edb6b6ff04b7996e46ef03054320f1500c",
+        "stateFamily": "space",
+        "inspectionNote": "Visually inspected; original content private. Implementation uses injected fictional data."
+      },
+      {
+        "filename": "chatgpt-space-image-viewer.png",
+        "status": "capture-available",
+        "implementationComparison": "pending",
+        "private": true,
+        "source": "iphone-mirroring",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "84a6966dfaa07d17d5ecadb69b1d696a486e9ddb2e2658bcd8f7a796281aadeb",
+        "stateFamily": "space",
+        "inspectionNote": "Visually inspected; original content private. Implementation uses injected fictional data."
+      },
+      {
+        "filename": "chatgpt-space-images-loaded.png",
+        "status": "capture-available",
+        "implementationComparison": "pending",
+        "private": true,
+        "source": "iphone-mirroring",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "62e04d948f7d43ca878ed68b8e6388c36fe019308c4ede6e8545eb1d0f860294",
+        "stateFamily": "space",
+        "inspectionNote": "Visually inspected; original content private. Implementation uses injected fictional data."
+      },
+      {
+        "filename": "chatgpt-space-images.png",
+        "status": "capture-available",
+        "implementationComparison": "pending",
+        "private": true,
+        "source": "iphone-mirroring",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "bd674fef06a49633b84d2514919f0644314caba69530671202a1fe2982603904",
+        "stateFamily": "space",
+        "inspectionNote": "Visually inspected; original content private. Implementation uses injected fictional data."
+      },
+      {
+        "filename": "chatgpt-space-list.png",
+        "status": "capture-available",
+        "implementationComparison": "pending",
+        "private": true,
+        "source": "iphone-mirroring",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "302113cbeca84a5dd388f6c7e45aa0cd7b0ccaa53df354204a494f86bff32006",
+        "stateFamily": "space",
+        "inspectionNote": "Visually inspected; original content private. Implementation uses injected fictional data."
+      },
+      {
+        "filename": "chatgpt-space-options.png",
+        "status": "capture-available",
+        "implementationComparison": "pending",
+        "private": true,
+        "source": "iphone-mirroring",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "07027e31649f68a19ded3deb9d382363c87ce03e5ef0726da18c7435f05254ce",
+        "stateFamily": "space",
+        "inspectionNote": "Visually inspected; original content private. Implementation uses injected fictional data."
+      },
+      {
+        "filename": "chatgpt-space-pages.png",
+        "status": "capture-available",
+        "implementationComparison": "pending",
+        "private": true,
+        "source": "iphone-mirroring",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "8564a228bb1758a934f2c2f623f9b38dae3f7e19d9409896864e827d6733c9fb",
+        "stateFamily": "space",
+        "inspectionNote": "Visually inspected; original content private. Implementation uses injected fictional data."
+      },
+      {
+        "filename": "chatgpt-space-suggested-loaded.png",
+        "status": "capture-available",
+        "implementationComparison": "pending",
+        "private": true,
+        "source": "iphone-mirroring",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "818a98b3391429f45b87bda7f047af4e2d1a290ca49a70cbebd85cfb5d1c8594",
+        "stateFamily": "space",
+        "inspectionNote": "Visually inspected; original content private. Implementation uses injected fictional data."
+      },
+      {
+        "filename": "chatgpt-temporary-light.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "c308c49883849cf96b62e0a1f51082bd2b928c3920734a129b2ab449e554e0ef"
+      },
+      {
+        "filename": "chatgpt-temporary-settings-light.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "05936c2748c4811391d5f4ec853f6ac1a96cdd82e2a9dd4552933993d9c5f69a"
+      },
+      {
+        "filename": "chatgpt-theme-picker.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "5093983e19d1b464b75af4813d21a89dbdd2bfeeb83509dba5fe8866499f33c8"
+      },
+      {
+        "filename": "chatgpt-typed.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "0140c6e37f917e0ef960871f6a67566347f6051ee9016a3a0c5c7a6862baf893"
+      },
+      {
+        "filename": "chatgpt-user-context.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "dfebcf32e694288c083d2369160f93c13b34aff297836ef5ed6db1b07e8ba8a7"
+      },
+      {
+        "filename": "chatgpt-version.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "c9001105070535ebcaed4e5ea5a1e5baee080eecc3789f7d85d14a54a37f9117"
+      },
+      {
+        "filename": "chatgpt-video-complete-long-press.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "ec3dce89451ca31208aa1da53cdc7198eee9f2d7ff68af83f6617a47a8d7da97",
+        "inspectionNote": "Hold on the Play area resulted in the fullscreen movie viewer. No card menu observed for this target; other hold zones were not exhausted. Dot controls are recorded movie content."
+      },
+      {
+        "filename": "chatgpt-video-composer.png",
+        "status": "capture-available",
+        "implementationComparison": "pending",
+        "private": true,
+        "source": "iphone-mirroring",
+        "stateFamily": "video-media",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "d1ce0c67284ca0f63493ae70a826e61cb426dbc9cc874215098d92b775c31b61",
+        "inspectionNote": "Visually inspected composer poster with0:08 duration and remove X. Full source clip reported9seconds; no duration rounding inferred."
+      },
+      {
+        "filename": "chatgpt-video-long-press.png",
+        "status": "capture-available",
+        "implementationComparison": "pending",
+        "private": true,
+        "source": "iphone-mirroring",
+        "stateFamily": "video-media",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "2419f4cba56d802125ce89586676592808464219bca946ca2e3ed6d2e5b1e796",
+        "inspectionNote": "Long press attempted inside viewer; capture remains fullscreen. It does not establish a sent-video context menu."
+      },
+      {
+        "filename": "chatgpt-video-player-controls.png",
+        "status": "capture-available",
+        "implementationComparison": "pending",
+        "private": true,
+        "source": "iphone-mirroring",
+        "stateFamily": "video-media",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "cdf5d82ae19c7fd362f9bb5a0bc82136cb8c209029bae8ba14be0939f3278c59",
+        "inspectionNote": "Misnamed file: tapped movie frame only. No play/pause, scrubber or timeline is established by this capture."
+      },
+      {
+        "filename": "chatgpt-video-sent-bubble.png",
+        "status": "capture-available",
+        "implementationComparison": "pending",
+        "private": true,
+        "source": "iphone-mirroring",
+        "stateFamily": "video-media",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "8d97047a9e71b840a2a669cd2167be7f385671411ed546e7faea13cebcc24c75",
+        "inspectionNote": "Only part of the sent video card is visible above the message. Complete card geometry is unverified."
+      },
+      {
+        "filename": "chatgpt-video-sent-complete-play-overlay.png",
+        "status": "capture-available",
+        "implementationComparison": "pending",
+        "private": true,
+        "source": "iphone-mirroring",
+        "stateFamily": "video-media",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "c2bfab1a028e841db482ca864b90a998e3bd1d90a0f9e2b0c83973c435401835",
+        "inspectionNote": "Complete paused poster visually inspected. Collector measured about120x240pt card and40pt outlined central Play. Earlier changing-frame card lacked overlay; autoplay/pause policy unmeasured."
+      },
+      {
+        "filename": "chatgpt-video-viewer-fit.png",
+        "status": "capture-available",
+        "implementationComparison": "pending",
+        "private": true,
+        "source": "iphone-mirroring",
+        "stateFamily": "video-media",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "d09fde7d77fca6329bb5f7bff5893d7884101ead3de4962fc15c00dd4ba0807a",
+        "inspectionNote": "Fit button was attempted, but a resulting fit/crop change is unconfirmed."
+      },
+      {
+        "filename": "chatgpt-video-viewer.png",
+        "status": "capture-available",
+        "implementationComparison": "pending",
+        "private": true,
+        "source": "iphone-mirroring",
+        "stateFamily": "video-media",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "67f6196a84498e5fb1f881b9ec5e4eba1aa6d29053fa0845a377ead4dd1200bf",
+        "inspectionNote": "Visually inspected fullscreen moving-content viewer. Top X and inward fit glyph; system status retained. Dot controls belong to the recording, not this viewer."
+      },
+      {
+        "filename": "chatgpt-voice-idle.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          636,
+          1402
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "5e62be8c7ac69dd7dc4be793da4c59688f9aeaf1383565a60d7326818fcd44ee"
+      },
+      {
+        "filename": "chatgpt-voice-language-1.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          636,
+          1402
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "6525f42fc0343d9cc744e657c1e47c6e40d2e241ef8f7e0f357801f09a1bd87e"
+      },
+      {
+        "filename": "chatgpt-voice-language-2.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          636,
+          1402
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "555e41b70cbccf570a8258b8ca184f1c0c74e434094b8c825bf286c865b4641c"
+      },
+      {
+        "filename": "chatgpt-voice-settings-breeze.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          636,
+          1402
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "e0c4582f790b35d081b8678dd4ce56215504edf3e53a1c3cfbadcfcdb2282ef3"
+      },
+      {
+        "filename": "chatgpt-widget-chat-medium.png",
+        "status": "capture-available",
+        "implementationComparison": "pending",
+        "source": "iphone-mirroring",
+        "private": true,
+        "stateFamily": "system-widget-gallery",
+        "inspectionNote": "Gallery preview visually inspected; no widget added and no tap/configuration behavior verified.",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "f6b72084f554855592371698d44336631ae0372ce8e0725464263d5a85168c80"
+      },
+      {
+        "filename": "chatgpt-widget-chat-small.png",
+        "status": "capture-available",
+        "implementationComparison": "pending",
+        "source": "iphone-mirroring",
+        "private": true,
+        "stateFamily": "system-widget-gallery",
+        "inspectionNote": "Gallery preview visually inspected; no widget added and no tap/configuration behavior verified.",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "0fcb73173561f1ad22e58a5fef1de8e1d369b1b691a2f6822a04365fcd422b46"
+      },
+      {
+        "filename": "chatgpt-widget-codex-tasks-large.png",
+        "status": "capture-available",
+        "implementationComparison": "pending",
+        "source": "iphone-mirroring",
+        "private": true,
+        "stateFamily": "system-widget-gallery",
+        "inspectionNote": "Gallery preview visually inspected; no widget added and no tap/configuration behavior verified.",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "4b75efe74b1f7511f1b32249586051a9595644f8a79bd7c84817107867d1e54d"
+      },
+      {
+        "filename": "chatgpt-widget-codex-tasks-medium.png",
+        "status": "capture-available",
+        "implementationComparison": "pending",
+        "source": "iphone-mirroring",
+        "private": true,
+        "stateFamily": "system-widget-gallery",
+        "inspectionNote": "Gallery preview visually inspected; no widget added and no tap/configuration behavior verified.",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "42dfee62d3abcfc45b3198c282872ebfb0ea69f4128631c49f016641667cabf6"
+      },
+      {
+        "filename": "chatgpt-widget-codex-tasks-tall.png",
+        "status": "capture-available",
+        "implementationComparison": "pending",
+        "source": "iphone-mirroring",
+        "private": true,
+        "stateFamily": "system-widget-gallery",
+        "inspectionNote": "Gallery preview visually inspected; no widget added and no tap/configuration behavior verified. Tall ninth gallery variant observed; exact WidgetFamily unavailable/unconfirmed in current SDK.",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "6d76dcc9468ce76cf1158848dc8220dad35f6dd040c6aed5c283cff3727748af"
+      },
+      {
+        "filename": "chatgpt-widget-codex-usage-loading.png",
+        "status": "capture-available",
+        "implementationComparison": "pending",
+        "source": "iphone-mirroring",
+        "private": true,
+        "stateFamily": "system-widget-gallery",
+        "inspectionNote": "Gallery preview visually inspected; no widget added and no tap/configuration behavior verified. Placeholder bars only; loaded usage appearance unknown.",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "0b7c36c22621a5606ed40852ecc14e0500a8fca5450c7404f6fdc0077a7ee499"
+      },
+      {
+        "filename": "chatgpt-widget-codex-usage-medium-placeholder.png",
+        "status": "capture-available",
+        "implementationComparison": "pending",
+        "source": "iphone-mirroring",
+        "private": true,
+        "stateFamily": "system-widget-gallery",
+        "inspectionNote": "Gallery preview visually inspected; no widget added and no tap/configuration behavior verified. Placeholder bars only; loaded usage appearance unknown.",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "c332690e2c4eb58fde0f79c510516f6164fe8c2ec42df95b0489b876299c7e3b"
+      },
+      {
+        "filename": "chatgpt-widget-shortcuts-medium.png",
+        "status": "capture-available",
+        "implementationComparison": "pending",
+        "source": "iphone-mirroring",
+        "private": true,
+        "stateFamily": "system-widget-gallery",
+        "inspectionNote": "Gallery preview visually inspected; no widget added and no tap/configuration behavior verified.",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "6e226772ed4cee840d81986c8e6ca0e542e91be775b2b8b593477ef811804b3c"
+      },
+      {
+        "filename": "chatgpt-widget-shortcuts-small.png",
+        "status": "capture-available",
+        "implementationComparison": "pending",
+        "source": "iphone-mirroring",
+        "private": true,
+        "stateFamily": "system-widget-gallery",
+        "inspectionNote": "Gallery preview visually inspected; no widget added and no tap/configuration behavior verified.",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "c78bdf194a1786b5a51fd060d81919f6750c2364179cb4490ab9641610df98cf"
+      },
+      {
+        "filename": "chatgpt-work-light.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "135ed4c1abf65391555b625f3a9e3eb7cebb576599d77d5a7f29029e480ad6ac"
+      },
+      {
+        "filename": "chatgpt-work-model-light.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "56f2401dc9b3eb393a478bf8160e121ab334d4087d7243b8fea18b651b41bde0"
+      },
+      {
+        "filename": "dot-call-system/codex-clipboard-03ed2516-02c7-49be-93ca-55acce5748ac.png",
+        "status": "capture-available",
+        "implementationComparison": "pending",
+        "source": "user-supplied-clipboard",
+        "private": true,
+        "stateFamily": "dot-call-and-system-call",
+        "capturePixelDimensions": [
+          786,
+          1690
+        ],
+        "detectedMediaFormat": "PNG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "11d4101384eecb40a8c27cdec3b36405db99971143dfa2df91d645747523b79c",
+        "inspectionNote": "System compact Dynamic Island call surface above Home Screen; donut left and elapsed timer right."
+      },
+      {
+        "filename": "dot-call-system/codex-clipboard-2b7a494f-f26f-4694-af34-d58bb926cc04.png",
+        "status": "capture-available",
+        "implementationComparison": "pending",
+        "source": "user-supplied-clipboard",
+        "private": true,
+        "stateFamily": "dot-call-and-system-call",
+        "capturePixelDimensions": [
+          620,
+          1320
+        ],
+        "detectedMediaFormat": "PNG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "5ea68dcdff98f13312a03a9238f15f0a67de55592abd50991407729b919cd4c0",
+        "inspectionNote": "System expanded Dynamic Island call surface with selected mute control: white circular background and red slashed-microphone glyph."
+      },
+      {
+        "filename": "dot-call-system/codex-clipboard-6375dba3-55bc-45d5-98c0-3a7992b09474.png",
+        "status": "capture-available",
+        "implementationComparison": "pending",
+        "source": "user-supplied-clipboard",
+        "private": true,
+        "stateFamily": "dot-call-and-system-call",
+        "capturePixelDimensions": [
+          810,
+          1698
+        ],
+        "detectedMediaFormat": "PNG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "05608df47668b71db6071d52f2bd81f2a9703f5669ce8bcb641c0204ec15e8a5",
+        "inspectionNote": "Connected expanded in-app call surface; blue blurred background, timer and Speaker/End/Mute."
+      },
+      {
+        "filename": "dot-call-system/codex-clipboard-6522bd67-b9e5-4009-afc5-356aa1b57cd6.png",
+        "status": "capture-available",
+        "implementationComparison": "pending",
+        "source": "user-supplied-clipboard",
+        "private": true,
+        "stateFamily": "dot-call-and-system-call",
+        "capturePixelDimensions": [
+          788,
+          1704
+        ],
+        "detectedMediaFormat": "PNG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "3f0e6f7ab3f68f877c28179c124635d7846f08b1bc0aebfe2a765044ac55b833",
+        "inspectionNote": "Connected minimized in-app call panel; timer, three controls over conversation."
+      },
+      {
+        "filename": "dot-call-system/codex-clipboard-7e9d221a-b499-456f-b3fe-b48402a83cf5.png",
+        "status": "capture-available",
+        "implementationComparison": "pending",
+        "source": "user-supplied-clipboard",
+        "private": true,
+        "stateFamily": "dot-call-and-system-call",
+        "capturePixelDimensions": [
+          796,
+          1708
+        ],
+        "detectedMediaFormat": "PNG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "cddd689abdb2fb8b96454d1fac46917d6d5badcdfa1d80e074ee2bd077cb90c9",
+        "inspectionNote": "System expanded Dynamic Island call surface above Home Screen; donut, timer, Your dot, dark mute control and red end control."
+      },
+      {
+        "filename": "dot-messages/codex-clipboard-27500388-baf9-42ef-a10f-04333017520a.png",
+        "private": true,
+        "status": "capture-available",
+        "implementationComparison": "pending",
+        "capturePixelDimensions": [
+          778,
+          1666
+        ],
+        "detectedMediaFormat": "PNG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "0541788419b279b56d97e837d1ef30748f45c64577f15589481a193e2ae4da44",
+        "inspectionNote": "Outgoing call-ended summary context menu has Copy/Reply only; Delivered receipt visible."
+      },
+      {
+        "filename": "dot-messages/codex-clipboard-bed8c2d3-898c-4a6e-9b41-11b12e91734f.png",
+        "private": true,
+        "status": "capture-available",
+        "implementationComparison": "pending",
+        "capturePixelDimensions": [
+          798,
+          1714
+        ],
+        "detectedMediaFormat": "PNG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "16171a687edf4a28b83dd8ae5fb087174fcbb227c65384c60158a6cb1e0ff4f7",
+        "inspectionNote": "Assistant text reaction strip and Copy/Select text/Reply menu."
+      },
+      {
+        "filename": "dot-messages/codex-clipboard-fc6eef1a-4060-4c3c-a1bd-f8fee6b057d8.png",
+        "private": true,
+        "status": "capture-available",
+        "implementationComparison": "pending",
+        "capturePixelDimensions": [
+          802,
+          1694
+        ],
+        "detectedMediaFormat": "PNG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "aa2e570e9c9ba3c7174a7820218c7f372d08dcec5450c9b5e3e0e0c4c1cc0813",
+        "inspectionNote": "Native in-place selected text handles and Copy/Translate/Share toolbar; call-ended outgoing bubble and Delivered receipt visible."
+      },
+      {
+        "filename": "motion-chat-work/before.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          636,
+          1402
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header"
+      },
+      {
+        "filename": "motion-chat-work/frame-0.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          636,
+          1402
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header"
+      },
+      {
+        "filename": "motion-chat-work/frame-1.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          636,
+          1402
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header"
+      },
+      {
+        "filename": "motion-chat-work/frame-2.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          636,
+          1402
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header"
+      },
+      {
+        "filename": "motion-chat-work/frame-3.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          636,
+          1402
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header"
+      },
+      {
+        "filename": "motion-chat-work/frame-4.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          636,
+          1402
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header"
+      },
+      {
+        "filename": "motion-chat-work/frame-5.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          636,
+          1402
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header"
+      },
+      {
+        "filename": "motion-chat-work/frame-6.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          636,
+          1402
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header"
+      },
+      {
+        "filename": "motion-chat-work/frame-7.png",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          636,
+          1402
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header"
+      },
+      {
+        "filename": "user-markdown/codex-clipboard-129b3b9e-8b18-4c24-bf6a-f2c1d15f9c49.png",
+        "status": "capture-available",
+        "implementationComparison": "pending",
+        "private": true,
+        "source": "user-supplied-clipboard",
+        "stateFamily": "markdown",
+        "capturePixelDimensions": [
+          788,
+          1634
+        ],
+        "detectedMediaFormat": "PNG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "b6fefe88ce45dc3199231b140fff3b18b4236ecf3ca1801b612009f1f048a7f0",
+        "inspectionNote": "Visually inspected ChatGPT heading, block quote, divider and bold text. One cropped image and one fuller chat view; no inferred point scale. Private conversation text is excluded from fixtures."
+      },
+      {
+        "filename": "user-markdown/codex-clipboard-c127d676-d453-49c5-a1f9-c9635021aafd.png",
+        "status": "capture-available",
+        "implementationComparison": "pending",
+        "private": true,
+        "source": "user-supplied-clipboard",
+        "stateFamily": "markdown",
+        "capturePixelDimensions": [
+          794,
+          760
+        ],
+        "detectedMediaFormat": "PNG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "68a6b92d77a030d04d73fb47d61f71919e0cc7c00e38cd10551acd00787590e5",
+        "inspectionNote": "Visually inspected ChatGPT heading, block quote, divider and bold text. One cropped image and one fuller chat view; no inferred point scale. Private conversation text is excluded from fixtures."
+      },
+      {
+        "filename": "video-dot/IMG_6707.PNG",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "source": "direct-iphone-user",
+        "private": true,
+        "pixelDimensions": [
+          1179,
+          2556
+        ],
+        "scale": 3,
+        "logicalDimensions": [
+          393,
+          852
+        ],
+        "detectedMediaFormat": "PNG",
+        "dimensionsVerification": "decoded-image-header"
+      },
+      {
+        "filename": "video-dot/IMG_6708.PNG",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "source": "direct-iphone-user",
+        "private": true,
+        "pixelDimensions": [
+          1179,
+          2556
+        ],
+        "scale": 3,
+        "logicalDimensions": [
+          393,
+          852
+        ],
+        "detectedMediaFormat": "PNG",
+        "dimensionsVerification": "decoded-image-header"
+      },
+      {
+        "filename": "video-dot/IMG_6711.PNG",
+        "status": "capture-available",
+        "implementationComparison": "unverified",
+        "source": "direct-iphone-user",
+        "private": true,
+        "pixelDimensions": [
+          1179,
+          2556
+        ],
+        "scale": 3,
+        "logicalDimensions": [
+          393,
+          852
+        ],
+        "detectedMediaFormat": "PNG",
+        "dimensionsVerification": "decoded-image-header"
+      },
+      {
+        "filename": "phase2/chatgpt-explore-root.png",
+        "archiveRelativeDirectory": "private/reference-images/2026-10-08-phase2",
+        "status": "capture-visually-inspected",
+        "implementationComparison": "See current checkpoint and scope docs; exact parity not claimed",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "be2099426841d2913e0f56a490a14bb2b5de5be2f0ddfeecf8e3e35e77f4a942",
+        "inspectionNote": "Explore expands destinations inline in the drawer; this is not a separate Explore page."
+      },
+      {
+        "filename": "phase2/chatgpt-sites-root.png",
+        "archiveRelativeDirectory": "private/reference-images/2026-10-08-phase2",
+        "status": "capture-visually-inspected",
+        "implementationComparison": "See current checkpoint and scope docs; exact parity not claimed",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "f208b4b7be0eff49ea4f83f5265093c51fe0c0c24702b6b8026d6bd8f61a2f6c",
+        "inspectionNote": "Empty Sites page with Create site, top plus and bottom Search sites."
+      },
+      {
+        "filename": "phase2/chatgpt-sites-create-entry.png",
+        "archiveRelativeDirectory": "private/reference-images/2026-10-08-phase2",
+        "status": "capture-visually-inspected",
+        "implementationComparison": "See current checkpoint and scope docs; exact parity not claimed",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "69641923dec56845c416ba12c7089dd6c53de09be72879426de0877b131ad5bd",
+        "inspectionNote": "Create site opens Work with a prefilled Sites draft; this still shows a Send button, not submitted content."
+      },
+      {
+        "filename": "phase2/chatgpt-projects-root.png",
+        "archiveRelativeDirectory": "private/reference-images/2026-10-08-phase2",
+        "status": "capture-visually-inspected",
+        "implementationComparison": "See current checkpoint and scope docs; exact parity not claimed",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "840946ce0c18c4a8dffc94f5d721df46c5fafc00409da350bfc297621a7cb6f9",
+        "inspectionNote": "Empty Projects page with New project, top plus and bottom Search projects."
+      },
+      {
+        "filename": "phase2/chatgpt-projects-new-form.png",
+        "archiveRelativeDirectory": "private/reference-images/2026-10-08-phase2",
+        "status": "capture-visually-inspected",
+        "implementationComparison": "See current checkpoint and scope docs; exact parity not claimed",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "4f2ada784417a5ede7d230ef38757ced15fa272dae52d141772b3bd88f70f39d",
+        "inspectionNote": "New project sheet; empty name disables Create project; Settings and Close plus suggestion strip."
+      },
+      {
+        "filename": "phase2/chatgpt-projects-memory-settings.png",
+        "archiveRelativeDirectory": "private/reference-images/2026-10-08-phase2",
+        "status": "capture-visually-inspected",
+        "implementationComparison": "See current checkpoint and scope docs; exact parity not claimed",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "88b506c0efce461195de98753f555465dd90248e2a501c2e7b877aaa187fa5d8",
+        "inspectionNote": "Default memory selected with blue border; Project-only memory alternative."
+      },
+      {
+        "filename": "phase2/chatgpt-projects-memory-selected.png",
+        "archiveRelativeDirectory": "private/reference-images/2026-10-08-phase2",
+        "status": "capture-visually-inspected",
+        "implementationComparison": "See current checkpoint and scope docs; exact parity not claimed",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "5e37b164e14ecbeda148988128169cad09a935324b288f4ba4ab390d6b99a244",
+        "inspectionNote": "Project-only memory selected with blue border; Cancel and Done."
+      },
+      {
+        "filename": "phase2/chatgpt-projects-icon-picker.png",
+        "archiveRelativeDirectory": "private/reference-images/2026-10-08-phase2",
+        "status": "capture-visually-inspected",
+        "implementationComparison": "See current checkpoint and scope docs; exact parity not claimed",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "476836aea787ca18ca98e76e83610e7d589772362120b7495a3af7268efa04c7",
+        "inspectionNote": "Choose icon grid and color circles; default white folder preview. Native asset identities not established."
+      },
+      {
+        "filename": "phase2/chatgpt-projects-icon-selected.png",
+        "archiveRelativeDirectory": "private/reference-images/2026-10-08-phase2",
+        "status": "capture-visually-inspected",
+        "implementationComparison": "See current checkpoint and scope docs; exact parity not claimed",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "80bfe1d73ed75b4397a4ab8362b42c29aa6291c28ddbeb9d6c32e79e72949b02",
+        "inspectionNote": "Blue brain preview and selected blue ring; Cancel now visible."
+      },
+      {
+        "filename": "phase2/chatgpt-projects-typed-draft.png",
+        "archiveRelativeDirectory": "private/reference-images/2026-10-08-phase2",
+        "status": "capture-visually-inspected",
+        "implementationComparison": "See current checkpoint and scope docs; exact parity not claimed",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "2445f2c445a0b84fe10c91ccd522f21e60c1462ba5bbb1b11705815d540298ce",
+        "inspectionNote": "Nonempty draft name with selected blue icon; Create project enabled. No successful creation shown."
+      },
+      {
+        "filename": "phase2/chatgpt-projects-suggestions-scrolled.png",
+        "archiveRelativeDirectory": "private/reference-images/2026-10-08-phase2",
+        "status": "capture-visually-inspected",
+        "implementationComparison": "See current checkpoint and scope docs; exact parity not claimed",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "3b8e4bd7dd6875e1b75ff191d4bb81498ae236b491926e83b07904d317223a2b",
+        "inspectionNote": "Scroll attempt leaves the same visible Homework/Writing/Health suggestions; no catalog endpoint established."
+      },
+      {
+        "filename": "phase2/chatgpt-projects-suggestions-end.png",
+        "archiveRelativeDirectory": "private/reference-images/2026-10-08-phase2",
+        "status": "capture-visually-inspected",
+        "implementationComparison": "See current checkpoint and scope docs; exact parity not claimed",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "48b3c4b4b576fe1025ea11a95e05c13f9ef54e15cde858f7155c93c6aa20078e",
+        "inspectionNote": "Despite filename, same visible suggestion set remains; not evidence of a scroll endpoint."
+      },
+      {
+        "filename": "phase2/chatgpt-projects-writing-suggestion.png",
+        "archiveRelativeDirectory": "private/reference-images/2026-10-08-phase2",
+        "status": "capture-visually-inspected",
+        "implementationComparison": "See current checkpoint and scope docs; exact parity not claimed",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "d5533e66d4db5faf1e2620f7cf397c9e36e2c2c8b550be2e24e3a6db61d2ad16",
+        "inspectionNote": "Writing suggestion replaces name and icon with purple pen-nib. No creation outcome shown."
+      },
+      {
+        "filename": "phase2/chatgpt-images-root.png",
+        "archiveRelativeDirectory": "private/reference-images/2026-10-08-phase2",
+        "status": "capture-visually-inspected",
+        "implementationComparison": "See current checkpoint and scope docs; exact parity not claimed",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "7f790c8f8c64fb7d479ab8353033fc5cd653cefa95d5dfc9f5b7ec377d10ebf6",
+        "inspectionNote": "Images Templates grid, Trending tab and migration notice. Existing Sites draft persists in bottom composer; do not assume that draft is a default Images state."
+      },
+      {
+        "filename": "phase2/chatgpt-images-poster-detail.png",
+        "archiveRelativeDirectory": "private/reference-images/2026-10-08-phase2",
+        "status": "capture-visually-inspected",
+        "implementationComparison": "See current checkpoint and scope docs; exact parity not claimed",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "a856ba4af3f77a2fb8e241874af74733d4dd05ed495a7e2b7c24b5fb30866872",
+        "inspectionNote": "Poster template detail sheet with preview, share, close, description and Try it."
+      },
+      {
+        "filename": "phase2/chatgpt-images-poster-try.png",
+        "archiveRelativeDirectory": "private/reference-images/2026-10-08-phase2",
+        "status": "capture-visually-inspected",
+        "implementationComparison": "See current checkpoint and scope docs; exact parity not claimed",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "d3d6f89236b314451f3f43c7e13f4bd9579e80888741dc04230b53298d6032ad",
+        "inspectionNote": "Try it opens submitted Work conversation with Working status and Stop control; auto-submit behavior reported by live collector."
+      },
+      {
+        "filename": "phase2/chatgpt-images-poster-stopped.png",
+        "archiveRelativeDirectory": "private/reference-images/2026-10-08-phase2",
+        "status": "capture-visually-inspected",
+        "implementationComparison": "See current checkpoint and scope docs; exact parity not claimed",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "1069a0c8e388a0b62112171e7cf93cf1a954d19d81edb84fd796b78190d51a3b",
+        "inspectionNote": "Stopped working state plus question card showing page2of3, previous/next, Close, choices, freeform and Skip. No generated-image outcome established."
+      },
+      {
+        "filename": "phase2/chatgpt-images-empty-composer.png",
+        "archiveRelativeDirectory": "private/reference-images/2026-10-08-phase2",
+        "status": "capture-visually-inspected",
+        "implementationComparison": "See current checkpoint and scope docs; exact parity not claimed",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "0639bdfdb2716a07e01bfbd16461ca6998bc5a314ab9a53ceb8e54302ee486ce",
+        "inspectionNote": "Templates root after clearing carried draft: compact Describe an image composer with attachment, microphone and disabled gray upward arrow."
+      },
+      {
+        "filename": "phase2/chatgpt-images-trending.png",
+        "archiveRelativeDirectory": "private/reference-images/2026-10-08-phase2",
+        "status": "capture-visually-inspected",
+        "implementationComparison": "See current checkpoint and scope docs; exact parity not claimed",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "dc67929e2fbf842d68c1acd731733ce412c2f4a1ea8864a476b923a2bc416f02",
+        "inspectionNote": "Trending selected: same two-column card layout with alternate labeled cards. Full catalog not established."
+      },
+      {
+        "filename": "phase2/chatgpt-work-clarification-first.png",
+        "archiveRelativeDirectory": "private/reference-images/2026-10-08-phase2",
+        "status": "capture-visually-inspected",
+        "implementationComparison": "See current checkpoint and scope docs; exact parity not claimed",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "81b39148c4049a7374898bd4b312a0e272d2e3fa05a90d4b9beed1c7975bfb57",
+        "inspectionNote": "Stopped task with first of three clarification cards; Previous disabled, Next enabled, three choices, freeform field and Skip."
+      },
+      {
+        "filename": "phase2/chatgpt-work-stopped-details.png",
+        "archiveRelativeDirectory": "private/reference-images/2026-10-08-phase2",
+        "status": "capture-visually-inspected",
+        "implementationComparison": "See current checkpoint and scope docs; exact parity not claimed",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "37f02283aa1baba3b36fd482ebb4b5dd36da100164f299acebf671ca19dfde73",
+        "inspectionNote": "Collapsed stopped task after unsuccessful detail click; filename does not establish an expanded detail view."
+      },
+      {
+        "filename": "phase2/chatgpt-work-details-open.png",
+        "archiveRelativeDirectory": "private/reference-images/2026-10-08-phase2",
+        "status": "capture-visually-inspected",
+        "implementationComparison": "See current checkpoint and scope docs; exact parity not claimed",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "6b9b4e70480ab5aba679a52dca261ecf803410a42e7d61ae2096fe838477478f",
+        "inspectionNote": "Stopped working expands inline to supplied assistant introduction and secondary Asking questions status, not a separate sheet."
+      },
+      {
+        "filename": "phase2/chatgpt-work-overflow.png",
+        "archiveRelativeDirectory": "private/reference-images/2026-10-08-phase2",
+        "status": "capture-visually-inspected",
+        "implementationComparison": "See current checkpoint and scope docs; exact parity not claimed",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "a5de6f215eadc9ec83b7ed97a7a33268893561a325fce5f372cabf4d3445836a",
+        "inspectionNote": "Task-caption overflow with Share, Pin, Add to project submenu indicator, Uploaded files, Find in chat, Archive and destructive Delete. Result destinations not verified here."
+      },
+      {
+        "filename": "phase2/chatgpt-work-uploaded-files-empty.png",
+        "archiveRelativeDirectory": "private/reference-images/2026-10-08-phase2",
+        "status": "capture-visually-inspected",
+        "implementationComparison": "See current checkpoint and scope docs; exact parity not claimed",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "f80481c862222bb5e2f0ae48cbc29af18bc9b05049b9cb28d04585e8605db5aa",
+        "inspectionNote": "Large Library sheet with top Close and centered gray document glyph plus No files yet."
+      },
+      {
+        "filename": "phase2/chatgpt-customize-add-rule.png",
+        "archiveRelativeDirectory": "private/reference-images/2026-10-08-phase2",
+        "status": "capture-visually-inspected",
+        "implementationComparison": "deferred TODO reference; not delivered in active scope",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "2b25f21f17e6f2486ecb7321c0fec584610c6c74e4b0eb4b0213f77933993174",
+        "inspectionNote": "Deferred reference: empty Add rule form with disabled check, condition editor and four policy choices. No saved-rule outcome."
+      },
+      {
+        "filename": "phase2/chatgpt-customize-add-rule-typed.png",
+        "archiveRelativeDirectory": "private/reference-images/2026-10-08-phase2",
+        "status": "capture-visually-inspected",
+        "implementationComparison": "deferred TODO reference; not delivered in active scope",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "7fb9c7c40c12a3ead5fd2d10b87f477ac36170fb2f448452ab5cd9d4a98a2ffa",
+        "inspectionNote": "Deferred reference: nonempty rule draft enables blue check. Draft text not an app default; no save performed."
+      },
+      {
+        "filename": "phase2/chatgpt-customize-rule-unsaved-menu.png",
+        "archiveRelativeDirectory": "private/reference-images/2026-10-08-phase2",
+        "status": "capture-visually-inspected",
+        "implementationComparison": "deferred TODO reference; not delivered in active scope",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "1d04b295c50ac7abba14a09571c2efdc62919cd50ad870949252e493f5f7f1ea",
+        "inspectionNote": "Deferred reference: Unsaved changes notice offers Keep editing and Discard changes."
+      },
+      {
+        "filename": "phase2/chatgpt-customize-rule-discarded.png",
+        "archiveRelativeDirectory": "private/reference-images/2026-10-08-phase2",
+        "status": "capture-visually-inspected",
+        "implementationComparison": "deferred TODO reference; not delivered in active scope",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "daa266e048454a2a563d688b802823872c1a5c9d74360b442ebbcfd6e775bfab",
+        "inspectionNote": "Deferred reference: returned Custom rules page without a new saved rule after discard."
+      },
+      {
+        "filename": "phase2/chatgpt-customize-custom-rules.png",
+        "archiveRelativeDirectory": "private/reference-images/2026-10-08-phase2",
+        "status": "capture-visually-inspected",
+        "implementationComparison": "deferred TODO reference; not delivered in active scope",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "a0a2d5a580a144875cf28d8534689e1d163dcc09c46c1f71673e922e29ed1f26",
+        "inspectionNote": "Deferred reference: Custom rules information card, Default rules link, Plugins permissions row and Add rule button."
+      },
+      {
+        "filename": "phase2/chatgpt-customize-default-rules.png",
+        "archiveRelativeDirectory": "private/reference-images/2026-10-08-phase2",
+        "status": "capture-visually-inspected",
+        "implementationComparison": "deferred TODO reference; not delivered in active scope",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "16a0b5fc18cad7e4832912073c62b42bc36e889a93fdc3e223f39a1765a1e853",
+        "inspectionNote": "Deferred reference: default-rules link opens official help article in native browser sheet, not native rule editor."
+      },
+      {
+        "filename": "phase2/chatgpt-customize-email-connected.png",
+        "archiveRelativeDirectory": "private/reference-images/2026-10-08-phase2",
+        "status": "capture-visually-inspected",
+        "implementationComparison": "deferred TODO reference; not delivered in active scope",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "110038f175339a9d99e1512fe73fbb12715fead25a95261e2abadeae218ee418",
+        "inspectionNote": "Deferred reference: Email summary and Gmail connected/Outlook connect rows; real connection status remains private."
+      },
+      {
+        "filename": "phase2/chatgpt-customize-email-gmail.png",
+        "archiveRelativeDirectory": "private/reference-images/2026-10-08-phase2",
+        "status": "capture-visually-inspected",
+        "implementationComparison": "deferred TODO reference; not delivered in active scope",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "9b27d56b70447e95fa886b24f6382f4b2779d8f4fc7a69bfc49f63705f3a28e6",
+        "inspectionNote": "Deferred reference: Gmail plugin hero and suggestion cards with Try in chat. No action submitted."
+      },
+      {
+        "filename": "phase2/chatgpt-customize-gmail-settings.png",
+        "archiveRelativeDirectory": "private/reference-images/2026-10-08-phase2",
+        "status": "capture-visually-inspected",
+        "implementationComparison": "deferred TODO reference; not delivered in active scope",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "a447021083cb9793fccac80b6148df5f05af8b83363baf3ee9bec77ba28f5466",
+        "inspectionNote": "Deferred reference: plugin settings connected-account card, permissions row and read actions. Private identity excluded."
+      },
+      {
+        "filename": "phase2/chatgpt-customize-gmail-account-menu.png",
+        "archiveRelativeDirectory": "private/reference-images/2026-10-08-phase2",
+        "status": "capture-visually-inspected",
+        "implementationComparison": "deferred TODO reference; not delivered in active scope",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "3b1e48f35234c1c3e7d6a76b75d74410e9b9545d1a12a0431c1b8ee848dcc899",
+        "inspectionNote": "Deferred reference: per-account Settings/Disconnect menu; no disconnect performed."
+      },
+      {
+        "filename": "phase2/chatgpt-customize-gmail-account-settings.png",
+        "archiveRelativeDirectory": "private/reference-images/2026-10-08-phase2",
+        "status": "capture-visually-inspected",
+        "implementationComparison": "deferred TODO reference; not delivered in active scope",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "5720f6221153e55c45ef9863cd1b9fa300ddde2d283788eebd11038b1fcb12fa",
+        "inspectionNote": "Deferred reference: Account settings nickname and four policy choices with Save/Cancel. Personal address excluded; no change saved."
+      },
+      {
+        "filename": "phase2/chatgpt-customize-gmail-permissions.png",
+        "archiveRelativeDirectory": "private/reference-images/2026-10-08-phase2",
+        "status": "capture-visually-inspected",
+        "implementationComparison": "deferred TODO reference; not delivered in active scope",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "f30ba4a97e1ae4edb2b1a4ef1f8ae6c16668b1f9a015ad70a131cc12eed391ec",
+        "inspectionNote": "Deferred reference: four permission choices with low-risk default selected, all-actions elevated-risk badge and disabled reset. No permission change."
+      },
+      {
+        "filename": "phase2/chatgpt-customize-calendar-connected.png",
+        "archiveRelativeDirectory": "private/reference-images/2026-10-08-phase2",
+        "status": "capture-visually-inspected",
+        "implementationComparison": "deferred TODO reference; not delivered in active scope",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "4f4501d5edf4f71aa93d8061ab7fec75b66e512deadbdf1fa08f7ad03e603e9a",
+        "inspectionNote": "Deferred reference: Calendar summary and Google connected/Outlook connect rows; no account mutation."
+      },
+      {
+        "filename": "phase2/chatgpt-customize-google-calendar.png",
+        "archiveRelativeDirectory": "private/reference-images/2026-10-08-phase2",
+        "status": "capture-visually-inspected",
+        "implementationComparison": "deferred TODO reference; not delivered in active scope",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "6a32f15ac71673cc3698ad79fe2a2c2359e3414c9459dc4bb17b96be6143cc70",
+        "inspectionNote": "Deferred reference: Google Calendar plugin hero/suggestion cards/Try in chat; no action submitted."
+      },
+      {
+        "filename": "phase2/chatgpt-customize-location.png",
+        "archiveRelativeDirectory": "private/reference-images/2026-10-08-phase2",
+        "status": "capture-visually-inspected",
+        "implementationComparison": "deferred TODO reference; not delivered in active scope",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "fe115fee52f134dd9f2f16b09997df60ac8e056931e3a1633538945e8ab4596a",
+        "inspectionNote": "Deferred reference: Location summary and location-services On row; no OS permission change."
+      },
+      {
+        "filename": "phase2/chatgpt-customize-passwords-empty.png",
+        "archiveRelativeDirectory": "private/reference-images/2026-10-08-phase2",
+        "status": "capture-visually-inspected",
+        "implementationComparison": "deferred TODO reference; not delivered in active scope",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "bc6e8506c0a3255208808ad1be70c95a608256aa11970e96c8a6d2a9cf37da6c",
+        "inspectionNote": "Deferred reference: Passwords summary and No saved passwords card; no credential content captured."
+      },
+      {
+        "filename": "phase2/chatgpt-customize-wallet.png",
+        "archiveRelativeDirectory": "private/reference-images/2026-10-08-phase2",
+        "status": "capture-visually-inspected",
+        "implementationComparison": "deferred TODO reference; not delivered in active scope",
+        "source": "iphone-mirroring",
+        "private": true,
+        "capturePixelDimensions": [
+          820,
+          1796
+        ],
+        "detectedMediaFormat": "JPEG",
+        "dimensionsVerification": "decoded-image-header",
+        "sha256": "7207eda154918fc6d47e0e7bb625c192c5690c3df505c73eef095fe1d91166ec",
+        "inspectionNote": "Deferred reference: Wallet Coming soon partial-height feature sheet; not a functional wallet."
+      }
+    ],
+    "fidelityStatus": "unverified",
+    "knownLimitations": [
+      "Original font identities and exact icon assets not yet established.",
+      "Transition timing not measured.",
+      "Reference account content is private and must not ship in the demo."
+    ],
+    "appearanceAtEndOfInspection": {
+      "selection": "System",
+      "renderedAppearance": "dark",
+      "status": "observed-after-settings-closed",
+      "notes": "App stayed light temporarily while Settings remained open after selecting System; closing Settings restored dark appearance."
+    },
+    "interactions": [
+      {
+        "id": "composer-empty-to-text",
+        "source": "new-chat/composer-empty",
+        "trigger": "type short fictional text",
+        "destination": "new-chat/composer-filled",
+        "theme": "dark",
+        "referenceEvidence": [
+          "chatgpt-home.png",
+          "chatgpt-typed.png"
+        ],
+        "implementationEvidence": [],
+        "referenceStatus": "observed",
+        "implementationStatus": "unverified",
+        "observation": "Typing hides the voice promotion and replaces voice with send in the two-row composer.",
+        "reportedBy": "live-reference collection agent via ChatGPT implementation agent"
+      },
+      {
+        "id": "send-and-complete",
+        "source": "chat/composer-filled",
+        "trigger": "send fixture text and await response",
+        "destination": "chat/assistant-complete",
+        "theme": "dark",
+        "referenceEvidence": [
+          "chatgpt-sending.png",
+          "chatgpt-complete.png"
+        ],
+        "implementationEvidence": [],
+        "referenceStatus": "observed",
+        "implementationStatus": "unverified",
+        "observation": "Conversation header shows compose and ellipsis; dark user bubble observed near RGB 4,5,95. Timing and real streaming cannot be reconstructed from still frames.",
+        "reportedBy": "live-reference collection agent via ChatGPT implementation agent"
+      },
+      {
+        "id": "composer-focus",
+        "source": "chat/composer-unfocused",
+        "trigger": "focus composer",
+        "destination": "chat/composer-focused",
+        "theme": "dark",
+        "referenceEvidence": [
+          "chatgpt-complete.png",
+          "chatgpt-typed.png"
+        ],
+        "implementationEvidence": [],
+        "referenceStatus": "observed",
+        "implementationStatus": "unverified",
+        "observation": "Unfocused conversation composer is approximately 48pt; focusing changes to two rows.",
+        "reportedBy": "live-reference collection agent via ChatGPT implementation agent"
+      },
+      {
+        "id": "composer-grow-to-cap",
+        "source": "chat/composer-multiline",
+        "trigger": "append lines beyond visible cap",
+        "destination": "chat/composer-capped",
+        "theme": "dark",
+        "referenceEvidence": [
+          "chatgpt-composer-max.png",
+          "chatgpt-composer-max-confirmed.png"
+        ],
+        "implementationEvidence": [],
+        "referenceStatus": "observed",
+        "implementationStatus": "unverified",
+        "observation": "About eight visible lines and 248pt total cap with internal scrolling in observed mirrored conditions; keyboard-visible geometry unverified.",
+        "reportedBy": "live-reference collection agent via ChatGPT implementation agent"
+      },
+      {
+        "id": "composer-expand-and-collapse",
+        "source": "chat/composer-capped",
+        "trigger": "expand editor, then collapse",
+        "destination": "chat/composer-capped",
+        "theme": "dark",
+        "referenceEvidence": [
+          "chatgpt-composer-expanded.png"
+        ],
+        "implementationEvidence": [],
+        "referenceStatus": "observed",
+        "implementationStatus": "unverified",
+        "observation": "Expanded editor/collapse preserves draft.",
+        "reportedBy": "live-reference collection agent via ChatGPT implementation agent"
+      },
+      {
+        "id": "assistant-response-menu",
+        "source": "chat/assistant-complete",
+        "trigger": "open response ellipsis",
+        "destination": "chat/response-menu",
+        "theme": "dark",
+        "referenceEvidence": [
+          "chatgpt-response-menu.png"
+        ],
+        "implementationEvidence": [],
+        "referenceStatus": "observed",
+        "implementationStatus": "unverified",
+        "observation": "Visible assistant actions copy/up/down/share/ellipsis; overflow contains Branch, Read Aloud, Retry, Pro, Search.",
+        "reportedBy": "live-reference collection agent via ChatGPT implementation agent"
+      },
+      {
+        "id": "assistant-copy",
+        "source": "chat/assistant-complete",
+        "trigger": "tap copy",
+        "destination": "chat/assistant-copied",
+        "theme": "dark",
+        "referenceEvidence": [
+          "chatgpt-copy.png"
+        ],
+        "implementationEvidence": [],
+        "referenceStatus": "observed",
+        "implementationStatus": "unverified",
+        "observation": "Copy check and toast appear. Reset timing not measured.",
+        "reportedBy": "live-reference collection agent via ChatGPT implementation agent"
+      },
+      {
+        "id": "assistant-positive-rating",
+        "source": "chat/assistant-complete",
+        "trigger": "tap positive rating",
+        "destination": "chat/positive-rating-selected",
+        "theme": "dark",
+        "referenceEvidence": [
+          "chatgpt-positive-feedback.png"
+        ],
+        "implementationEvidence": [],
+        "referenceStatus": "observed",
+        "implementationStatus": "unverified",
+        "observation": "Positive rating selects and hides the negative rating control.",
+        "reportedBy": "live-reference collection agent via ChatGPT implementation agent"
+      },
+      {
+        "id": "assistant-negative-feedback",
+        "source": "chat/assistant-complete",
+        "trigger": "tap negative rating; cancel optional feedback",
+        "destination": "chat/negative-rating-selected",
+        "theme": "dark",
+        "referenceEvidence": [
+          "chatgpt-negative-feedback.png",
+          "chatgpt-feedback-categories.png"
+        ],
+        "implementationEvidence": [],
+        "referenceStatus": "observed",
+        "implementationStatus": "unverified",
+        "observation": "Negative rating immediately selects/hides positive rating and opens optional Feedback sheet. Cancel retains the selected negative rating.",
+        "reportedBy": "live-reference collection agent via ChatGPT implementation agent"
+      },
+      {
+        "id": "dictation-silent",
+        "source": "chat/composer-empty",
+        "trigger": "tap microphone",
+        "destination": "chat/dictation-silent",
+        "theme": "dark",
+        "referenceEvidence": [
+          "chatgpt-dictation-silent.png"
+        ],
+        "implementationEvidence": [],
+        "referenceStatus": "observed",
+        "implementationStatus": "unverified",
+        "observation": "Compact cancel X, silent dots, stop, and blue send controls. Actual microphone audio unavailable through Mirroring.",
+        "reportedBy": "live-reference collection agent via ChatGPT implementation agent"
+      },
+      {
+        "id": "read-aloud",
+        "source": "chat/assistant-complete",
+        "trigger": "select Read Aloud",
+        "destination": "chat/read-aloud-player",
+        "theme": "dark",
+        "referenceEvidence": [
+          "chatgpt-read-aloud.png"
+        ],
+        "implementationEvidence": [],
+        "referenceStatus": "observed",
+        "implementationStatus": "unverified",
+        "observation": "Top player with replay, 1x, plus/minus 15 and X observed after approximately one second. Pause state not observed; audio behavior unverified.",
+        "reportedBy": "live-reference collection agent via ChatGPT implementation agent"
+      },
+      {
+        "id": "attachment-menu",
+        "source": "chat/composer-empty",
+        "trigger": "tap plus",
+        "destination": "chat/attachment-menu",
+        "theme": "light",
+        "referenceEvidence": [
+          "chatgpt-plus.png",
+          "chatgpt-plus-light.png"
+        ],
+        "implementationEvidence": [],
+        "referenceStatus": "observed",
+        "implementationStatus": "unverified",
+        "observation": "Reference rows approximately 68pt with circular gray icon backplates. A native SwiftUI Menu trial differed in row height, ordering and blue symbol rendering; matching material alone is insufficient.",
+        "reportedBy": "live-reference collection agent via ChatGPT implementation agent"
+      },
+      {
+        "id": "appearance-light",
+        "source": "settings/appearance",
+        "trigger": "select Light; inspect; restore System",
+        "destination": "settings/appearance-system",
+        "theme": "light",
+        "referenceEvidence": [
+          "chatgpt-theme-picker.png",
+          "chatgpt-home-light.png",
+          "chatgpt-complete-light.png",
+          "chatgpt-settings-light.png"
+        ],
+        "implementationEvidence": [],
+        "referenceStatus": "observed",
+        "implementationStatus": "unverified",
+        "observation": "Light user bubble pale blue with blue text. System selected again after inspection. The app temporarily remained light inside Settings; after Settings closed it returned to dark.",
+        "reportedBy": "live-reference collection agent via ChatGPT implementation agent"
+      },
+      {
+        "id": "temporary-chat",
+        "source": "home/light",
+        "trigger": "select temporary chat",
+        "destination": "home/temporary",
+        "theme": "light",
+        "referenceEvidence": [
+          "chatgpt-temporary-light.png",
+          "chatgpt-temporary-settings-light.png"
+        ],
+        "implementationEvidence": [],
+        "referenceStatus": "observed",
+        "implementationStatus": "unverified",
+        "observation": "Temporary-chat state and settings captured. Detailed transition motion remains unmeasured.",
+        "reportedBy": "live-reference collection agent via ChatGPT implementation agent"
+      },
+      {
+        "id": "work-tab",
+        "source": "home/chat",
+        "trigger": "select Work tab and model picker",
+        "destination": "home/work-model-picker",
+        "theme": "light",
+        "referenceEvidence": [
+          "chatgpt-work-light.png",
+          "chatgpt-work-model-light.png"
+        ],
+        "implementationEvidence": [],
+        "referenceStatus": "observed",
+        "implementationStatus": "unverified",
+        "observation": "Work tab and its model picker captured; deeper Work destinations remain uncaptured.",
+        "reportedBy": "live-reference collection agent via ChatGPT implementation agent"
+      },
+      {
+        "id": "search-empty",
+        "source": "sidebar",
+        "trigger": "tap Search",
+        "destination": "search/empty",
+        "theme": "dark",
+        "referenceEvidence": [
+          "chatgpt-search.png"
+        ],
+        "implementationEvidence": [
+          "Sources/ChatGPTUI/AdditionalDestinations.swift"
+        ],
+        "referenceStatus": "observed",
+        "implementationStatus": "implemented-unverified",
+        "observation": "Fullscreen empty search with magnifier and helper text near upper third; bottom glass search pill and separate close circle.",
+        "reportedBy": "direct inspection of live-reference captures by implementation agent"
+      },
+      {
+        "id": "search-type",
+        "source": "search/empty",
+        "trigger": "type a search query",
+        "destination": "search/results",
+        "theme": "dark",
+        "referenceEvidence": [
+          "chatgpt-search-result.png"
+        ],
+        "implementationEvidence": [
+          "Sources/ChatGPTUI/AdditionalDestinations.swift"
+        ],
+        "referenceStatus": "observed",
+        "implementationStatus": "implemented-unverified",
+        "observation": "Top category strip All/Chats/Pages/Images and filter icon; results with thumbnails/title/type. Demo uses fictional local data and filtering.",
+        "reportedBy": "direct inspection of live-reference captures by implementation agent"
+      },
+      {
+        "id": "scheduled-tabs",
+        "source": "sidebar",
+        "trigger": "open Scheduled; select Paused",
+        "destination": "scheduled/paused",
+        "theme": "dark",
+        "referenceEvidence": [
+          "chatgpt-scheduled.png",
+          "chatgpt-scheduled-paused.png"
+        ],
+        "implementationEvidence": [
+          "Sources/ChatGPTUI/AdditionalDestinations.swift"
+        ],
+        "referenceStatus": "observed",
+        "implementationStatus": "implemented-unverified",
+        "observation": "Active/Paused/Completed tabs, rounded gray cards, emoji/title/subtitle and overflow; blue New task control at bottom right.",
+        "reportedBy": "direct inspection of live-reference captures by implementation agent"
+      },
+      {
+        "id": "scheduled-delete-menu",
+        "source": "scheduled/paused",
+        "trigger": "tap card ellipsis",
+        "destination": "scheduled/delete-menu",
+        "theme": "dark",
+        "referenceEvidence": [
+          "chatgpt-scheduled-menu.png"
+        ],
+        "implementationEvidence": [
+          "Sources/ChatGPTUI/AdditionalDestinations.swift"
+        ],
+        "referenceStatus": "observed",
+        "implementationStatus": "implemented-unverified",
+        "observation": "Paused task overflow shows Delete only. Deleting removes local fixture only.",
+        "reportedBy": "direct inspection of live-reference captures by implementation agent"
+      },
+      {
+        "id": "scheduled-new",
+        "source": "scheduled/active",
+        "trigger": "tap New task",
+        "destination": "scheduled/editor",
+        "theme": "dark",
+        "referenceEvidence": [
+          "chatgpt-scheduled-new.png"
+        ],
+        "implementationEvidence": [
+          "Sources/ChatGPTUI/AdditionalDestinations.swift"
+        ],
+        "referenceStatus": "observed",
+        "implementationStatus": "implemented-unverified",
+        "observation": "Sheet form includes icon/name, instructions, Notify when complete, Repeat/detail, Time, End repeat and close/check controls.",
+        "reportedBy": "direct inspection of live-reference captures by implementation agent"
+      },
+      {
+        "id": "scheduled-repeat",
+        "source": "scheduled/editor",
+        "trigger": "open Repeat menu",
+        "destination": "scheduled/repeat-menu",
+        "theme": "dark",
+        "referenceEvidence": [
+          "chatgpt-scheduled-repeat.png"
+        ],
+        "implementationEvidence": [
+          "Sources/ChatGPTUI/AdditionalDestinations.swift"
+        ],
+        "referenceStatus": "observed",
+        "implementationStatus": "implemented-unverified",
+        "observation": "Never, Hourly, Daily, Weekdays, Weekly, Monthly, Custom options observed; Daily checked.",
+        "reportedBy": "direct inspection of live-reference captures by implementation agent"
+      },
+      {
+        "id": "scheduled-time",
+        "source": "scheduled/editor",
+        "trigger": "open Time menu",
+        "destination": "scheduled/time-menu",
+        "theme": "dark",
+        "referenceEvidence": [
+          "chatgpt-scheduled-time.png"
+        ],
+        "implementationEvidence": [
+          "Sources/ChatGPTUI/AdditionalDestinations.swift"
+        ],
+        "referenceStatus": "observed",
+        "implementationStatus": "implemented-unverified",
+        "observation": "Morning, Afternoon, Evening, Night options observed; Morning checked.",
+        "reportedBy": "direct inspection of live-reference captures by implementation agent"
+      },
+      {
+        "id": "memory-summary",
+        "source": "settings",
+        "trigger": "open Memory",
+        "destination": "memory/summary",
+        "theme": "dark",
+        "referenceEvidence": [
+          "chatgpt-memory.png"
+        ],
+        "implementationEvidence": [
+          "Sources/ChatGPTUI/MemoryPluginsDestinations.swift"
+        ],
+        "referenceStatus": "observed",
+        "implementationStatus": "implemented-unverified",
+        "observation": "Gray full page with Memory summary and Updated10hoursago, glass Back/ellipsis,17pt body and section headings. Demo paragraphs are fictional.",
+        "reportedBy": "direct inspection of private reference captures"
+      },
+      {
+        "id": "memory-overflow",
+        "source": "memory/summary",
+        "trigger": "tap ellipsis",
+        "destination": "memory/menu",
+        "theme": "dark",
+        "referenceEvidence": [
+          "chatgpt-memory-menu.png"
+        ],
+        "implementationEvidence": [
+          "Sources/ChatGPTUI/MemoryPluginsDestinations.swift"
+        ],
+        "referenceStatus": "observed",
+        "implementationStatus": "implemented-unverified",
+        "observation": "About memory, Refresh summary, red Delete and turn off memory menu actions observed.",
+        "reportedBy": "direct inspection of private reference captures"
+      },
+      {
+        "id": "memory-about",
+        "source": "memory/menu",
+        "trigger": "select About memory",
+        "destination": "memory/about-panel",
+        "theme": "dark",
+        "referenceEvidence": [
+          "chatgpt-memory-about.png"
+        ],
+        "implementationEvidence": [
+          "Sources/ChatGPTUI/MemoryPluginsDestinations.swift"
+        ],
+        "referenceStatus": "observed",
+        "implementationStatus": "implemented-unverified",
+        "observation": "Custom rounded bottom panel, centered title/body, outlined Learn more and filled Got it pills. Dismissal implemented; linked destination unobserved.",
+        "reportedBy": "direct inspection of private reference captures"
+      },
+      {
+        "id": "plugins-catalog",
+        "source": "settings",
+        "trigger": "open Plugins",
+        "destination": "plugins/catalog",
+        "theme": "dark",
+        "referenceEvidence": [
+          "chatgpt-plugins.png"
+        ],
+        "implementationEvidence": [
+          "Sources/ChatGPTUI/PluginsDestination.swift"
+        ],
+        "referenceStatus": "observed",
+        "implementationStatus": "implemented-unverified",
+        "observation": "Installed horizontal icons/count; Popular and New & Noteworthy rows; bottom glass search pill. Demo brand symbols approximate actual logos.",
+        "reportedBy": "direct inspection of private reference captures"
+      },
+      {
+        "id": "plugin-detail",
+        "source": "plugins/catalog",
+        "trigger": "select Gmail row",
+        "destination": "plugins/detail",
+        "theme": "dark",
+        "referenceEvidence": [
+          "chatgpt-plugin-detail.png"
+        ],
+        "implementationEvidence": [
+          "Sources/ChatGPTUI/PluginsDestination.swift"
+        ],
+        "referenceStatus": "observed",
+        "implementationStatus": "implemented-unverified",
+        "observation": "Back/title/gear header; plugin icon/name/subtitle; cyan-to-green prompt example card; bottom Try in chat pill.",
+        "reportedBy": "direct inspection of private reference captures"
+      },
+      {
+        "id": "plugin-settings",
+        "source": "plugins/detail",
+        "trigger": "tap gear",
+        "destination": "plugins/settings",
+        "theme": "dark",
+        "referenceEvidence": [
+          "chatgpt-plugin-settings.png"
+        ],
+        "implementationEvidence": [
+          "Sources/ChatGPTUI/PluginsDestination.swift"
+        ],
+        "referenceStatus": "observed",
+        "implementationStatus": "implemented-unverified",
+        "observation": "Brand card, connected accounts, add-account row, Permissions, Read actions. Demo uses fictional account and no account photo.",
+        "reportedBy": "direct inspection of private reference captures"
+      },
+      {
+        "id": "plugin-permissions",
+        "source": "plugins/settings",
+        "trigger": "open Permissions",
+        "destination": "plugins/permissions",
+        "theme": "dark",
+        "referenceEvidence": [
+          "chatgpt-plugin-permissions.png"
+        ],
+        "implementationEvidence": [
+          "Sources/ChatGPTUI/PluginsDestination.swift"
+        ],
+        "referenceStatus": "observed",
+        "implementationStatus": "implemented-unverified",
+        "observation": "Always ask, Allow read actions, Allow low-risk actions default, Allow all actions elevated risk; selected blue check; reset disabled at default. Only inspected on original; no real permission changes were made.",
+        "reportedBy": "direct inspection of private reference captures"
+      },
+      {
+        "id": "voice-chooser",
+        "source": "chat",
+        "trigger": "enter Voice",
+        "destination": "voice/choose",
+        "theme": "dark",
+        "referenceEvidence": [
+          "chatgpt-choose-voice-breeze.png"
+        ],
+        "implementationEvidence": [],
+        "referenceStatus": "observed",
+        "implementationStatus": "validation-pending",
+        "observation": "Breeze voice chooser observed; other voice profiles not captured.",
+        "reportedBy": "live-reference collection agent"
+      },
+      {
+        "id": "voice-idle",
+        "source": "voice/choose",
+        "trigger": "start voice",
+        "destination": "voice/idle",
+        "theme": "dark",
+        "referenceEvidence": [
+          "chatgpt-voice-idle.png"
+        ],
+        "implementationEvidence": [],
+        "referenceStatus": "observed",
+        "implementationStatus": "validation-pending",
+        "observation": "Silent voice layout observed. No live speech, maximum waveform height, or motion timing established.",
+        "reportedBy": "live-reference collection agent"
+      },
+      {
+        "id": "voice-settings",
+        "source": "voice/idle",
+        "trigger": "open settings",
+        "destination": "voice/settings",
+        "theme": "dark",
+        "referenceEvidence": [
+          "chatgpt-voice-settings-breeze.png"
+        ],
+        "implementationEvidence": [],
+        "referenceStatus": "observed",
+        "implementationStatus": "validation-pending",
+        "observation": "Voice settings with Breeze observed.",
+        "reportedBy": "live-reference collection agent"
+      },
+      {
+        "id": "voice-language",
+        "source": "voice/settings",
+        "trigger": "open language",
+        "destination": "voice/languages",
+        "theme": "dark",
+        "referenceEvidence": [
+          "chatgpt-voice-language-1.png",
+          "chatgpt-voice-language-2.png"
+        ],
+        "implementationEvidence": [],
+        "referenceStatus": "observed",
+        "implementationStatus": "validation-pending",
+        "observation": "Auto and 14 named language entries observed across two captures; full catalog not established.",
+        "reportedBy": "live-reference collection agent"
+      },
+      {
+        "id": "codex-home",
+        "source": "Codex navigation",
+        "trigger": "open home",
+        "destination": "codex/home",
+        "theme": "dark",
+        "referenceEvidence": [
+          "chatgpt-codex-home.png"
+        ],
+        "implementationEvidence": [
+          "Sources/ChatGPTUI/CodexDestinationView.swift",
+          "Sources/ChatGPTUI/CodexPresentationState.swift"
+        ],
+        "referenceStatus": "observed",
+        "implementationStatus": "built-state-tested-ui-validation-pending",
+        "observation": "Fictional local content only. Profile and automatic-open routes reuse Settings and General. Actual agents/connections are not executed."
+      },
+      {
+        "id": "codex-menu",
+        "source": "Codex navigation",
+        "trigger": "open menu",
+        "destination": "codex/menu",
+        "theme": "dark",
+        "referenceEvidence": [
+          "chatgpt-codex-menu.png"
+        ],
+        "implementationEvidence": [
+          "Sources/ChatGPTUI/CodexDestinationView.swift",
+          "Sources/ChatGPTUI/CodexPresentationState.swift"
+        ],
+        "referenceStatus": "observed",
+        "implementationStatus": "built-state-tested-ui-validation-pending",
+        "observation": "Fictional local content only. Profile and automatic-open routes reuse Settings and General. Actual agents/connections are not executed."
+      },
+      {
+        "id": "codex-task-detail",
+        "source": "Codex navigation",
+        "trigger": "open task-detail",
+        "destination": "codex/task-detail",
+        "theme": "dark",
+        "referenceEvidence": [
+          "chatgpt-codex-task-detail.png"
+        ],
+        "implementationEvidence": [
+          "Sources/ChatGPTUI/CodexDestinationView.swift",
+          "Sources/ChatGPTUI/CodexPresentationState.swift"
+        ],
+        "referenceStatus": "observed",
+        "implementationStatus": "built-state-tested-ui-validation-pending",
+        "observation": "Fictional local content only. Profile and automatic-open routes reuse Settings and General. Actual agents/connections are not executed."
+      },
+      {
+        "id": "codex-settings",
+        "source": "Codex navigation",
+        "trigger": "open settings",
+        "destination": "codex/settings",
+        "theme": "dark",
+        "referenceEvidence": [
+          "chatgpt-codex-settings.png"
+        ],
+        "implementationEvidence": [
+          "Sources/ChatGPTUI/CodexDestinationView.swift",
+          "Sources/ChatGPTUI/CodexPresentationState.swift"
+        ],
+        "referenceStatus": "observed",
+        "implementationStatus": "built-state-tested-ui-validation-pending",
+        "observation": "Fictional local content only. Profile and automatic-open routes reuse Settings and General. Actual agents/connections are not executed."
+      },
+      {
+        "id": "codex-search",
+        "source": "Codex navigation",
+        "trigger": "open search",
+        "destination": "codex/search",
+        "theme": "dark",
+        "referenceEvidence": [
+          "chatgpt-codex-search.png"
+        ],
+        "implementationEvidence": [
+          "Sources/ChatGPTUI/CodexDestinationView.swift",
+          "Sources/ChatGPTUI/CodexPresentationState.swift"
+        ],
+        "referenceStatus": "observed",
+        "implementationStatus": "built-state-tested-ui-validation-pending",
+        "observation": "Fictional local content only. Profile and automatic-open routes reuse Settings and General. Actual agents/connections are not executed."
+      },
+      {
+        "id": "codex-archived",
+        "source": "Codex navigation",
+        "trigger": "open archived",
+        "destination": "codex/archived",
+        "theme": "dark",
+        "referenceEvidence": [
+          "chatgpt-codex-archived.png"
+        ],
+        "implementationEvidence": [
+          "Sources/ChatGPTUI/CodexDestinationView.swift",
+          "Sources/ChatGPTUI/CodexPresentationState.swift"
+        ],
+        "referenceStatus": "observed",
+        "implementationStatus": "built-state-tested-ui-validation-pending",
+        "observation": "Fictional local content only. Profile and automatic-open routes reuse Settings and General. Actual agents/connections are not executed."
+      },
+      {
+        "id": "codex-profile",
+        "source": "Codex navigation",
+        "trigger": "open profile",
+        "destination": "codex/profile",
+        "theme": "dark",
+        "referenceEvidence": [
+          "chatgpt-codex-profile.png"
+        ],
+        "implementationEvidence": [
+          "Sources/ChatGPTUI/CodexDestinationView.swift",
+          "Sources/ChatGPTUI/CodexPresentationState.swift"
+        ],
+        "referenceStatus": "observed",
+        "implementationStatus": "built-state-tested-ui-validation-pending",
+        "observation": "Fictional local content only. Profile and automatic-open routes reuse Settings and General. Actual agents/connections are not executed."
+      },
+      {
+        "id": "codex-open-automatically",
+        "source": "Codex navigation",
+        "trigger": "open open-automatically",
+        "destination": "codex/open-automatically",
+        "theme": "dark",
+        "referenceEvidence": [
+          "chatgpt-codex-open-automatically.png"
+        ],
+        "implementationEvidence": [
+          "Sources/ChatGPTUI/CodexDestinationView.swift",
+          "Sources/ChatGPTUI/CodexPresentationState.swift"
+        ],
+        "referenceStatus": "observed",
+        "implementationStatus": "built-state-tested-ui-validation-pending",
+        "observation": "Fictional local content only. Profile and automatic-open routes reuse Settings and General. Actual agents/connections are not executed."
+      },
+      {
+        "id": "codex-add-connection",
+        "source": "codex/menu-or-settings",
+        "trigger": "open add-connection",
+        "destination": "codex/add-connection",
+        "theme": "dark",
+        "referenceEvidence": [
+          "chatgpt-codex-add-connection.png"
+        ],
+        "implementationEvidence": [
+          "Sources/ChatGPTUI/CodexConnectionView.swift"
+        ],
+        "referenceStatus": "observed",
+        "implementationStatus": "ui-validation-pending",
+        "observation": "Offline scanner placeholder preview with injectable content; local manual code field emits host intent only. No real pairing performed. Nonempty code acceptance is provisional; original validation not observed."
+      },
+      {
+        "id": "codex-pair-manually",
+        "source": "codex/menu-or-settings",
+        "trigger": "open pair-manually",
+        "destination": "codex/pair-manually",
+        "theme": "dark",
+        "referenceEvidence": [
+          "chatgpt-codex-pair-manually.png"
+        ],
+        "implementationEvidence": [
+          "Sources/ChatGPTUI/CodexConnectionView.swift"
+        ],
+        "referenceStatus": "observed",
+        "implementationStatus": "ui-validation-pending",
+        "observation": "Offline scanner placeholder preview with injectable content; local manual code field emits host intent only. No real pairing performed. Nonempty code acceptance is provisional; original validation not observed."
+      },
+      {
+        "id": "dot-home",
+        "source": "dot",
+        "trigger": "open home",
+        "destination": "dot/home",
+        "theme": "dark",
+        "referenceEvidence": [
+          "chatgpt-dot-home.png"
+        ],
+        "implementationEvidence": [
+          "Sources/ChatGPTUI/DotDestinationView.swift",
+          "Sources/ChatGPTUI/DotPresentationState.swift",
+          "Sources/ChatGPTUI/DotCallView.swift",
+          "Sources/ChatGPTUI/DotComputerView.swift"
+        ],
+        "referenceStatus": "observed",
+        "implementationStatus": "state-tested-ui-validation-pending",
+        "observation": "Assistant gray bubbles with underlined links, donut/title and Message composer."
+      },
+      {
+        "id": "dot-typing",
+        "source": "dot",
+        "trigger": "open typing",
+        "destination": "dot/typing",
+        "theme": "dark",
+        "referenceEvidence": [
+          "chatgpt-dot-typing.png"
+        ],
+        "implementationEvidence": [
+          "Sources/ChatGPTUI/DotDestinationView.swift",
+          "Sources/ChatGPTUI/DotPresentationState.swift",
+          "Sources/ChatGPTUI/DotCallView.swift",
+          "Sources/ChatGPTUI/DotComputerView.swift"
+        ],
+        "referenceStatus": "observed",
+        "implementationStatus": "state-tested-ui-validation-pending",
+        "observation": "Mic replaced by blue send arrow; reference draft cleared without sending."
+      },
+      {
+        "id": "dot-menu",
+        "source": "dot",
+        "trigger": "open menu",
+        "destination": "dot/menu",
+        "theme": "dark",
+        "referenceEvidence": [
+          "chatgpt-dot-menu.png"
+        ],
+        "implementationEvidence": [
+          "Sources/ChatGPTUI/DotDestinationView.swift",
+          "Sources/ChatGPTUI/DotPresentationState.swift",
+          "Sources/ChatGPTUI/DotCallView.swift",
+          "Sources/ChatGPTUI/DotComputerView.swift"
+        ],
+        "referenceStatus": "observed",
+        "implementationStatus": "state-tested-ui-validation-pending",
+        "observation": "Computers, host submenu, Pause and Delete; destructive aftermath not captured."
+      },
+      {
+        "id": "dot-computer-menu",
+        "source": "dot",
+        "trigger": "open computer-menu",
+        "destination": "dot/computer-menu",
+        "theme": "dark",
+        "referenceEvidence": [
+          "chatgpt-dot-computer-menu.png"
+        ],
+        "implementationEvidence": [
+          "Sources/ChatGPTUI/DotDestinationView.swift",
+          "Sources/ChatGPTUI/DotPresentationState.swift",
+          "Sources/ChatGPTUI/DotCallView.swift",
+          "Sources/ChatGPTUI/DotComputerView.swift"
+        ],
+        "referenceStatus": "observed",
+        "implementationStatus": "state-tested-ui-validation-pending",
+        "observation": "Revoke access submenu; no real access changed."
+      },
+      {
+        "id": "dot-attachments",
+        "source": "dot",
+        "trigger": "open attachments",
+        "destination": "dot/attachments",
+        "theme": "dark",
+        "referenceEvidence": [
+          "chatgpt-dot-attachments.png"
+        ],
+        "implementationEvidence": [
+          "Sources/ChatGPTUI/DotDestinationView.swift",
+          "Sources/ChatGPTUI/DotPresentationState.swift",
+          "Sources/ChatGPTUI/DotCallView.swift",
+          "Sources/ChatGPTUI/DotComputerView.swift"
+        ],
+        "referenceStatus": "observed",
+        "implementationStatus": "state-tested-ui-validation-pending",
+        "observation": "Camera/Photos/Files menu; destinations not yet referenced."
+      },
+      {
+        "id": "dot-message-menu",
+        "source": "dot",
+        "trigger": "open message-menu",
+        "destination": "dot/message-menu",
+        "theme": "dark",
+        "referenceEvidence": [
+          "chatgpt-dot-message-menu.png"
+        ],
+        "implementationEvidence": [
+          "Sources/ChatGPTUI/DotDestinationView.swift",
+          "Sources/ChatGPTUI/DotPresentationState.swift",
+          "Sources/ChatGPTUI/DotCallView.swift",
+          "Sources/ChatGPTUI/DotComputerView.swift"
+        ],
+        "referenceStatus": "observed",
+        "implementationStatus": "state-tested-ui-validation-pending",
+        "observation": "Reaction strip and Copy/Select text/Reply; reaction aftermath not measured."
+      },
+      {
+        "id": "dot-reply",
+        "source": "dot",
+        "trigger": "open reply",
+        "destination": "dot/reply",
+        "theme": "dark",
+        "referenceEvidence": [
+          "chatgpt-dot-reply.png"
+        ],
+        "implementationEvidence": [
+          "Sources/ChatGPTUI/DotDestinationView.swift",
+          "Sources/ChatGPTUI/DotPresentationState.swift",
+          "Sources/ChatGPTUI/DotCallView.swift",
+          "Sources/ChatGPTUI/DotComputerView.swift"
+        ],
+        "referenceStatus": "observed",
+        "implementationStatus": "state-tested-ui-validation-pending",
+        "observation": "Other bubbles blur; selected bubble and Today timestamp remain visible; composer retained."
+      },
+      {
+        "id": "dot-calling",
+        "source": "dot",
+        "trigger": "open calling",
+        "destination": "dot/calling",
+        "theme": "dark",
+        "referenceEvidence": [
+          "video-dot/IMG_6708.PNG"
+        ],
+        "implementationEvidence": [
+          "Sources/ChatGPTUI/DotDestinationView.swift",
+          "Sources/ChatGPTUI/DotPresentationState.swift",
+          "Sources/ChatGPTUI/DotCallView.swift",
+          "Sources/ChatGPTUI/DotComputerView.swift"
+        ],
+        "referenceStatus": "observed",
+        "implementationStatus": "state-tested-ui-validation-pending",
+        "observation": "Minimized card approximately377x294pt at8pt top/side;57pt ring. No timing established."
+      },
+      {
+        "id": "dot-call-failed",
+        "source": "dot",
+        "trigger": "open call-failed",
+        "destination": "dot/call-failed",
+        "theme": "dark",
+        "referenceEvidence": [
+          "video-dot/IMG_6707.PNG"
+        ],
+        "implementationEvidence": [
+          "Sources/ChatGPTUI/DotDestinationView.swift",
+          "Sources/ChatGPTUI/DotPresentationState.swift",
+          "Sources/ChatGPTUI/DotCallView.swift",
+          "Sources/ChatGPTUI/DotComputerView.swift"
+        ],
+        "referenceStatus": "observed",
+        "implementationStatus": "state-tested-ui-validation-pending",
+        "observation": "Minimized failed card474pt tall retaining donut/name/expand header; retry and three controls. Expanded failure separately captured in chatgpt-dot-call-failed.png."
+      },
+      {
+        "id": "dot-computer-view",
+        "source": "dot",
+        "trigger": "open computer-view",
+        "destination": "dot/computer-view",
+        "theme": "dark",
+        "referenceEvidence": [
+          "chatgpt-dot-computer-view.png"
+        ],
+        "implementationEvidence": [
+          "Sources/ChatGPTUI/DotDestinationView.swift",
+          "Sources/ChatGPTUI/DotPresentationState.swift",
+          "Sources/ChatGPTUI/DotCallView.swift",
+          "Sources/ChatGPTUI/DotComputerView.swift"
+        ],
+        "referenceStatus": "observed",
+        "implementationStatus": "state-tested-ui-validation-pending",
+        "observation": "Synthetic injectable viewer follows captured landscape frame; video confirms keyboard overlays preview and utility buttons move above it."
+      }
+    ],
+    "voiceReferenceStatus": {
+      "voiceConversation": "observed-idle-transcript-keyboard-sharing-live-camera",
+      "voiceChooser": "observed-Breeze-only",
+      "settings": "observed",
+      "languageMenu": "observed-Auto-and-14-language-entries-only",
+      "dictationSilent": "observed-separate-surface",
+      "speakingWaveform": "unknown",
+      "speakingMaximumHeight": "unknown",
+      "timing": "unmeasured",
+      "orbGeometry": "One direct recording yielded sampled dimensions and a 0.5-second large-to-compact path; not maxima, waveform levels, or universal timing."
+    },
+    "validation": {
+      "stateTests": {
+        "passed": 153,
+        "suites": 23,
+        "evidence": "chatgpt-table-state.log"
+      },
+      "latestBuild": {
+        "passed": true,
+        "evidence": "chatgpt-final-generic.log",
+        "scope": "app and WidgetKit extension"
+      },
+      "sourceScope": "Final known-scope snapshot independently tested/built; remaining gaps TODO",
+      "allUIFlowsRerunTogether": false,
+      "scopeLimit": "All remaining unobserved/unfinished states are TODO; no exact parity claim"
+    },
+    "dotReferenceStatus": {
+      "callTiming": "unmeasured-stills-only",
+      "computerVideo": "connecting, fit, zoom/pan, keyboard observed; interaction gesture source and easing unknown",
+      "computerPreview": "synthetic-injectable",
+      "deleteConfirmation": "provisional-unobserved",
+      "speakingCall": "unobserved",
+      "callFailureDelay": "host-supplied-not-invented"
+    },
+    "featureWorkspaceStatus": {
+      "implementation": "Captured connected/setup layouts implemented with injectable data; reusable states default empty, fictional data lives in Demo",
+      "stateTests": "Feature tests included in current 124-test suite; feature-data extraction checkpoint originally passed 77 tests.",
+      "genericIOSBuild": "passed chatgpt-host-data-generic.log",
+      "uiTests": "Finance/Health/empty-data3 passed45.273s; provider-binding Health/empty2 passed27.317s",
+      "auth": "No actual account connection or financial/health service",
+      "gaps": [
+        "Whole-workspace disconnected/loading/error reference layouts",
+        "Deeper Finance dashboard cards and other manual account entry flows",
+        "Health current medications/family settings and provider authentication"
+      ]
+    },
+    "dotDeliveryReceipt": {
+      "delivered": "screenshot observed",
+      "read": "reported by user; no screenshot supplied yet",
+      "transitionTiming": "unmeasured; host-driven state only, no simulated vendor timing"
+    },
+    "mediaPresentationStatus": {
+      "reference": "Recent-photo picker, selected item, composer image, sent image, Copy-only hold menu, viewer controls/favorite menu/hidden controls captured",
+      "implementation": "Shared injected media presentation with chat and Space; no real Photos, image clipboard, download or editor adapter",
+      "validation": "Image picker/composer/Copy/favorite/hide/reopen UI passed (26.757s), shared Space passed (24.084s); 123 pure tests / 16 suites passed. Image content rectangle is unchanged between visible and hidden chrome screenshots.",
+      "limits": [
+        "Native hold-preview timing unmeasured",
+        "Remove is eraser-tool intent, not deletion",
+        "Remove from Favorites reversal is local behavior without its own source capture",
+        "Unobserved editor/resize/eraser destinations emit host intents"
+      ]
+    },
+    "videoPresentationStatus": {
+      "observed": "Recent picker, composer duration, complete approximately120x240-point paused card with40-point outlined Play, fullscreen X/Fit and status",
+      "reportedByLiveCollector": "Fullscreen video auto loops",
+      "implementation": "Separate typed video route and complete paused-card affordance implemented; final scoped UI and generic build passed.",
+      "gaps": [
+        "Play/pause controls and timeline",
+        "Fit button visual result",
+        "Viewer hidden-controls state",
+        "Long-press menu outside viewer",
+        "Playback loop timing/audio behavior",
+        "Inline pause/autoplay policy and transitions"
+      ],
+      "validation": "124 pure tests; final scoped video UI17.081s, image regression27.012s, final generic app and extension build passed."
+    },
+    "validationCheckpoint": {
+      "pureTests": 124,
+      "suites": 16,
+      "genericSimulatorBuild": "passed app and widget extension",
+      "evidence": [
+        "chatgpt-video-play-state.log",
+        "chatgpt-video-play-final-generic.log",
+        "chatgpt-video-play-verified.xcresult",
+        "chatgpt-video-play-qa.xcresult"
+      ],
+      "uiScope": "Final paused-card video flow passed17.081s; image regression passed27.012s in earlier mixed bundle. Other scopes have separate checkpoints; no full-suite claim."
+    },
+    "phase2RouteStatus": {
+      "Explore": "Inline drawer expansion implemented and scoped UI passed",
+      "Sites": "Empty/search/create-to-Work draft implemented; final scoped pass14.788s; populated/editor/publishing outcomes unobserved",
+      "Projects": "Empty/draft/memory/icon/suggestion implemented; final scoped pass35.433s; creation success/populated detail unobserved",
+      "Images": "Templates/Trending/Poster detail implemented with seven original generated demo images; final Images/Work flow23.703s passed; complete catalog/generated outcomes unverified",
+      "Work": "Host-fed clarification/status/inline trace/Library implemented; final Images/Work pass23.703s; answer aftermath/overflow destinations gaps",
+      "SettingsAbout": "About/metadata/legal host intents implemented; UI25.919s passed and generic build passed. Native About dark reference unobserved; adaptive dark rendering tested."
+    },
+    "historicalPhase1Validation": {
+      "stateTests": {
+        "passed": 124,
+        "suites": 16,
+        "evidence": "chatgpt-video-play-state.log"
+      },
+      "latestGenericBuild": {
+        "status": "passed app and WidgetKit extension",
+        "evidence": "chatgpt-video-play-final-generic.log"
+      },
+      "uiFlows": {
+        "allRerunTogether": false,
+        "passedFromMixedRun": {
+          "chatSeconds": 15.85,
+          "markdownSeconds": 14.189,
+          "imageSeconds": 26.757,
+          "spaceSeconds": 24.084,
+          "evidence": "chatgpt-markdown-media-qa.xcresult",
+          "bundleStatus": "mixed; initial video accessibility assertion failed"
+        },
+        "finalVideoRun": {
+          "status": "passed paused-card, accessible bounds, Play/tap/hold viewer",
+          "durationSeconds": 17.081,
+          "evidence": "chatgpt-video-play-verified.xcresult"
+        },
+        "imageRegression": {
+          "status": "passed",
+          "durationSeconds": 27.012,
+          "evidence": "chatgpt-video-play-qa.xcresult",
+          "bundleStatus": "mixed; earlier video accessibility bounds failure later corrected"
+        }
+      },
+      "sourceScope": "Historical phase1 export checkpoint; see phase2.validation for later scoped results."
+    }
+  }
+}

@@ -1,0 +1,13 @@
+# Space reference and integration
+
+`SpacePresentationState` starts with empty host-injected items. `SpaceView(state:onBack:imageProvider:)` renders supplied items; its image-provider closure returns local SwiftUI Images keyed by each item's opaque `imageKey`. The root `ChatGPTView(state:spaceImageProvider:)` forwards the same provider, including its camera-preview initializer. The package never fetches file URLs, reads private photos, contacts a plugin, or copies source-account content.
+
+Captured surfaces include Suggested masonry and list, Favorites empty, Folders provider row, Pages, Images loading/list, the six scrolling tabs, native add/options/filter menus, and the full-screen image viewer with favorite menu and Edit / Resize / Remove controls. Titles and connection subtitles are host data. Provider logos and file glyphs currently use SF Symbols unless the host supplies an image; exact vendor assets remain a gap.
+
+Public typed `SpaceAction` requests cover opening an item, download/edit/resize/remove, favorite changes, creating Image/Note/Folder, upload, selection, plugins, deleted items and retry. Only captured image viewing opens a local destination. Uncaptured editors, creation forms, selection mode, provider navigation and deleted-item outcomes are host requests, not fabricated screens. Only Suggested exposes Plugins, matching the available reference. Exact plugin submenu content is unobserved.
+
+Local search matches title/subtitle. A selected filter toggles off when chosen again; one filter applies at a time. These semantics, favorite mutation, non-Favorites empty labels and the generic error/retry arrangement are local skeleton behavior, not verified source-app outcomes. `.loading`, `.failed(message:)` and `.loaded` are explicit host-owned states; the two-row loading placeholder follows the captured Images state. No delays, requests or automated failure transitions are introduced.
+
+The native SwiftUI menu uses fixed order to preserve observed top-to-bottom order. Built-in horizontal/vertical lazy stacks provide the two staggered columns; no external layout package is needed. [Apple menu ordering](https://developer.apple.com/documentation/swiftui/menuorder/fixed), [Apple layout containers](https://developer.apple.com/documentation/swiftui/layout).
+
+Nine state tests cover empty defaults, all tab predicates, whitespace/case search, filter state and callbacks, image-only local viewing, duplicate identities/removal, favorites, guarded image intents, and independent loading/error state. The integrated search/tab/list/image/favorite/filter UI test passed in 24.084s after switching to the shared media renderer. Exported viewer screenshots were inspected with the supplied original garden image visible.
