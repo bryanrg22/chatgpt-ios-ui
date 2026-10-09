@@ -6,25 +6,22 @@ This is a starting implementation based on observed October 7–8, 2026 app scre
 
 ## Run
 
-Requires Xcode 26.4 or newer, Swift 6.2+, iOS 26+. Open `ChatGPTUIDemo.xcodeproj`, choose the `ChatGPTUIDemo` scheme and an iOS simulator, then Run. The running demo needs no account, API key, network, microphone, photos, or camera permissions. A first build resolves the pinned official Swift Markdown dependency over the network. Sending a message produces a local simulated response. Voice and read-aloud are presentation previews. Dictation starts with the observed silent waveform; the host may supply waveform levels and transcript text.
+Requires Xcode 26.4 or newer, Swift 6.2+, iOS 26+. Open `Examples/ChatGPTUIDemo/ChatGPTUIDemo.xcodeproj`, choose the `ChatGPTUIDemo` scheme and an iOS simulator, then Run. The running demo needs no account, API key, network, microphone, photos, or camera permissions. A first build resolves the pinned official Swift Markdown dependency over the network. Sending a message produces a local simulated response. Voice and read-aloud are presentation previews. Dictation starts with the observed silent waveform; the host may supply waveform levels and transcript text.
 
-The project is generated from `project.yml` using [XcodeGen](https://github.com/yonaskolb/XcodeGen):
+The demo project is generated from `Examples/ChatGPTUIDemo/project.yml` using [XcodeGen](https://github.com/yonaskolb/XcodeGen) 2.45.4. The generated project is committed, so you only need XcodeGen after editing `project.yml`:
 
 ```sh
+cd Examples/ChatGPTUIDemo
 xcodegen generate
-xcodebuild -project ChatGPTUIDemo.xcodeproj -scheme ChatGPTUIDemo \
-  -destination 'generic/platform=iOS Simulator' CODE_SIGNING_ALLOWED=NO build
+```
+
+Unit tests run on the Mac without a simulator:
+
+```sh
 swift test
 ```
 
-Run UI tests on an available simulator:
-
-```sh
-xcodebuild -project ChatGPTUIDemo.xcodeproj -scheme ChatGPTUIDemo \
-  -destination 'platform=iOS Simulator,name=iPhone 17 Pro' test
-```
-
-For physical-device builds choose your own bundle ID and development team and turn code signing on. No upstream credentials are included.
+Screenshot tests, UI tests and the accessibility audit run on an iPhone 17 Pro simulator with iOS 27.0. See [TESTING.md](TESTING.md).
 
 ## Integrate
 
@@ -46,7 +43,7 @@ var body: some View {
 
 The UI has no networking or automation dependency. `send()` supplies a response identity. Apply incremental text with `updateResponse(id:text:finished:)`. Stopped or superseded response IDs are rejected. Retry emits `retry(originalID:responseID:)`: the original ID identifies the requested turn, and the new response ID identifies the replacement stream. Removed turns lose their feedback/copy/player state. Editing carries that message’s attachments; cancellation restores the previous draft and its attachments. The host implements copy/share/read-aloud actions; the demo implements pasteboard copying and synthetic text streaming. UI-owned state covers drafts, selections, routes, and feedback. The host can supply message arrays and profile labels.
 
-`Sources/ChatGPTUI` contains the reusable interface and presentation state. `Demo` contains deliberately separate fake behavior. `Tests` checks state transitions on macOS without a simulator; UI code is iOS-only. `DemoUITests` checks the actual composer and navigation controls.
+`Sources/ChatGPTUI` contains the reusable interface and presentation state. `Examples/ChatGPTUIDemo` is the demo app, with deliberately separate fake behavior in `Demo`, its widget extension in `WidgetDemo`, and its screenshot and UI tests. `Tests` checks state transitions on macOS without a simulator; UI code is iOS-only.
 
 ## Contributing
 
