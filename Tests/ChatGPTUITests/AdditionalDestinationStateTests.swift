@@ -25,7 +25,9 @@ import Testing
         #expect(firstSave)
         #expect(presentation.tasks.first?.title == "Reading reminder")
         #expect(presentation.tasks.first?.instructions == "Read a chapter.")
-        draft.title = "Updated reminder"; draft.notify = false; draft.time = "Evening"
+        draft.title = "Updated reminder"
+        draft.notify = false
+        draft.time = "Evening"
         let updatedSave = presentation.save(draft)
         #expect(updatedSave)
         #expect(presentation.tasks.count == 1)
@@ -39,8 +41,10 @@ import Testing
         let original = ScheduledTaskPresentation(title: "Original", instructions: "Original instructions", emoji: "📚")
         let presentation = ScheduledPresentationState(tasks: [original])
         var unsavedDraft = presentation.tasks[0]
-        unsavedDraft.title = "Discard this edit"; unsavedDraft.notify = false
-        unsavedDraft.emoji = "🌱"; unsavedDraft.repeatRule = "Monthly"
+        unsavedDraft.title = "Discard this edit"
+        unsavedDraft.notify = false
+        unsavedDraft.emoji = "🌱"
+        unsavedDraft.repeatRule = "Monthly"
         #expect(presentation.tasks == [original])
         #expect(unsavedDraft != original)
     }
@@ -50,10 +54,13 @@ import Testing
         state.open(.scheduled)
         let removedID = state.scheduled.tasks[0].id
         state.scheduled.delete(id: removedID)
-        let saved = ScheduledTaskPresentation(title: "Persistent local task", instructions: "Keep this fixture", status: "Paused")
+        let saved = ScheduledTaskPresentation(
+            title: "Persistent local task", instructions: "Keep this fixture", status: "Paused")
         let accepted = state.scheduled.save(saved)
         #expect(accepted)
-        state.open(.chat); state.open(.settings); state.open(.scheduled)
+        state.open(.chat)
+        state.open(.settings)
+        state.open(.scheduled)
         #expect(state.scheduled.tasks.contains { $0.id == saved.id })
         #expect(!state.scheduled.tasks.contains { $0.id == removedID })
         #expect(state.scheduled.selectedTab == "Paused")
@@ -61,7 +68,8 @@ import Testing
     }
 
     @Test func independentSessionsDoNotShareTaskMutations() {
-        let first = ChatState(); let second = ChatState()
+        let first = ChatState()
+        let second = ChatState()
         let removed = first.scheduled.tasks[0].id
         first.scheduled.delete(id: removed)
         #expect(second.scheduled.tasks.contains { $0.id == removed })
@@ -79,10 +87,14 @@ import Testing
     }
 
     @Test func queryAndCategorySurviveNavigationTogether() {
-        let state = ChatState(); state.search = "design"; state.searchCategory = "Pages"
-        state.open(.scheduled); state.open(.chat)
+        let state = ChatState()
+        state.search = "design"
+        state.searchCategory = "Pages"
+        state.open(.scheduled)
+        state.open(.chat)
         #expect(state.search == "design")
         #expect(state.searchCategory == "Pages")
-        #expect(SearchFixture.matching(query: state.search, category: state.searchCategory).map(\.id) == ["design-notes"])
+        #expect(
+            SearchFixture.matching(query: state.search, category: state.searchCategory).map(\.id) == ["design-notes"])
     }
 }

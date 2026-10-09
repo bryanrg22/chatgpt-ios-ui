@@ -16,8 +16,13 @@ public struct ChatMedia: Identifiable, Equatable, Sendable {
         guard kind == .video, let durationSeconds else { return nil }
         return "\(durationSeconds / 60):" + String(format: "%02d", durationSeconds % 60)
     }
-    public init(id: UUID = UUID(), imageKey: String, title: String = "", aspectRatio: Double = 1, kind: ChatMediaKind = .image, durationSeconds: Int? = nil) {
-        self.id = id; self.imageKey = imageKey; self.title = title
+    public init(
+        id: UUID = UUID(), imageKey: String, title: String = "", aspectRatio: Double = 1, kind: ChatMediaKind = .image,
+        durationSeconds: Int? = nil
+    ) {
+        self.id = id
+        self.imageKey = imageKey
+        self.title = title
         self.aspectRatio = aspectRatio.isFinite && aspectRatio > 0 ? aspectRatio : 1
         self.kind = kind
         self.durationSeconds = kind == .video ? durationSeconds.flatMap { $0 >= 0 ? $0 : nil } : nil
@@ -35,7 +40,8 @@ public enum MediaAction: Equatable, Sendable {
     public var mediaID: UUID {
         switch self {
         case .open(let id), .close(let id), .copy(let id), .favorite(let id, _),
-             .download(let id), .edit(let id), .resize(let id), .remove(let id), .requestVideoFit(let id): id
+            .download(let id), .edit(let id), .resize(let id), .remove(let id), .requestVideoFit(let id):
+            id
         }
     }
 }
@@ -46,15 +52,20 @@ public enum MediaAction: Equatable, Sendable {
     public private(set) var showsChrome = true
     public var onAction: (MediaAction) -> Void = { _ in }
     public init(item: ChatMedia? = nil, isFavorite: Bool = false) {
-        self.item = item; self.isFavorite = item?.kind == .image && isFavorite
+        self.item = item
+        self.isFavorite = item?.kind == .image && isFavorite
     }
     public func present(_ item: ChatMedia, isFavorite: Bool = false) {
-        self.item = item; self.isFavorite = item.kind == .image && isFavorite; showsChrome = true
+        self.item = item
+        self.isFavorite = item.kind == .image && isFavorite
+        showsChrome = true
         onAction(.open(item.id))
     }
     public func dismiss() {
         guard let item else { return }
-        self.item = nil; isFavorite = false; showsChrome = true
+        self.item = nil
+        isFavorite = false
+        showsChrome = true
         onAction(.close(item.id))
     }
     public func toggleChrome() { if item?.kind == .image { showsChrome.toggle() } }
@@ -79,7 +90,8 @@ public enum MediaAction: Equatable, Sendable {
         case .close: dismiss()
         case .favorite(_, let selected):
             guard isFavorite != selected else { return }
-            isFavorite = selected; onAction(action)
+            isFavorite = selected
+            onAction(action)
         default: onAction(action)
         }
     }

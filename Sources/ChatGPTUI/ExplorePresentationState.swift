@@ -20,6 +20,10 @@ public struct ChatComposerContext: Equatable, Sendable {
     public let id: String
     public let title: String
     public let symbol: String
-    public init(id: String, title: String, symbol: String) { self.id = id; self.title = title; self.symbol = symbol }
+    public init(id: String, title: String, symbol: String) {
+        self.id = id
+        self.title = title
+        self.symbol = symbol
+    }
     public static let sites = Self(id: "sites", title: "Sites", symbol: "square.grid.2x2.fill")
 }

@@ -12,7 +12,8 @@ import Testing
     }
     @Test func deleteThenRefreshCannotRestoreDeletedMemory() {
         var memory = MemorySummaryPresentationState()
-        memory.deleteAndTurnOff(); memory.refresh()
+        memory.deleteAndTurnOff()
+        memory.refresh()
         #expect(memory.sections.isEmpty)
         #expect(!memory.isEnabled)
         #expect(memory.updatedLabel == "Memory is off")

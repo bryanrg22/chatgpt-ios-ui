@@ -13,7 +13,11 @@ public struct VoiceProfile: Identifiable, Equatable, Sendable {
     public var id: String
     public var name: String
     public var detail: String
-    public init(id: String, name: String, detail: String) { self.id = id; self.name = name; self.detail = detail }
+    public init(id: String, name: String, detail: String) {
+        self.id = id
+        self.name = name
+        self.detail = detail
+    }
 }
 
 /// Presentation only. No microphone, speech synthesis, audio session, or network is created.
@@ -27,7 +31,10 @@ public struct VoiceProfile: Identifiable, Equatable, Sendable {
     public var isMuted = true
     public var language = "Auto"
     /// Only languages visible in the captured menu; hosts may provide the remaining catalog.
-    public var availableLanguages = ["Auto", "Afrikaans", "Amharic", "Arabic", "Armenian", "Azerbaijani", "Bangla", "Belarusian", "Bosnian", "Bulgarian", "Burmese", "Cantonese (Traditional Chinese)", "Catalan", "Croatian", "Czech"]
+    public var availableLanguages = [
+        "Auto", "Afrikaans", "Amharic", "Arabic", "Armenian", "Azerbaijani", "Bangla", "Belarusian", "Bosnian",
+        "Bulgarian", "Burmese", "Cantonese (Traditional Chinese)", "Catalan", "Croatian", "Czech"
+    ]
     public var draft = ""
     public var transcript: [ChatMessage] = []
     public var variant: VoiceInterfaceVariant = .current
@@ -54,41 +61,70 @@ public struct VoiceProfile: Identifiable, Equatable, Sendable {
         return min(value, 400)
     }
     public func setEffort(_ position: Int) {
-        let next = min(4, max(0, position)); guard next != effortPosition else { return }
-        effortPosition = next; onAction(.effort(next))
+        let next = min(4, max(0, position))
+        guard next != effortPosition else { return }
+        effortPosition = next
+        onAction(.effort(next))
     }
     public func requestScreenSharing() {
         guard isActive else { return }
         showsEffort = false
-        if isSharingScreen { isSharingScreen = false; onAction(.stopScreenSharing) }
-        else if variant == .current { showsModelSwitch = true }
-        else { onAction(.requestScreenSharing) }
+        if isSharingScreen {
+            isSharingScreen = false
+            onAction(.stopScreenSharing)
+        } else if variant == .current {
+            showsModelSwitch = true
+        } else {
+            onAction(.requestScreenSharing)
+        }
     }
     /// Emits the request only. The host supplies sharing/variant state after its own outcome.
     public func continueScreenSharing() {
         guard isActive, showsModelSwitch else { return }
-        showsModelSwitch = false; onAction(.requestScreenSharing)
+        showsModelSwitch = false
+        onAction(.requestScreenSharing)
     }
     public func requestLiveVideo() {
-        guard isActive else { return }; onAction(.requestLiveVideo)
+        guard isActive else { return }
+        onAction(.requestLiveVideo)
     }
     public func closeLiveVideo() {
-        guard showsLiveCamera else { return }; showsLiveCamera = false; onAction(.endLiveVideo)
+        guard showsLiveCamera else { return }
+        showsLiveCamera = false
+        onAction(.endLiveVideo)
     }
-    public func clearConversation() { transcript.removeAll(); draft = ""; orbDiameter = nil }
+    public func clearConversation() {
+        transcript.removeAll()
+        draft = ""
+        orbDiameter = nil
+    }
 
     public init() {}
-    public var selected: VoiceProfile { profiles.first { $0.id == selectedID } ?? .init(id: "breeze", name: "Breeze", detail: "Animated and earnest") }
+    public var selected: VoiceProfile {
+        profiles.first { $0.id == selectedID } ?? .init(id: "breeze", name: "Breeze", detail: "Animated and earnest")
+    }
     public var selectedIndex: Int { profiles.firstIndex { $0.id == selectedID } ?? 0 }
-    public func open() { isChoosing = !hasChosenVoice; isActive = hasChosenVoice; showsSettings = false }
+    public func open() {
+        isChoosing = !hasChosenVoice
+        isActive = hasChosenVoice
+        showsSettings = false
+    }
     @discardableResult public func start() -> Bool {
         guard !isActive else { return false }
-        hasChosenVoice = true; isChoosing = false; isActive = true
+        hasChosenVoice = true
+        isChoosing = false
+        isActive = true
         return true
     }
     @discardableResult public func close() -> Bool {
         let wasActive = isActive
-        isActive = false; showsSettings = false; showsEffort = false; showsModelSwitch = false; showsLiveCamera = false; isSharingScreen = false; cameraFlashEnabled = false
+        isActive = false
+        showsSettings = false
+        showsEffort = false
+        showsModelSwitch = false
+        showsLiveCamera = false
+        isSharingScreen = false
+        cameraFlashEnabled = false
         return wasActive
     }
     public func select(_ id: String) {

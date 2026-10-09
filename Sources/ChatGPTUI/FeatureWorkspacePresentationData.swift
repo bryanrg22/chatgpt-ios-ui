@@ -11,7 +11,11 @@ public struct FinanceSpendingCategory: Identifiable, Equatable, Sendable {
     public var amount: Double
     public var relativeBarWidth: Double
     public init(id: String, title: String, symbol: String, amount: Double, relativeBarWidth: Double) {
-        self.id = id; self.title = title; self.symbol = symbol; self.amount = amount; self.relativeBarWidth = relativeBarWidth
+        self.id = id
+        self.title = title
+        self.symbol = symbol
+        self.amount = amount
+        self.relativeBarWidth = relativeBarWidth
     }
     public var boundedBarWidth: Double { relativeBarWidth.isFinite ? min(1, max(0, relativeBarWidth)) : 0 }
 }
@@ -22,8 +26,16 @@ public struct FinanceAccountRow: Identifiable, Equatable, Sendable {
     public var balance: Double
     public var updated: String
     public var symbol: String
-    public init(id: String, title: String, subtitle: String, balance: Double, updated: String, symbol: String = "building.columns.fill") {
-        self.id = id; self.title = title; self.subtitle = subtitle; self.balance = balance; self.updated = updated; self.symbol = symbol
+    public init(
+        id: String, title: String, subtitle: String, balance: Double, updated: String,
+        symbol: String = "building.columns.fill"
+    ) {
+        self.id = id
+        self.title = title
+        self.subtitle = subtitle
+        self.balance = balance
+        self.updated = updated
+        self.symbol = symbol
     }
 }
 public struct FinanceAccountGroup: Identifiable, Equatable, Sendable {
@@ -33,14 +45,22 @@ public struct FinanceAccountGroup: Identifiable, Equatable, Sendable {
     public var balance: Double
     public var accounts: [FinanceAccountRow]
     public init(id: String, title: String, subtitle: String, balance: Double, accounts: [FinanceAccountRow]) {
-        self.id = id; self.title = title; self.subtitle = subtitle; self.balance = balance; self.accounts = accounts
+        self.id = id
+        self.title = title
+        self.subtitle = subtitle
+        self.balance = balance
+        self.accounts = accounts
     }
 }
 public struct FeatureChatSummary: Identifiable, Equatable, Sendable {
     public var id: String
     public var title: String
     public var preview: String
-    public init(id: String, title: String, preview: String) { self.id = id; self.title = title; self.preview = preview }
+    public init(id: String, title: String, preview: String) {
+        self.id = id
+        self.title = title
+        self.preview = preview
+    }
 }
 public struct FinancePresentationData: Equatable, Sendable {
     public var spendingTotal: Double?
@@ -68,7 +88,12 @@ public struct HealthMetric: Identifiable, Equatable, Sendable {
     public var bars: Bool
     public var chartSamples: [Double]
     public init(id: String, title: String, value: String, unit: String, bars: Bool, chartSamples: [Double] = []) {
-        self.id = id; self.title = title; self.value = value; self.unit = unit; self.bars = bars; self.chartSamples = chartSamples
+        self.id = id
+        self.title = title
+        self.value = value
+        self.unit = unit
+        self.bars = bars
+        self.chartSamples = chartSamples
     }
     public var boundedChartSamples: [Double] { chartSamples.map { $0.isFinite ? min(1, max(0, $0)) : 0 } }
 }
@@ -78,8 +103,15 @@ public struct HealthProvider: Identifiable, Equatable, Sendable {
     public var symbol: String
     public var isConnected: Bool
     public var accountStatus: String
-    public init(id: String, name: String, symbol: String = "cross.case.fill", isConnected: Bool = false, accountStatus: String = "") {
-        self.id = id; self.name = name; self.symbol = symbol; self.isConnected = isConnected; self.accountStatus = accountStatus
+    public init(
+        id: String, name: String, symbol: String = "cross.case.fill", isConnected: Bool = false,
+        accountStatus: String = ""
+    ) {
+        self.id = id
+        self.name = name
+        self.symbol = symbol
+        self.isConnected = isConnected
+        self.accountStatus = accountStatus
     }
 }
 public struct HealthPresentationData: Equatable, Sendable {

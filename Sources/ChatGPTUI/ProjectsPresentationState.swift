@@ -25,20 +25,52 @@ public enum ProjectsAction: Equatable, Sendable { case search(String), create(Pr
     public var onAction: (ProjectsAction) -> Void = { _ in }
     public init() {}
     public var canCreate: Bool { !isSubmitting && !draft.name.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty }
-    public func beginCreation() { draft = .init(); isSubmitting = false; isCreating = true }
-    public func cancelCreation() { isCreating = false; isSubmitting = false; showsMemorySettings = false; showsIconPicker = false; draft = .init() }
-    public func openMemorySettings() { pendingMemory = draft.memory; showsMemorySettings = true }
-    public func closeMemorySettings(save: Bool) { if save { draft.memory = pendingMemory }; showsMemorySettings = false }
+    public func beginCreation() {
+        draft = .init()
+        isSubmitting = false
+        isCreating = true
+    }
+    public func cancelCreation() {
+        isCreating = false
+        isSubmitting = false
+        showsMemorySettings = false
+        showsIconPicker = false
+        draft = .init()
+    }
+    public func openMemorySettings() {
+        pendingMemory = draft.memory
+        showsMemorySettings = true
+    }
+    public func closeMemorySettings(save: Bool) {
+        if save { draft.memory = pendingMemory }
+        showsMemorySettings = false
+    }
     public var iconHasChanges: Bool { pendingSymbol != draft.symbol || pendingColor != draft.color }
-    public func openIconPicker() { pendingSymbol = draft.symbol; pendingColor = draft.color; showsIconPicker = true }
+    public func openIconPicker() {
+        pendingSymbol = draft.symbol
+        pendingColor = draft.color
+        showsIconPicker = true
+    }
     public func closeIconPicker(save: Bool) {
-        if save { draft.symbol = pendingSymbol; draft.color = pendingColor; draft.hasCustomIcon = true }
+        if save {
+            draft.symbol = pendingSymbol
+            draft.color = pendingColor
+            draft.hasCustomIcon = true
+        }
         showsIconPicker = false
     }
-    public func selectSuggestion(_ name: String, symbol: String, color: String) { draft.name = name; draft.symbol = symbol; draft.color = color; draft.hasCustomIcon = true }
+    public func selectSuggestion(_ name: String, symbol: String, color: String) {
+        draft.name = name
+        draft.symbol = symbol
+        draft.color = color
+        draft.hasCustomIcon = true
+    }
     @discardableResult public func submit() -> Bool {
         guard isCreating, canCreate else { return false }
-        var value = draft; value.name = value.name.trimmingCharacters(in: .whitespacesAndNewlines)
-        isSubmitting = true; onAction(.create(value)); return true
+        var value = draft
+        value.name = value.name.trimmingCharacters(in: .whitespacesAndNewlines)
+        isSubmitting = true
+        onAction(.create(value))
+        return true
     }
 }

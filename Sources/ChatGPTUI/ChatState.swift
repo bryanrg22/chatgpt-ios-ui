@@ -9,15 +9,26 @@ public struct ChatMessage: Identifiable, Equatable, Sendable {
     public var attachments: [String]
     public var media: [ChatMedia]
     public var context: ChatComposerContext?
-    public init(id: UUID = UUID(), role: Role, text: String, attachments: [String] = [], media: [ChatMedia] = [], context: ChatComposerContext? = nil) {
-        self.id = id; self.role = role; self.text = text; self.attachments = attachments; self.media = media; self.context = context
+    public init(
+        id: UUID = UUID(), role: Role, text: String, attachments: [String] = [], media: [ChatMedia] = [],
+        context: ChatComposerContext? = nil
+    ) {
+        self.id = id
+        self.role = role
+        self.text = text
+        self.attachments = attachments
+        self.media = media
+        self.context = context
     }
 }
 public enum ChatAction: Equatable, Sendable {
-    case send(text: String, attachments: [String], thinkHarder: Bool, media: [ChatMedia] = [], context: ChatComposerContext? = nil)
+    case send(
+        text: String, attachments: [String], thinkHarder: Bool, media: [ChatMedia] = [],
+        context: ChatComposerContext? = nil)
     case stop, newChat, beginDictation, endDictation, beginVoice, endVoice
     case attach(String), selectModel(String), openDestination(String)
-    case copyMessage(UUID, String), feedback(UUID, MessageFeedback?), retry(originalID: UUID, responseID: UUID), readAloud(UUID, Bool), share(UUID)
+    case copyMessage(UUID, String), feedback(UUID, MessageFeedback?), retry(originalID: UUID, responseID: UUID),
+        readAloud(UUID, Bool), share(UUID)
     case submitFeedback(UUID, issue: String, details: String), branch(UUID)
     case camera(CameraAction)
     case attachMedia(ChatMedia), removeDraftMedia(UUID), media(MediaAction), requestPhotoLibrary
@@ -104,9 +115,18 @@ public enum ChatPage: String, CaseIterable, Sendable {
     public var trending = true
     public var webSearch = true
     public var referenceMemory = true
-    public var displayName: String { get { settings.account.displayName } set { settings.account.displayName = newValue } }
-    public var username: String { get { settings.account.username } set { settings.account.username = newValue } }
-    public var email: String { get { settings.account.email } set { settings.account.email = newValue } }
+    public var displayName: String {
+        get { settings.account.displayName }
+        set { settings.account.displayName = newValue }
+    }
+    public var username: String {
+        get { settings.account.username }
+        set { settings.account.username = newValue }
+    }
+    public var email: String {
+        get { settings.account.email }
+        set { settings.account.email = newValue }
+    }
     public var onAction: @MainActor (ChatAction) -> Void
     public init(onAction: @escaping @MainActor (ChatAction) -> Void = { _ in }) {
         self.onAction = onAction
@@ -118,38 +138,82 @@ public enum ChatPage: String, CaseIterable, Sendable {
             self.onAction(.media(action))
         }
     }
-    public var canSend: Bool { composerMode == .idle && (!draft.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty || !attachments.isEmpty || !media.isEmpty) }
+    public var canSend: Bool {
+        composerMode == .idle
+            && (!draft.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty || !attachments.isEmpty
+                || !media.isEmpty)
+    }
     @discardableResult public func send() -> UUID? {
         guard canSend else { return nil }
         if let editingMessageID, let index = messages.firstIndex(where: { $0.id == editingMessageID }) {
             removeMessages(from: index)
         }
-        editingMessageID = nil; draftBeforeEditing = ""; attachmentsBeforeEditing = []; mediaBeforeEditing = []; contextBeforeEditing = nil
+        editingMessageID = nil
+        draftBeforeEditing = ""
+        attachmentsBeforeEditing = []
+        mediaBeforeEditing = []
+        contextBeforeEditing = nil
         let text = draft.trimmingCharacters(in: .whitespacesAndNewlines)
-        let files = attachments; let images = media
-        messages.append(ChatMessage(role: .user, text: text, attachments: files, media: images, context: composerContext))
+        let files = attachments
+        let images = media
+        messages.append(
+            ChatMessage(role: .user, text: text, attachments: files, media: images, context: composerContext))
         let reply = ChatMessage(role: .assistant, text: "")
-        messages.append(reply); responseID = reply.id; composerMode = .responding
-        draft = ""; attachments = []; media = []; showsAttachmentMenu = false
-        onAction(.send(text: text, attachments: files, thinkHarder: thinkHarder, media: images, context: composerContext))
+        messages.append(reply)
+        responseID = reply.id
+        composerMode = .responding
+        draft = ""
+        attachments = []
+        media = []
+        showsAttachmentMenu = false
+        onAction(
+            .send(text: text, attachments: files, thinkHarder: thinkHarder, media: images, context: composerContext))
         return reply.id
     }
     /// Request identity prevents cancelled or superseded response streams from editing a newer chat.
     public func updateResponse(id: UUID, text: String, finished: Bool = false) {
         guard responseID == id, composerMode == .responding,
-              let index = messages.firstIndex(where: { $0.id == id }) else { return }
+            let index = messages.firstIndex(where: { $0.id == id })
+        else { return }
         messages[index].text = text
-        if finished { responseID = nil; composerMode = .idle }
+        if finished {
+            responseID = nil
+            composerMode = .idle
+        }
     }
-    public func stop() { responseID = nil; composerMode = .idle; onAction(.stop) }
+    public func stop() {
+        responseID = nil
+        composerMode = .idle
+        onAction(.stop)
+    }
     public func newChat() {
-        responseID = nil; composerMode = .idle; messages = []; draft = ""; composerContext = nil; attachments = []; media = []; videoCardPresentations = [:]; mediaViewer.dismiss()
-        editingMessageID = nil; draftBeforeEditing = ""; attachmentsBeforeEditing = []; mediaBeforeEditing = []; contextBeforeEditing = nil
-        closeReadAloud(); feedback = [:]; copiedMessage = nil; navigationHistory = []; dictationLevels = []
-        camera.close(); photoPicker.close()
+        responseID = nil
+        composerMode = .idle
+        messages = []
+        draft = ""
+        composerContext = nil
+        attachments = []
+        media = []
+        videoCardPresentations = [:]
+        mediaViewer.dismiss()
+        editingMessageID = nil
+        draftBeforeEditing = ""
+        attachmentsBeforeEditing = []
+        mediaBeforeEditing = []
+        contextBeforeEditing = nil
+        closeReadAloud()
+        feedback = [:]
+        copiedMessage = nil
+        navigationHistory = []
+        dictationLevels = []
+        camera.close()
+        photoPicker.close()
         if voice.close() { onAction(.endVoice) }
         voice.clearConversation()
-        page = .chat; showsDrawer = false; showsAttachmentMenu = false; showsVoice = false
+        page = .chat
+        showsDrawer = false
+        showsAttachmentMenu = false
+        showsVoice = false
         onAction(.newChat)
     }
     public func setFeedback(_ value: MessageFeedback, for id: UUID) {
@@ -158,80 +222,134 @@ public enum ChatPage: String, CaseIterable, Sendable {
         onAction(.feedback(id, feedback[id]))
     }
     public func copyMessage(_ message: ChatMessage) {
-        copiedMessage = message.id; onAction(.copyMessage(message.id, message.text))
+        copiedMessage = message.id
+        onAction(.copyMessage(message.id, message.text))
     }
     public func clearCopyConfirmation(id: UUID) { if copiedMessage == id { copiedMessage = nil } }
     public func toggleReadAloud(_ id: UUID) {
         speakingMessage = speakingMessage == id ? nil : id
-        readAloudPlaying = speakingMessage != nil; readAloudElapsed = 0
+        readAloudPlaying = speakingMessage != nil
+        readAloudElapsed = 0
         onAction(.readAloud(id, speakingMessage == id))
     }
     public func closeReadAloud() {
         if let id = speakingMessage { onAction(.readAloud(id, false)) }
-        speakingMessage = nil; readAloudPlaying = false; readAloudElapsed = 0; readAloudSpeed = 1
+        speakingMessage = nil
+        readAloudPlaying = false
+        readAloudElapsed = 0
+        readAloudSpeed = 1
     }
     public func togglePlayback() {
         guard let id = speakingMessage else { return }
-        readAloudPlaying.toggle(); onAction(.readAloud(id, readAloudPlaying))
+        readAloudPlaying.toggle()
+        onAction(.readAloud(id, readAloudPlaying))
     }
     public func retry(_ id: UUID) {
-        guard composerMode == .idle, let index = messages.firstIndex(where: { $0.id == id && $0.role == .assistant }) else { return }
+        guard composerMode == .idle, let index = messages.firstIndex(where: { $0.id == id && $0.role == .assistant })
+        else { return }
         // Keep earlier conversation context and retire later turns so a retry has one unambiguous stream.
         removeMessages(from: index)
         let message = ChatMessage(role: .assistant, text: "")
-        messages.append(message); responseID = message.id; composerMode = .responding
+        messages.append(message)
+        responseID = message.id
+        composerMode = .responding
         onAction(.retry(originalID: id, responseID: message.id))
     }
     private func removeMessages(from index: Int) {
         let removed = Set(messages[index...].map(\.id))
         let removedMedia = Set(messages[index...].flatMap(\.media).map(\.id))
         videoCardPresentations = videoCardPresentations.filter { !removedMedia.contains($0.key) }
-        if let selected = mediaViewer.item, messages[index...].contains(where: { $0.media.contains(where: { $0.id == selected.id }) }) { mediaViewer.dismiss() }
+        if let selected = mediaViewer.item,
+            messages[index...].contains(where: { $0.media.contains(where: { $0.id == selected.id }) })
+        {
+            mediaViewer.dismiss()
+        }
         if let id = speakingMessage, removed.contains(id) { closeReadAloud() }
         if let id = copiedMessage, removed.contains(id) { copiedMessage = nil }
         feedback = feedback.filter { !removed.contains($0.key) }
         messages.removeSubrange(index...)
     }
     public func addAttachment(_ name: String) {
-        attachments.append(name); showsAttachmentMenu = false; onAction(.attach(name))
+        attachments.append(name)
+        showsAttachmentMenu = false
+        onAction(.attach(name))
     }
-    public func videoCardPresentation(for item: ChatMedia) -> VideoCardPresentation { videoCardPresentations[item.id] ?? .pausedPoster }
-    public func openMedia(_ item: ChatMedia) { mediaViewer.present(item, isFavorite: favoriteMediaIDs.contains(item.id)) }
+    public func videoCardPresentation(for item: ChatMedia) -> VideoCardPresentation {
+        videoCardPresentations[item.id] ?? .pausedPoster
+    }
+    public func openMedia(_ item: ChatMedia) {
+        mediaViewer.present(item, isFavorite: favoriteMediaIDs.contains(item.id))
+    }
     public func addMedia(_ item: ChatMedia) {
         if let index = media.firstIndex(where: { $0.id == item.id }) { media[index] = item } else { media.append(item) }
-        showsAttachmentMenu = false; onAction(.attachMedia(item))
+        showsAttachmentMenu = false
+        onAction(.attachMedia(item))
     }
     public func removeMedia(_ id: UUID) {
         guard media.contains(where: { $0.id == id }) else { return }
-        media.removeAll { $0.id == id }; onAction(.removeDraftMedia(id))
+        media.removeAll { $0.id == id }
+        onAction(.removeDraftMedia(id))
     }
     public func beginEditing(_ message: ChatMessage) {
-        guard message.role == .user, messages.contains(where: { $0.id == message.id }), composerMode == .idle, editingMessageID == nil else { return }
-        editingMessageID = message.id; draftBeforeEditing = draft; attachmentsBeforeEditing = attachments; mediaBeforeEditing = media; contextBeforeEditing = composerContext
-        draft = message.text; attachments = message.attachments; media = message.media; composerContext = message.context
+        guard message.role == .user, messages.contains(where: { $0.id == message.id }), composerMode == .idle,
+            editingMessageID == nil
+        else { return }
+        editingMessageID = message.id
+        draftBeforeEditing = draft
+        attachmentsBeforeEditing = attachments
+        mediaBeforeEditing = media
+        contextBeforeEditing = composerContext
+        draft = message.text
+        attachments = message.attachments
+        media = message.media
+        composerContext = message.context
     }
     public func cancelEditing() {
         guard editingMessageID != nil else { return }
-        editingMessageID = nil; draft = draftBeforeEditing; attachments = attachmentsBeforeEditing; media = mediaBeforeEditing; composerContext = contextBeforeEditing
-        draftBeforeEditing = ""; attachmentsBeforeEditing = []; mediaBeforeEditing = []; contextBeforeEditing = nil
+        editingMessageID = nil
+        draft = draftBeforeEditing
+        attachments = attachmentsBeforeEditing
+        media = mediaBeforeEditing
+        composerContext = contextBeforeEditing
+        draftBeforeEditing = ""
+        attachmentsBeforeEditing = []
+        mediaBeforeEditing = []
+        contextBeforeEditing = nil
     }
     public func beginDictation() {
-        guard composerMode == .idle else { return }; dictationLevels = []; composerMode = .dictating; onAction(.beginDictation)
+        guard composerMode == .idle else { return }
+        dictationLevels = []
+        composerMode = .dictating
+        onAction(.beginDictation)
     }
     public func finishDictation(transcript: String? = nil) {
         guard composerMode == .dictating else { return }
         if let transcript, !transcript.isEmpty { draft += (draft.isEmpty ? "" : " ") + transcript }
-        composerMode = .idle; dictationLevels = []; onAction(.endDictation)
+        composerMode = .idle
+        dictationLevels = []
+        onAction(.endDictation)
     }
     public func createSiteDraft() {
-        newChat(); page = .work; composerContext = .sites; draft = "Create a website that ..."
+        newChat()
+        page = .work
+        composerContext = .sites
+        draft = "Create a website that ..."
         explore.onAction(.createSite)
     }
     public func open(_ destination: ChatPage) {
-        if destination == .explore { explore.expand(); showsDrawer = true; return }
-        if showsDrawer || destination == .chat { navigationHistory = [] }
-        else if destination != page { navigationHistory.append(page) }
-        page = destination; showsDrawer = false; showsAttachmentMenu = false
+        if destination == .explore {
+            explore.expand()
+            showsDrawer = true
+            return
+        }
+        if showsDrawer || destination == .chat {
+            navigationHistory = []
+        } else if destination != page {
+            navigationHistory.append(page)
+        }
+        page = destination
+        showsDrawer = false
+        showsAttachmentMenu = false
         onAction(.openDestination(destination.rawValue))
     }
     public func goBack() { page = navigationHistory.popLast() ?? .chat }
@@ -245,14 +363,24 @@ public enum ChatPage: String, CaseIterable, Sendable {
         case .plugins: open(.plugins)
         }
     }
-    public func selectModel(_ value: String) { model = value; onAction(.selectModel(value)) }
+    public func selectModel(_ value: String) {
+        model = value
+        onAction(.selectModel(value))
+    }
     public func setVoice(_ active: Bool) {
         guard active != showsVoice else { return }
         showsVoice = active
-        if active { voice.open(); if voice.isActive { onAction(.beginVoice) } }
-        else if voice.close() { onAction(.endVoice) }
+        if active {
+            voice.open()
+            if voice.isActive { onAction(.beginVoice) }
+        } else if voice.close() {
+            onAction(.endVoice)
+        }
     }
-    public func startVoice() { guard showsVoice else { return }; if voice.start() { onAction(.beginVoice) } }
+    public func startVoice() {
+        guard showsVoice else { return }
+        if voice.start() { onAction(.beginVoice) }
+    }
     public func requestVoiceNavigation(_ destination: VoiceNavigationIntent) {
         guard showsVoice, voice.isActive else { return }
         onAction(.voiceNavigation(destination))

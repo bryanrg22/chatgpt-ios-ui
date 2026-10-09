@@ -19,7 +19,20 @@ public struct DotMessage: Identifiable, Equatable, Sendable {
     public var reaction: String?
     public var kind: DotMessageKind
     public var receipt: DotDeliveryReceipt?
-    public init(id: UUID = UUID(), text: String, isUser: Bool = false, time: String = "11:15 PM", linkLabel: String? = nil, replyTo: UUID? = nil, reaction: String? = nil, kind: DotMessageKind = .text, receipt: DotDeliveryReceipt? = nil) { self.id = id; self.text = text; self.isUser = isUser; self.time = time; self.linkLabel = linkLabel; self.replyTo = replyTo; self.reaction = reaction; self.kind = kind; self.receipt = isUser ? receipt : nil }
+    public init(
+        id: UUID = UUID(), text: String, isUser: Bool = false, time: String = "11:15 PM", linkLabel: String? = nil,
+        replyTo: UUID? = nil, reaction: String? = nil, kind: DotMessageKind = .text, receipt: DotDeliveryReceipt? = nil
+    ) {
+        self.id = id
+        self.text = text
+        self.isUser = isUser
+        self.time = time
+        self.linkLabel = linkLabel
+        self.replyTo = replyTo
+        self.reaction = reaction
+        self.kind = kind
+        self.receipt = isUser ? receipt : nil
+    }
     public var isCallSummary: Bool { if case .callEnded = kind { true } else { false } }
     public var supportsReactions: Bool { !isUser && !isCallSummary }
     public var displayText: String {
@@ -34,7 +47,9 @@ public struct DotCallPresentation: Equatable, Sendable {
     public var elapsedSeconds: Int
     public var microphoneMuted: Bool
     public init(phase: DotCallPhase = .calling, elapsedSeconds: Int = 0, microphoneMuted: Bool = false) {
-        self.phase = phase; self.elapsedSeconds = max(0, elapsedSeconds); self.microphoneMuted = microphoneMuted
+        self.phase = phase
+        self.elapsedSeconds = max(0, elapsedSeconds)
+        self.microphoneMuted = microphoneMuted
     }
     public static func durationLabel(_ seconds: Int) -> String {
         let value = max(0, seconds)
@@ -69,50 +84,122 @@ public enum DotUIAction: Equatable, Sendable {
     public private(set) var messages: [DotMessage]
     public var onAction: (DotUIAction) -> Void = { _ in }
     public init(messages: [DotMessage]? = nil) {
-        self.messages = messages ?? [
-            .init(text: "I’ll check the garden workshop guide for the suggested materials and preparation steps."),
-            .init(text: "The workshop includes five short activities, with a maximum of two projects per person. That is the full program; I haven’t checked which activities you’ve already tried.", linkLabel: "Community workshop guide."),
-            .init(text: "For the balcony planter, the next session begins Saturday at 9 AM. Bring two small containers and choose a sunny spot before you start. The guide includes a checklist for soil and watering.", linkLabel: "Planter instructions."),
-            .init(text: "One last reminder: the local library has a collection of gardening books available this week. You can review the catalog and decide which examples fit your space. Start with a guide to container gardens and a seasonal planting calendar.", linkLabel: "Library reading list.")]
+        self.messages =
+            messages ?? [
+                .init(text: "I’ll check the garden workshop guide for the suggested materials and preparation steps."),
+                .init(
+                    text:
+                        "The workshop includes five short activities, with a maximum of two projects per person. That is the full program; I haven’t checked which activities you’ve already tried.",
+                    linkLabel: "Community workshop guide."),
+                .init(
+                    text:
+                        "For the balcony planter, the next session begins Saturday at 9 AM. Bring two small containers and choose a sunny spot before you start. The guide includes a checklist for soil and watering.",
+                    linkLabel: "Planter instructions."),
+                .init(
+                    text:
+                        "One last reminder: the local library has a collection of gardening books available this week. You can review the catalog and decide which examples fit your space. Start with a guide to container gardens and a seasonal planting calendar.",
+                    linkLabel: "Library reading list.")
+            ]
     }
     public var replyMessage: DotMessage? { messages.first { $0.id == replyTo } }
-    public var callPresentation: DotCallPresentation { .init(phase: callPhase, elapsedSeconds: callElapsedSeconds, microphoneMuted: microphoneMuted) }
+    public var callPresentation: DotCallPresentation {
+        .init(phase: callPhase, elapsedSeconds: callElapsedSeconds, microphoneMuted: microphoneMuted)
+    }
     /// A host adapter supplies connection, elapsed-time and mute updates; no timer
     /// or simulated connection is started by the reusable presentation library.
     public func applyCallPresentation(_ update: DotCallPresentation) {
-        callPhase = update.phase; callElapsedSeconds = max(0, update.elapsedSeconds); microphoneMuted = update.microphoneMuted
+        callPhase = update.phase
+        callElapsedSeconds = max(0, update.elapsedSeconds)
+        microphoneMuted = update.microphoneMuted
         if update.phase == .idle { callMinimized = false }
     }
-    public func beginReply(_ id: UUID) { guard messages.contains(where: { $0.id == id }) else { return }; replyTo = id }
+    public func beginReply(_ id: UUID) {
+        guard messages.contains(where: { $0.id == id }) else { return }
+        replyTo = id
+    }
     public func cancelReply() { replyTo = nil }
     @discardableResult public func send() -> Bool {
-        let text = draft.trimmingCharacters(in: .whitespacesAndNewlines); guard !text.isEmpty else { return false }
-        let replying = replyTo; messages.append(.init(text: text, isUser: true, replyTo: replying)); draft = ""; replyTo = nil; onAction(.send(text: text, replyTo: replying)); return true
+        let text = draft.trimmingCharacters(in: .whitespacesAndNewlines)
+        guard !text.isEmpty else { return false }
+        let replying = replyTo
+        messages.append(.init(text: text, isUser: true, replyTo: replying))
+        draft = ""
+        replyTo = nil
+        onAction(.send(text: text, replyTo: replying))
+        return true
     }
     public func append(_ message: DotMessage) {
         var incoming = message
         if !incoming.isUser { incoming.receipt = nil }
         if let index = messages.firstIndex(where: { $0.id == message.id }) {
             if incoming.isUser, let old = messages[index].receipt,
-               incoming.receipt == nil || old.rawValue > incoming.receipt!.rawValue { incoming.receipt = old }
+                incoming.receipt == nil || old.rawValue > incoming.receipt!.rawValue
+            {
+                incoming.receipt = old
+            }
             messages[index] = incoming
-        } else { messages.append(incoming) }
+        } else {
+            messages.append(incoming)
+        }
     }
     /// Receipt updates are explicit host acknowledgements. Stale Delivered updates
     /// cannot downgrade Read, and no receipt is invented when a local send occurs.
     @discardableResult public func updateReceipt(_ receipt: DotDeliveryReceipt, for id: UUID) -> Bool {
         guard let index = messages.firstIndex(where: { $0.id == id }), messages[index].isUser else { return false }
         if let current = messages[index].receipt, current.rawValue >= receipt.rawValue { return false }
-        messages[index].receipt = receipt; return true
+        messages[index].receipt = receipt
+        return true
     }
-    public func react(_ value: String, to id: UUID) { guard let index = messages.firstIndex(where: { $0.id == id }), messages[index].supportsReactions else { return }; let reaction = messages[index].reaction == value ? nil : value; messages[index].reaction = reaction; onAction(.reaction(message: id, value: reaction)) }
-    public func copy(_ id: UUID) { guard let message = messages.first(where: { $0.id == id }) else { return }; onAction(.copy(message: id, text: message.displayText)) }
-    public func togglePause() { isPaused.toggle(); onAction(.pause(isPaused)) }
-    public func deleteLocalConversation() { messages.removeAll(); replyTo = nil; draft = ""; onAction(.delete) }
-    public func revokeComputer() { guard computerAvailable else { return }; computerAvailable = false; onAction(.revokeComputer(computerName)) }
-    public func beginCall() { guard callPhase == .idle else { return }; callPhase = .calling; callElapsedSeconds = 0; callMinimized = false; onAction(.beginCall) }
-    public func retryCall() { guard callPhase == .failed else { return }; callPhase = .calling; callElapsedSeconds = 0; onAction(.beginCall) }
-    public func endCall() { guard callPhase != .idle else { return }; callPhase = .idle; callMinimized = false; onAction(.endCall) }
-    public func toggleSpeaker() { speakerEnabled.toggle(); onAction(.speaker(speakerEnabled)) }
-    public func toggleMute() { microphoneMuted.toggle(); onAction(.mute(microphoneMuted)) }
+    public func react(_ value: String, to id: UUID) {
+        guard let index = messages.firstIndex(where: { $0.id == id }), messages[index].supportsReactions else { return }
+        let reaction = messages[index].reaction == value ? nil : value
+        messages[index].reaction = reaction
+        onAction(.reaction(message: id, value: reaction))
+    }
+    public func copy(_ id: UUID) {
+        guard let message = messages.first(where: { $0.id == id }) else { return }
+        onAction(.copy(message: id, text: message.displayText))
+    }
+    public func togglePause() {
+        isPaused.toggle()
+        onAction(.pause(isPaused))
+    }
+    public func deleteLocalConversation() {
+        messages.removeAll()
+        replyTo = nil
+        draft = ""
+        onAction(.delete)
+    }
+    public func revokeComputer() {
+        guard computerAvailable else { return }
+        computerAvailable = false
+        onAction(.revokeComputer(computerName))
+    }
+    public func beginCall() {
+        guard callPhase == .idle else { return }
+        callPhase = .calling
+        callElapsedSeconds = 0
+        callMinimized = false
+        onAction(.beginCall)
+    }
+    public func retryCall() {
+        guard callPhase == .failed else { return }
+        callPhase = .calling
+        callElapsedSeconds = 0
+        onAction(.beginCall)
+    }
+    public func endCall() {
+        guard callPhase != .idle else { return }
+        callPhase = .idle
+        callMinimized = false
+        onAction(.endCall)
+    }
+    public func toggleSpeaker() {
+        speakerEnabled.toggle()
+        onAction(.speaker(speakerEnabled))
+    }
+    public func toggleMute() {
+        microphoneMuted.toggle()
+        onAction(.mute(microphoneMuted))
+    }
 }

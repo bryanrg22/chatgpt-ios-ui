@@ -22,7 +22,8 @@ public enum SettingsPreferenceOptions {
     public static let accents = [
         SettingsAccentOption(id: "Blue", swatchRGB: 0x3067EF), SettingsAccentOption(id: "Cyan", swatchRGB: 0x00B2FD),
         SettingsAccentOption(id: "Green", swatchRGB: 0x03BB9D), SettingsAccentOption(id: "Lime", swatchRGB: 0xB8D811),
-        SettingsAccentOption(id: "Yellow", swatchRGB: 0xFFCB3C), SettingsAccentOption(id: "Orange", swatchRGB: 0xFF7F67),
+        SettingsAccentOption(id: "Yellow", swatchRGB: 0xFFCB3C),
+        SettingsAccentOption(id: "Orange", swatchRGB: 0xFF7F67),
         SettingsAccentOption(id: "Pink", swatchRGB: 0xFF49AE), SettingsAccentOption(id: "Magenta", swatchRGB: 0xDE69DA),
         SettingsAccentOption(id: "Purple", swatchRGB: 0xA15DFF), SettingsAccentOption(id: "Black", swatchRGB: 0x0D0D0D)
     ]
@@ -35,9 +36,16 @@ public struct SettingsAccountPresentation: Equatable, Sendable {
     public var avatarInitials: String
     public var phoneNumber: String?
     public var subscription: String?
-    public init(displayName: String = "", username: String = "", email: String = "", avatarInitials: String = "", phoneNumber: String? = nil, subscription: String? = nil) {
-        self.displayName = displayName; self.username = username; self.email = email
-        self.avatarInitials = avatarInitials; self.phoneNumber = phoneNumber; self.subscription = subscription
+    public init(
+        displayName: String = "", username: String = "", email: String = "", avatarInitials: String = "",
+        phoneNumber: String? = nil, subscription: String? = nil
+    ) {
+        self.displayName = displayName
+        self.username = username
+        self.email = email
+        self.avatarInitials = avatarInitials
+        self.phoneNumber = phoneNumber
+        self.subscription = subscription
     }
 }
 
@@ -47,9 +55,14 @@ public struct SettingsAboutPresentation: Equatable, Sendable {
     public var build: String
     public var termsURL: URL?
     public var privacyURL: URL?
-    public init(appName: String = "", version: String = "", build: String = "", termsURL: URL? = nil, privacyURL: URL? = nil) {
-        self.appName = appName; self.version = version; self.build = build
-        self.termsURL = termsURL; self.privacyURL = privacyURL
+    public init(
+        appName: String = "", version: String = "", build: String = "", termsURL: URL? = nil, privacyURL: URL? = nil
+    ) {
+        self.appName = appName
+        self.version = version
+        self.build = build
+        self.termsURL = termsURL
+        self.privacyURL = privacyURL
     }
     public var versionLabel: String {
         let version = version.trimmingCharacters(in: .whitespacesAndNewlines)
@@ -73,12 +86,20 @@ public enum SettingsAction: Equatable, Sendable {
     public var account: SettingsAccountPresentation
     public var about: SettingsAboutPresentation
     public var onAction: (SettingsAction) -> Void
-    public init(account: SettingsAccountPresentation = .init(), about: SettingsAboutPresentation = .init(), onAction: @escaping (SettingsAction) -> Void = { _ in }) {
-        self.account = account; self.about = about; self.onAction = onAction
+    public init(
+        account: SettingsAccountPresentation = .init(), about: SettingsAboutPresentation = .init(),
+        onAction: @escaping (SettingsAction) -> Void = { _ in }
+    ) {
+        self.account = account
+        self.about = about
+        self.onAction = onAction
     }
     public func requestDestination(_ destination: SettingsDestination) { onAction(.openDestination(destination)) }
     public func url(for link: SettingsLegalLink) -> URL? {
-        switch link { case .termsOfUse: about.termsURL; case .privacyPolicy: about.privacyURL }
+        switch link {
+        case .termsOfUse: about.termsURL
+        case .privacyPolicy: about.privacyURL
+        }
     }
     public func requestLink(_ link: SettingsLegalLink) {
         guard let url = url(for: link) else { return }

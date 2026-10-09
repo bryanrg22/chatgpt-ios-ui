@@ -20,6 +20,13 @@ import Observation
         guard items.contains(where: { $0.id == id }) else { return }
         if selectedIDs.contains(id) { selectedIDs.removeAll { $0 == id } } else { selectedIDs.append(id) }
     }
-    public func close() { isPresented = false; selectedIDs = [] }
-    public func takeSelection() -> [ChatMedia] { let result = selection; close(); return result }
+    public func close() {
+        isPresented = false
+        selectedIDs = []
+    }
+    public func takeSelection() -> [ChatMedia] {
+        let result = selection
+        close()
+        return result
+    }
 }
