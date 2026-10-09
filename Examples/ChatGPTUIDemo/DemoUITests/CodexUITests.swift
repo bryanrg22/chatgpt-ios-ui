@@ -18,7 +18,7 @@ final class CodexUITests: XCTestCase {
         capture("codex-running")
         app.buttons["Stop Codex task"].tap()
         field.tap()
-        field.typeText("Add a planting checklist")
+        field.typeTextVerified("Add a planting checklist")
         app.buttons["Send Codex message"].tap()
         app.buttons["Stop Codex task"].tap()
         app.buttons["Back to Codex"].tap()

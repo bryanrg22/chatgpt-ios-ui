@@ -87,7 +87,7 @@ final class DotUITests: XCTestCase {
         capture("dot-message-menu")
         app.buttons["Reply"].tap()
         field.tap()
-        field.typeText("Keep this draft")
+        field.typeTextVerified("Keep this draft")
         app.buttons["Cancel dot reply"].tap()
         XCTAssertTrue((field.value as? String ?? "").contains("Keep this draft"))
         app.buttons["Call dot"].tap()
