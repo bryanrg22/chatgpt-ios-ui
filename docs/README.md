@@ -4,6 +4,8 @@
 - [Testing](TESTING.md) — the four test suites, screenshot references and the accessibility baseline.
 - [Gallery artwork](GALLERY_ARTWORK.md) — how the demo's original sample images were made.
 
+- [Contribution review](REVIEW_GUIDE.md) — before/after evidence, motion measurements and approval checks.
+
 ## Feature guides
 
 Host contracts, supported states and known limits for each area:
