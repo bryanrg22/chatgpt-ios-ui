@@ -6,7 +6,7 @@ let package = Package(
         .library(name: "ChatGPTUI", targets: ["ChatGPTUI"]),
         .library(name: "ChatGPTWidgets", targets: ["ChatGPTWidgets"])
     ],
-    dependencies: [.package(url: "https://github.com/swiftlang/swift-markdown.git", exact: "0.9.0")],
+    dependencies: [.package(url: "https://github.com/swiftlang/swift-markdown.git", from: "0.9.0")],
     targets: [
         .target(
             name: "ChatGPTUI", dependencies: [.product(name: "Markdown", package: "swift-markdown")],
