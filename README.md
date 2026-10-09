@@ -52,7 +52,7 @@ The UI has no networking or automation dependency. `send()` supplies a response 
 
 Include the app version, iOS version, device size, text size, appearance, before/after screenshots, and the transition being matched. Never commit screenshots containing private chat titles, contact information, or account data. Capture motion for transitions; a single screenshot does not establish animation fidelity. Keep implementation separate from backend integrations.
 
-Do not add a font, logo, or extracted asset without permission to redistribute it. See [asset provenance](ASSETS.md). Source licensing is intentionally pending the repository owner's choice; do not infer a license grant from public availability.
+Do not add a font, logo, or extracted asset without permission to redistribute it. See [asset provenance](ASSETS.md). Source code is available under the [MIT License](LICENSE). Bundled third-party assets and dependencies keep their own terms; see [asset provenance](ASSETS.md).
 
 The camera panel accepts any SwiftUI preview through `ChatGPTView(state:cameraPreview:)` or `CameraPanel` directly. The shipped synthetic paper preview contains no reference-photo pixels and requests no permissions. Camera actions are presentation events; the host owns real capture. Camera opening and Chat/Work selection use provisional native animation because reference durations/easing have not been measured.
 

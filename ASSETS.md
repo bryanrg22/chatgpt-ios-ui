@@ -8,13 +8,13 @@
 - Fictional profile and conversation fixtures are supplied by this project.
 - Camera preview: original SwiftUI paper, text, and gradient fixture. No pixels from the reference camera photographs are included.
 
-Asset rights and code rights are separate. The repository owner must choose the source-code license before publishing this as an openly licensed community project.
+Asset rights and code rights are separate. The source code is licensed under the [MIT License](LICENSE); assets listed here keep their own terms.
 
 Knot: `Sources/ChatGPTWidgets/Resources/WidgetAssets.xcassets/ChatGPTKnot.imageset/chatgpt_logo.svg` is the existing vector copied from the parent companion's `AgentWidgetExtension/Assets.xcassets/ChatGPTLogo.imageset`. About reuses the same vector in `Sources/ChatGPTUI/Resources/UIAssets.xcassets/ChatGPTKnot.imageset`. Its upstream attribution/license was not recorded in that asset; this project's source-code license does not grant ownership of OpenAI's trademark or logo. Replace the asset with your own branding for independent products. No screenshot pixels or private data were copied into these assets.
 
 Demo media: original programmatic garden artwork and silent SwiftUI moving color/shape fixture. They contain no pixels from the user's photos, videos or reference app.
 
-Markdown: official swiftlang/swift-markdown 0.9.0 dependency, Apache-2.0; its license is included in `Swift-Markdown-LICENSE.txt`. The pure presentation adapter is shared with the sibling UI study; its source license remains subject to the repository owner's choice.
+Markdown: official swiftlang/swift-markdown 0.9.0 dependency, Apache-2.0; its license is included in `Swift-Markdown-LICENSE.txt`. The pure presentation adapter is shared with the sibling UI study; it is covered by this repository's [MIT License](LICENSE).
 
 ## Images gallery fixtures
 
