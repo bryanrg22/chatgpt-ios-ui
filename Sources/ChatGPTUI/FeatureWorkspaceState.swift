@@ -1,7 +1,7 @@
 import Foundation
 import Observation
 
-public enum FeatureWorkspaceAction: Equatable, Sendable {
+@nonexhaustive public enum FeatureWorkspaceAction: Equatable, Sendable {
     case openDestination(String), startChat(String), sendMessage(String)
     case connectProvider(String), setupCompleted, selectHealthItem(String)
     case openAccount(String), openChat(String)

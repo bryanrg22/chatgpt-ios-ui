@@ -37,7 +37,7 @@ public struct SpaceItem: Identifiable, Equatable, Sendable {
         self.imageKey = imageKey
     }
 }
-public enum SpaceAction: Equatable, Sendable {
+@nonexhaustive public enum SpaceAction: Equatable, Sendable {
     case openItem(UUID), favorite(UUID, Bool), download(UUID), editImage(UUID), resizeImage(UUID), removeImage(UUID)
     case createImage, createNote, createFolder, uploadFiles, selectItems, openPlugins, openDeleted, retry
     case filterChanged(SpaceFilter?), tabChanged(SpaceTab)

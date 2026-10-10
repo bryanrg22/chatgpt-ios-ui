@@ -46,7 +46,7 @@ public struct WorkTaskTraceItem: Identifiable, Equatable, Sendable {
     }
 }
 public enum WorkTaskAnswer: Equatable, Sendable { case option(UUID), text(String), skipped }
-public enum WorkTaskAction: Equatable, Sendable {
+@nonexhaustive public enum WorkTaskAction: Equatable, Sendable {
     case stop(UUID), followUp(taskID: UUID, text: String)
     case answer(taskID: UUID, questionID: UUID, answer: WorkTaskAnswer)
     case questionChanged(UUID), closeClarification, openActivity, openMenu, attachments, dictation, voice

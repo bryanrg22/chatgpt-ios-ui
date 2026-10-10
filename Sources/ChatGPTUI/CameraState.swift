@@ -1,7 +1,9 @@
 import Foundation
 import Observation
 public enum CameraFlash: String, Sendable, CaseIterable { case off, auto, on }
-public enum CameraAction: Equatable, Sendable { case open, close, shutter, scan(Bool), flash(CameraFlash), flip }
+@nonexhaustive public enum CameraAction: Equatable, Sendable {
+    case open, close, shutter, scan(Bool), flash(CameraFlash), flip
+}
 /// Presentation-only camera state. Never requests a camera, records audio, or captures real pixels.
 @MainActor @Observable public final class CameraPresentationState {
     public var isPresented = false

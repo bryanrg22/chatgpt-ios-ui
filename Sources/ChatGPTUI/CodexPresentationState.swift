@@ -4,7 +4,7 @@ import Observation
 public enum CodexGrouping: String, CaseIterable, Sendable {
     case priority = "Priority", project = "By project", chronological = "Chronological list"
 }
-public enum CodexUIAction: Equatable, Sendable {
+@nonexhaustive public enum CodexUIAction: Equatable, Sendable {
     case submit(taskID: UUID, text: String, project: String?)
     case stop(UUID)
     case pair(code: String)
