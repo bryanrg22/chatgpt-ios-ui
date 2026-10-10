@@ -8,18 +8,29 @@ each release notes how many screenshot references were re-recorded.
 
 ## [Unreleased]
 
+## [0.2.0] - 2026-10-10
+
 ### Changed
 
 - **Breaking for exhaustive switches.** Every public action enum is now `@nonexhaustive`. An exhaustive `switch`
   over one of them no longer compiles; add `@unknown default` (or `default`). From now on a case added by a later
   release is a warning at that fallback rather than a build error. See `docs/VERSIONING.md`.
 - The README now recommends `.upToNextMinor(from:)` while the package is 0.x, so updates deliver patches only.
+- The fidelity records under `docs/fidelity` now cover the ChatGPT app only.
 
 ### Added
 
 - `docs/VERSIONING.md` and `docs/UPDATING.md`: what each version number promises, and how to update, pin, roll back
   and automate updates in an app.
+- Xcode previews for every catalogued screen in light and dark, in the demo app
+  (`Examples/ChatGPTUIDemo/Demo/DemoScreenPreviews.swift`).
 - CI compares the public API with the latest release on every pull request; API changes need the `breaking` label.
+- Pushing a version tag publishes the GitHub Release from this file, and version tags can no longer be moved or
+  deleted. Dependabot keeps the workflow actions and package dependencies current.
+
+### Fixed
+
+- UI tests wait for keyboard focus before typing, which removes an intermittent failure.
 
 ## [0.1.0] - 2026-10-09
 
@@ -48,5 +59,6 @@ First release.
 
 See the issue tracker for the current list.
 
-[Unreleased]: https://github.com/bryanrg22/chatgpt-ios-ui/compare/0.1.0...HEAD
+[Unreleased]: https://github.com/bryanrg22/chatgpt-ios-ui/compare/0.2.0...HEAD
+[0.2.0]: https://github.com/bryanrg22/chatgpt-ios-ui/releases/tag/0.2.0
 [0.1.0]: https://github.com/bryanrg22/chatgpt-ios-ui/releases/tag/0.1.0
