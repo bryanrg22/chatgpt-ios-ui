@@ -21,7 +21,7 @@ public struct ImageTemplate: Identifiable, Equatable, Sendable {
         self.category = category
     }
 }
-public enum ImagesAction: Equatable, Sendable {
+@nonexhaustive public enum ImagesAction: Equatable, Sendable {
     case requestAttachment, requestDictation, submitPrompt(String, context: ChatComposerContext?), selectCategory(
         ImagesCategory), openTemplate(String), shareTemplate(String), tryTemplate(ImageTemplate), dismissLibraryNotice
 }

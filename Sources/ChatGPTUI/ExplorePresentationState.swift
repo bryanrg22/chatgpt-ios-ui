@@ -1,7 +1,7 @@
 import Foundation
 import Observation
 
-public enum ExploreAction: Equatable, Sendable {
+@nonexhaustive public enum ExploreAction: Equatable, Sendable {
     case searchSites(String), createSite
 }
 

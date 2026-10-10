@@ -57,7 +57,7 @@ public struct DotCallPresentation: Equatable, Sendable {
     }
     public var elapsedLabel: String { Self.durationLabel(elapsedSeconds) }
 }
-public enum DotUIAction: Equatable, Sendable {
+@nonexhaustive public enum DotUIAction: Equatable, Sendable {
     case send(text: String, replyTo: UUID?)
     case reaction(message: UUID, value: String?)
     case copy(message: UUID, text: String)

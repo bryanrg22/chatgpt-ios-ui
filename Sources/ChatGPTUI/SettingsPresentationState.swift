@@ -76,7 +76,7 @@ public enum SettingsDestination: String, Equatable, Sendable {
     case about, general, personalization, memory, plugins
 }
 public enum SettingsLegalLink: Equatable, Sendable { case termsOfUse, privacyPolicy }
-public enum SettingsAction: Equatable, Sendable {
+@nonexhaustive public enum SettingsAction: Equatable, Sendable {
     case openDestination(SettingsDestination)
     case openLink(SettingsLegalLink, URL)
 }

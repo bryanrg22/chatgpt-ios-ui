@@ -2,12 +2,12 @@ import Foundation
 import Observation
 
 public enum VoiceInterfaceVariant: String, Sendable { case current, classic }
-public enum VoiceUIAction: Equatable, Sendable {
+@nonexhaustive public enum VoiceUIAction: Equatable, Sendable {
     case attachment(String), requestScreenSharing, stopScreenSharing, requestLiveVideo
     case endLiveVideo, flipCamera, cameraFlash(Bool), effort(Int)
 }
 
-public enum VoiceNavigationIntent: String, Equatable, Sendable { case sidebar, attachments }
+@nonexhaustive public enum VoiceNavigationIntent: String, Equatable, Sendable { case sidebar, attachments }
 
 public struct VoiceProfile: Identifiable, Equatable, Sendable {
     public var id: String

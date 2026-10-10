@@ -10,7 +10,7 @@ public struct ProjectDraft: Equatable, Sendable {
     public var memory: ProjectMemory = .standard
     public init() {}
 }
-public enum ProjectsAction: Equatable, Sendable { case search(String), create(ProjectDraft) }
+@nonexhaustive public enum ProjectsAction: Equatable, Sendable { case search(String), create(ProjectDraft) }
 
 @MainActor @Observable public final class ProjectsPresentationState {
     public var query = "" { didSet { if oldValue != query { onAction(.search(query)) } } }

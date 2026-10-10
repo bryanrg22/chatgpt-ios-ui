@@ -31,7 +31,7 @@ public struct ChatMedia: Identifiable, Equatable, Sendable {
 
 /// Intents only. In particular, `remove` requests the observed eraser tool; it
 /// does not delete the media or pretend an edited image has been produced.
-public enum MediaAction: Equatable, Sendable {
+@nonexhaustive public enum MediaAction: Equatable, Sendable {
     case open(UUID), close(UUID), copy(UUID), favorite(UUID, Bool)
     case download(UUID), edit(UUID), resize(UUID), remove(UUID)
     /// The captured video fit button requests host presentation; no unverified

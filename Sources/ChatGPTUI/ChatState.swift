@@ -21,7 +21,7 @@ public struct ChatMessage: Identifiable, Equatable, Sendable {
         self.context = context
     }
 }
-public enum ChatAction: Equatable, Sendable {
+@nonexhaustive public enum ChatAction: Equatable, Sendable {
     case send(
         text: String, attachments: [String], thinkHarder: Bool, media: [ChatMedia] = [],
         context: ChatComposerContext? = nil)
