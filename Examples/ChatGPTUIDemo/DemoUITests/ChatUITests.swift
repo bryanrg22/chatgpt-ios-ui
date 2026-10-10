@@ -11,7 +11,7 @@ final class ChatUITests: XCTestCase {
         app.buttons["attachmentMenu"].tap()
         capture("attachment-menu")
         app.tap()
-        app.buttons["sidebarButton"].tap()
+        app.buttons["sidebarButton"].tapWhenSettled()
         capture("sidebar")
         app.buttons["Settings"].tap()
         capture("settings")

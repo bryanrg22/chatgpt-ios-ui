@@ -43,7 +43,7 @@ final class MarkdownUITests: XCTestCase {
             XCTAssertTrue(app.menuItems["Copy"].waitForExistence(timeout: 3))
             capture("table-code-selection-" + appearance)
             app.menuItems["Copy"].tap()
-            app.links["guide"].tap()
+            app.links["guide"].tapWhenSettled()
             XCTAssertTrue(app.alerts["Link"].waitForExistence(timeout: 3))
             app.alerts["Link"].buttons["Done"].tap()
             let wide = app.scrollViews.matching(identifier: "markdown.table").element(boundBy: 1)

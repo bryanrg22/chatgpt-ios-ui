@@ -6,17 +6,17 @@ final class MemoryUITests: XCTestCase {
         app.launchArguments = ["--ui-test"]
         app.launch()
         app.buttons["sidebarButton"].tap()
-        app.buttons["Settings"].tap()
-        app.buttons["Memory"].tap()
+        app.buttons["Settings"].tapWhenSettled()
+        app.buttons["Memory"].tapWhenSettled()
         XCTAssertTrue(app.buttons["memory.options"].waitForExistence(timeout: 3))
         capture("memory")
         app.buttons["memory.options"].tap()
-        app.buttons["About memory"].tap()
+        app.buttons["About memory"].tapWhenSettled()
         XCTAssertTrue(app.buttons["memory.gotIt"].waitForExistence(timeout: 3))
         capture("memory-about")
         app.buttons["memory.gotIt"].tap()
-        app.buttons["memory.options"].tap()
-        app.buttons["Refresh summary"].tap()
+        app.buttons["memory.options"].tapWhenSettled()
+        app.buttons["Refresh summary"].tapWhenSettled()
         XCTAssertTrue(
             app.staticTexts.matching(NSPredicate(format: "label CONTAINS %@", "Updated just now")).firstMatch
                 .waitForExistence(timeout: 3))
