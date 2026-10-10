@@ -4,7 +4,7 @@ How to put `ChatGPTUI` into your own app and connect it to your backend. The pac
 
 ## Getting started
 
-Depend on the package with `.upToNextMinor(from: "0.1.0")` while it is 0.x; see [UPDATING.md](UPDATING.md) for updating, pinning and rolling back. The package declares its own dependencies with minimum versions (`from:`), so your app can resolve a version that also satisfies its other packages. The committed `Package.resolved` records the exact versions this repository is tested with; your own app's `Package.resolved` decides what it ships.
+Depend on the package with `.upToNextMinor(from: "0.2.0")` while it is 0.x; see [UPDATING.md](UPDATING.md) for updating, pinning and rolling back. The package declares its own dependencies with minimum versions (`from:`), so your app can resolve a version that also satisfies its other packages. The committed `Package.resolved` records the exact versions this repository is tested with; your own app's `Package.resolved` decides what it ships.
 
 Add this directory or your published repository as a Swift package, import `ChatGPTUI`, and own a `ChatState` at your app boundary:
 
