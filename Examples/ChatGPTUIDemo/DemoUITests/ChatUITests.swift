@@ -71,7 +71,7 @@ final class ChatUITests: XCTestCase {
         let composer = app.textViews["messageComposer"]
         XCTAssertTrue(composer.waitForExistence(timeout: 5))
         XCTAssertEqual(app.buttons["composerPrimaryButton"].label, "Start voice")
-        composer.tap()
+        composer.tapToFocus()
         composer.typeText("Hello")
         XCTAssertEqual(app.buttons["composerPrimaryButton"].label, "Send message")
         app.buttons["composerPrimaryButton"].tap()

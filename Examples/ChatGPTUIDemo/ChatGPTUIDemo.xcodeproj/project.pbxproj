@@ -81,6 +81,7 @@
 		926EA3BD7138D722A27DEF3D /* screen.healthEmpty-light.png in Resources */ = {isa = PBXBuildFile; fileRef = B0C204465CFB9B69AF37FEA6 /* screen.healthEmpty-light.png */; };
 		9294651448C4B12341C8AFD2 /* screen.scheduled-dark.png in Resources */ = {isa = PBXBuildFile; fileRef = 34E47FE028824EAFD8106638 /* screen.scheduled-dark.png */; };
 		935AC973BDFABBDFCEDBB8FC /* screen.voiceChooser-dark.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F3BCB7453E64C8650D9FD51 /* screen.voiceChooser-dark.png */; };
+		93D9506A03A96400C31A1DCE /* DemoScreenPreviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6703308526374EAC9E6559B6 /* DemoScreenPreviews.swift */; };
 		95E78369BE06C00A57F3E70F /* AccessibilityAuditBaseline.txt in Resources */ = {isa = PBXBuildFile; fileRef = 16B4059637DA55BEAAA7D5E0 /* AccessibilityAuditBaseline.txt */; };
 		96284BCCFCFA92BAE22ADE57 /* screen.financesEmpty-dark.png in Resources */ = {isa = PBXBuildFile; fileRef = AC585DA04E2EECB168506C6B /* screen.financesEmpty-dark.png */; };
 		972511155EC4281D614E3654 /* ImagesWorkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1953BA110E978C3CE13B610 /* ImagesWorkUITests.swift */; };
@@ -199,6 +200,7 @@
 		5DE1501080DC22028DD7E8F6 /* screen.markdown-dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screen.markdown-dark.png"; sourceTree = "<group>"; };
 		60500A74F2E312DCE0CF83C3 /* screen.workHome-dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screen.workHome-dark.png"; sourceTree = "<group>"; };
 		632B2A9AC144A32CDAE71927 /* screen.personality-dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screen.personality-dark.png"; sourceTree = "<group>"; };
+		6703308526374EAC9E6559B6 /* DemoScreenPreviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoScreenPreviews.swift; sourceTree = "<group>"; };
 		678A15FCC245E281B0935DC7 /* chatgpt-ios-ui */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "chatgpt-ios-ui"; path = ../..; sourceTree = SOURCE_ROOT; };
 		68A1817AE1524BCD4AEBE33E /* screen.healthEmpty-dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screen.healthEmpty-dark.png"; sourceTree = "<group>"; };
 		69BEB98F2CF1D66A10D9C16E /* screen.images-dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screen.images-dark.png"; sourceTree = "<group>"; };
@@ -335,6 +337,7 @@
 			children = (
 				E529E16E4C455441541B8456 /* ChatGPTDemoApp.swift */,
 				0E4E9F2721C8AD42D7FA009C /* DemoFixtures.swift */,
+				6703308526374EAC9E6559B6 /* DemoScreenPreviews.swift */,
 				BC151B93F6AD6D354D397619 /* GalleryAssets.xcassets */,
 				D075772BD4626845061484DD /* Info.plist */,
 			);
@@ -783,6 +786,7 @@
 				1225911955FF43962CE450E9 /* ChatGPTDemoApp.swift in Sources */,
 				69604446A3A71F6A3671BF90 /* DemoFixtures.swift in Sources */,
 				6DE17D069B72EEB9FD284858 /* DemoScreen.swift in Sources */,
+				93D9506A03A96400C31A1DCE /* DemoScreenPreviews.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

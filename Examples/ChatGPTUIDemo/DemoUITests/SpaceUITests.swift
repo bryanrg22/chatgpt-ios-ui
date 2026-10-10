@@ -17,7 +17,7 @@ final class SpaceUITests: XCTestCase {
         app.buttons["List"].tap()
         capture("space-list")
         let search = app.textFields["space.search"]
-        search.tap()
+        search.tapToFocus()
         search.typeText("Garden")
         XCTAssertFalse(app.buttons["Planting guide"].exists)
         app.buttons.matching(

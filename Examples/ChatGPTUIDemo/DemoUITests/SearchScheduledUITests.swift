@@ -9,7 +9,7 @@ final class SearchScheduledUITests: XCTestCase {
         app.buttons["Search chats"].tap()
         let search = app.textFields["search.input"]
         XCTAssertTrue(search.waitForExistence(timeout: 3))
-        search.tap()
+        search.tapToFocus()
         search.typeText("design")
         app.buttons["search.category.Images"].tap()
         capture("search-images")
@@ -25,10 +25,10 @@ final class SearchScheduledUITests: XCTestCase {
         app.buttons["schedule.new"].tap()
         let title = app.textFields["schedule.title"]
         XCTAssertTrue(title.waitForExistence(timeout: 3))
-        title.tap()
+        title.tapToFocus()
         title.typeText("Fixture task")
         let instructions = app.textViews["schedule.instructions"]
-        instructions.tap()
+        instructions.tapToFocus()
         instructions.typeText("Summarize design notes")
         app.buttons["schedule.save"].tap()
         XCTAssertTrue(app.staticTexts["Fixture task"].waitForExistence(timeout: 3))

@@ -50,7 +50,7 @@ final class ExploreUITests: XCTestCase {
         capture("projects-icon-selected")
         app.buttons["Done"].tap()
         let name = app.textFields["projects.name"]
-        name.tap()
+        name.tapToFocus()
         name.typeText("Garden notebook")
         XCTAssertTrue(app.buttons["projects.submit"].isEnabled)
         app.buttons["projects.suggestion.Writing"].tap()
