@@ -1,6 +1,6 @@
 # System surface reference checklist
 
-Widgets, Live Activities, and Dynamic Island are part of the requested interface scope. Twelve Home Screen gallery variants are now captured and inspected. Genuine WidgetKit extensions are implemented and both simulator gallery/route checks passed; final generic builds include each embedded extension. Dot compact/expanded system call UI is now captured; its internal framework is unproven. Lock Screen presentation and native implementation validation remain gaps.
+Widgets, Live Activities, and Dynamic Island are part of the requested interface scope. Nine Home Screen gallery variants are now captured and inspected. A genuine WidgetKit extension is implemented and the simulator gallery/route check passed; the final generic build includes the embedded extension. Dot compact/expanded system call UI is now captured; its internal framework is unproven. Lock Screen presentation and native implementation validation remain gaps.
 
 The supplied dot call screenshots show an overlay inside the running app. They establish the in-app call panel, not a Home Screen widget or a Lock Screen Live Activity. Do not reuse that panel as evidence for a different surface.
 
@@ -22,22 +22,20 @@ Primary references:
 
 ## Required empirical capture
 
-For each installed app, inspect its widget gallery entry without adding or rearranging the user's existing widgets. Record the app/iOS versions, family, gallery title/description, available variants, appearance, and an inspected screenshot. Record any configuration sheet independently. Inspect Lock Screen/control-gallery entries separately; absence in one gallery does not prove absence in another.
+Inspect the app's widget gallery entry without adding or rearranging the user's existing widgets. Record the app/iOS versions, family, gallery title/description, available variants, appearance, and an inspected screenshot. Record any configuration sheet independently. Inspect Lock Screen/control-gallery entries separately; absence in one gallery does not prove absence in another.
 
 For a Live Activity, record the actual system surface and transitions during an authorized reference session. Capture compact, minimal, expanded and Lock Screen views where available, plus connecting, active, muted, failed and ended states actually observed. Unsupported or unavailable states remain gaps, not invented replicas.
 
-On October 8, 2026, phone control recovered after the earlier blocked Home editing attempts. The collector inspected nine ChatGPT gallery pages and three Claude gallery pages without adding, removing or rearranging widgets. All twelve screenshots were inspected; filenames below identify private references, not bundled assets.
+On October 8, 2026, phone control recovered after the earlier blocked Home editing attempts. The collector inspected nine gallery pages without adding, removing or rearranging widgets. All nine screenshots were inspected; filenames below identify private references, not bundled assets.
 
-| App / gallery title | Captured variants | Visible content and limits |
+| Gallery title | Captured variants | Visible content and limits |
 |---|---|---|
-| ChatGPT / ChatGPT | Small, medium | Small Ask pill plus camera/voice circles; medium Ask ChatGPT pill plus camera/photos/microphone/voice controls |
-| ChatGPT / ChatGPT shortcuts | Small, medium | Small two stacked shortcuts; medium four shortcuts in two columns. Actual configuration and installed tap behavior unverified |
-| ChatGPT / Codex usage | Small, medium | Placeholder bars only. Loaded values, colors and reset presentation unknown |
-| ChatGPT / Codex tasks | Medium, large, tall ninth variant | One-row, four-row and eight-row task previews with activity indicator. Tall variant's exact WidgetFamily is unconfirmed and unavailable in the current SDK; do not label it as a verified native family |
-| Claude / Claude Quick Actions | Small, medium | Small Chat pill plus camera/voice; medium question pill plus camera/voice/code/final outlined action glyph |
-| Claude / Code shortcuts | Small | Code pill plus new-session and search circles |
+| ChatGPT | Small, medium | Small Ask pill plus camera/voice circles; medium Ask ChatGPT pill plus camera/photos/microphone/voice controls |
+| ChatGPT shortcuts | Small, medium | Small two stacked shortcuts; medium four shortcuts in two columns. Actual configuration and installed tap behavior unverified |
+| Codex usage | Small, medium | Placeholder bars only. Loaded values, colors and reset presentation unknown |
+| Codex tasks | Medium, large, tall ninth variant | One-row, four-row and eight-row task previews with activity indicator. Tall variant's exact WidgetFamily is unconfirmed and unavailable in the current SDK; do not label it as a verified native family |
 
-Portable private capture names: `chatgpt-widget-{chat-small,chat-medium,shortcuts-small,shortcuts-medium,codex-usage-loading,codex-usage-medium-placeholder,codex-tasks-medium,codex-tasks-large,codex-tasks-tall}.png` and `claude-widget-{quick-actions-small,quick-actions-medium,code-small}.png`.
+Portable private capture names: `chatgpt-widget-{chat-small,chat-medium,shortcuts-small,shortcuts-medium,codex-usage-loading,codex-usage-medium-placeholder,codex-tasks-medium,codex-tasks-large,codex-tasks-tall}.png`.
 
 The previews establish gallery layouts only. They do not prove Home Screen tint/clear modes, Lock Screen widgets, control-gallery entries, Live Activities, Dynamic Island, loaded usage data, configuration sheets or live interactions. The earlier October 8, 01:38 export predates this widget work.
 
@@ -63,4 +61,4 @@ If a prototype is pursued, set `includesCallsInRecents = false`, allow one local
 
 Implemented and checked: offline connected-call and ordinary-view system-panel preview renderers. A genuine CallKit system demo remains a separate future spike; no actual ActivityKit call surface is claimed. The additional `chatgpt-dot-live-activity-expanded-muted.png` privately records selected mute.
 
-Current verification: Claude native gallery passed 145.8s, installed small-widget links plus seven app routes 66.2s; ChatGPT native widget test passed 165.647s. These are simulator skeleton checks. The real-account source gallery session did not add or rearrange any user widget or verify its installed interactions. Tall Codex family, loaded usage, original configuration outcomes and alternate appearances remain gaps.
+Current verification: the native widget test passed 165.647s. This is a simulator skeleton check. The real-account source gallery session did not add or rearrange any user widget or verify its installed interactions. Tall Codex family, loaded usage, original configuration outcomes and alternate appearances remain gaps.
