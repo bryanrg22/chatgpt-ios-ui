@@ -17,8 +17,8 @@ final class WidgetUITests: XCTestCase {
         XCTAssertTrue(icon.waitForExistence(timeout: 5))
         icon.press(forDuration: 1.2)
         springboard.buttons["Edit Home Screen"].tap()
-        springboard.buttons["Edit"].tap()
-        springboard.buttons["Add Widget"].tap()
+        springboard.buttons["Edit"].tapWhenSettled()
+        springboard.buttons["Add Widget"].tapWhenSettled()
         let galleryApp = springboard.cells["Chat UI Demo"]
         if !galleryApp.waitForExistence(timeout: 10) {
             // On a freshly created simulator the gallery can open before WidgetKit lists a just-installed extension;

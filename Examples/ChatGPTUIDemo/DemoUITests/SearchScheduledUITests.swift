@@ -6,7 +6,7 @@ final class SearchScheduledUITests: XCTestCase {
         app.launchArguments = ["--ui-test"]
         app.launch()
         app.buttons["sidebarButton"].tap()
-        app.buttons["Search chats"].tap()
+        app.buttons["Search chats"].tapWhenSettled()
         let search = app.textFields["search.input"]
         XCTAssertTrue(search.waitForExistence(timeout: 3))
         search.tapToFocus()
@@ -14,8 +14,8 @@ final class SearchScheduledUITests: XCTestCase {
         app.buttons["search.category.Images"].tap()
         capture("search-images")
         app.buttons["Clear search"].tap()
-        app.buttons["Close search"].tap()
-        app.buttons["Scheduled"].tap()
+        app.buttons["Close search"].tapWhenSettled()
+        app.buttons["Scheduled"].tapWhenSettled()
         XCTAssertTrue(app.buttons["schedule.new"].waitForExistence(timeout: 3))
         capture("scheduled")
         app.buttons["schedule.new"].tap()
@@ -33,9 +33,9 @@ final class SearchScheduledUITests: XCTestCase {
         app.buttons["schedule.save"].tap()
         XCTAssertTrue(app.staticTexts["Fixture task"].waitForExistence(timeout: 3))
         app.buttons["Open sidebar"].tap()
-        app.buttons["New chat"].tap()
-        app.buttons["sidebarButton"].tap()
-        app.buttons["Scheduled"].tap()
+        app.buttons["New chat"].tapWhenSettled()
+        app.buttons["sidebarButton"].tapWhenSettled()
+        app.buttons["Scheduled"].tapWhenSettled()
         XCTAssertTrue(app.staticTexts["Fixture task"].waitForExistence(timeout: 3))
     }
 }

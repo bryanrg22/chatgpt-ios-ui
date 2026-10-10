@@ -29,7 +29,7 @@ final class DotUITests: XCTestCase {
         app.buttons["Minimize dot call"].tap()
         capture("dot-connected-minimized")
         app.buttons["Expand dot call"].tap()
-        app.buttons["End dot call"].tap()
+        app.buttons["End dot call"].tapWhenSettled()
         XCTAssertTrue(app.buttons["dot.menu"].waitForExistence(timeout: 3))
         XCTAssertFalse(app.staticTexts["Call ended"].exists)
         let assistant = app.staticTexts.matching(NSPredicate(format: "label BEGINSWITH %@", "One last reminder:"))
@@ -53,7 +53,7 @@ final class DotUITests: XCTestCase {
         XCTAssertFalse(app.buttons["Select text"].exists)
         capture("dot-call-summary-menu")
         app.buttons["Reply"].tap()
-        app.buttons["Cancel dot reply"].tap()
+        app.buttons["Cancel dot reply"].tapWhenSettled()
         app.terminate()
         app.launchArguments = ["--ui-test", "--dot-summary", "--dot-read"]
         app.launch()
@@ -74,7 +74,7 @@ final class DotUITests: XCTestCase {
         app.launchArguments = ["--ui-test"]
         app.launch()
         app.buttons["sidebarButton"].tap()
-        app.buttons["Your dot"].tap()
+        app.buttons["Your dot"].tapWhenSettled()
         XCTAssertTrue(app.buttons["dot.menu"].waitForExistence(timeout: 3))
         capture("dot-home")
         let field = app.textFields["dot.composer"]
@@ -124,7 +124,7 @@ final class DotUITests: XCTestCase {
         XCTAssertFalse(app.buttons["voice.settings"].exists)
         capture("voice-classic-idle")
         app.buttons["Voice attachments"].tap()
-        app.buttons["Share screen"].tap()
+        app.buttons["Share screen"].tapWhenSettled()
         XCTAssertTrue(app.buttons["voice.sharing"].waitForExistence(timeout: 3))
         capture("voice-classic-idle-sharing")
         app.buttons["voice.end"].tap()

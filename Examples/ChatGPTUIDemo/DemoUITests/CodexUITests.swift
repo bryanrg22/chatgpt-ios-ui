@@ -6,7 +6,7 @@ final class CodexUITests: XCTestCase {
         app.launchArguments = ["--ui-test"]
         app.launch()
         app.buttons["sidebarButton"].tap()
-        app.buttons["Codex"].tap()
+        app.buttons["Codex"].tapWhenSettled()
         XCTAssertTrue(app.buttons["codex.menu"].waitForExistence(timeout: 3))
         capture("codex-home")
         app.buttons["New Codex task"].tap()
@@ -20,8 +20,8 @@ final class CodexUITests: XCTestCase {
         field.tapToFocus()
         field.typeTextVerified("Add a planting checklist")
         app.buttons["Send Codex message"].tap()
-        app.buttons["Stop Codex task"].tap()
-        app.buttons["Back to Codex"].tap()
+        app.buttons["Stop Codex task"].tapWhenSettled()
+        app.buttons["Back to Codex"].tapWhenSettled()
         XCTAssertTrue(
             app.buttons.matching(NSPredicate(format: "label CONTAINS %@", "Create a garden guide")).firstMatch
                 .waitForExistence(timeout: 3))
@@ -30,8 +30,8 @@ final class CodexUITests: XCTestCase {
         app.buttons["Settings"].tap()
         capture("codex-settings")
         app.buttons["Close Codex settings"].tap()
-        app.buttons["codex.menu"].tap()
-        app.buttons["Add connection"].tap()
+        app.buttons["codex.menu"].tapWhenSettled()
+        app.buttons["Add connection"].tapWhenSettled()
         XCTAssertTrue(app.buttons["Pair manually instead"].waitForExistence(timeout: 3))
         capture("codex-scanner")
         app.buttons["Pair manually instead"].tap()
@@ -41,6 +41,6 @@ final class CodexUITests: XCTestCase {
         code.typeText("SAMPLE-CODE")
         capture("codex-manual-pairing")
         app.buttons["Cancel"].tap()
-        app.buttons["Close connection scanner"].tap()
+        app.buttons["Close connection scanner"].tapWhenSettled()
     }
 }
