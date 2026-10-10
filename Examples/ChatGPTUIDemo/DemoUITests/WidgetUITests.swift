@@ -25,7 +25,7 @@ final class WidgetUITests: XCTestCase {
             // searching for it asks the gallery to look the provider up.
             let search = springboard.searchFields["Search Widgets"]
             XCTAssertTrue(search.waitForExistence(timeout: 5))
-            search.tap()
+            search.tapToFocus()
             search.typeText("Chat UI Demo")
         }
         XCTAssertTrue(galleryApp.waitForExistence(timeout: 30))

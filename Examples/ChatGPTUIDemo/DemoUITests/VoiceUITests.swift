@@ -50,7 +50,7 @@ final class VoiceUITests: XCTestCase {
         XCTAssertTrue(app.staticTexts["High"].exists)
         app.coordinate(withNormalizedOffset: CGVector(dx: 0.5, dy: 0.25)).tap()
         let field = app.textFields["voice.composer"]
-        field.tap()
+        field.tapToFocus()
         field.typeText("Help me plan a garden.\n")
         XCTAssertTrue(app.staticTexts["Help me plan a garden."].waitForExistence(timeout: 3))
         capture("voice-transcript")

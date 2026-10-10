@@ -78,7 +78,7 @@ final class DotUITests: XCTestCase {
         XCTAssertTrue(app.buttons["dot.menu"].waitForExistence(timeout: 3))
         capture("dot-home")
         let field = app.textFields["dot.composer"]
-        field.tap()
+        field.tapToFocus()
         field.typeText("Please review the garden checklist.")
         app.buttons["Send dot message"].tap()
         XCTAssertTrue(app.staticTexts["Please review the garden checklist."].waitForExistence(timeout: 3))
@@ -86,7 +86,7 @@ final class DotUITests: XCTestCase {
         XCTAssertTrue(app.buttons["Reply"].waitForExistence(timeout: 3))
         capture("dot-message-menu")
         app.buttons["Reply"].tap()
-        field.tap()
+        field.tapToFocus()
         field.typeTextVerified("Keep this draft")
         app.buttons["Cancel dot reply"].tap()
         XCTAssertTrue((field.value as? String ?? "").contains("Keep this draft"))

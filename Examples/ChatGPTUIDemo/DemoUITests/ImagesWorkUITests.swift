@@ -24,7 +24,7 @@ final class ImagesWorkUITests: XCTestCase {
         XCTAssertTrue(app.staticTexts["work.question.progress"].waitForExistence(timeout: 3))
         capture("work-question-first")
         let answer = app.textFields["work.question.draft"]
-        answer.tap()
+        answer.tapToFocus()
         answer.typeText("A garden party")
         app.buttons["work.question.next"].tap()
         app.buttons["work.question.previous"].tap()
